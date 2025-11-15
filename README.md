@@ -181,8 +181,9 @@ This work began as a hand-drawn diagram on a coffee-stained napkin. Thanks to **
 
 [1] Hand-drawn Diagram 1 (original napkin), George Artem, 2025  
 [2] Hand-drawn Diagram 2 (timeline matrix), George Artem, 2025  
-[3] Moser, E. et al. *Grid cells and neural coding in the hippocampus*, Nature, 2008  
-[4] Penrose, R. *The Road to Reality*, 2004 (Ch. 16: φ and geometry)  
+[3] Hafting, T. et al. *Microstructure of a spatial map in the entorhinal cortex*, Nature, 2005 
+[4] Moser, E. et al. *A metric for space*, Hippocampus, 2008  
+[5] Penrose, R. *The Road to Reality*, 2004 (Ch. 16: φ and geometry)  
 
 ---
 
@@ -195,6 +196,12 @@ This work began as a hand-drawn diagram on a coffee-stained napkin. Thanks to **
 
 
 ---
+
+**Note on π√2 in grid Cells**
+>Grid cells fire in hexagonal lattices with ~60 angles.
+>The **diagonal path** across a grid cell pair = **√3 : 1**
+>But when mapped to **2D navigation**, the **effective ecape vector** aligns with **π√2** in Fourier space (see Hafting et. al., 2005, Fig. 2)
+>This model predicts **π√2 resonance in recall timing** - testable via EEG.
 
 **Code Repository**: [github.com/georgeartem/transcendence](https://github.com/georgeartem/transcendence)  
 **Data & Experiments**: Open protocol, citizen science ready  
