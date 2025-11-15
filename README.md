@@ -196,5 +196,5 @@ This work began as a hand-drawn diagram on a coffee-stained napkin. Thanks to **
 
 ---
 
-**Code Repository**: [github.com/georgeartem/5d-thought](https://github.com/georgeartem/transcendence)  
+**Code Repository**: [github.com/georgeartem/transcendence](https://github.com/georgeartem/transcendence)  
 **Data & Experiments**: Open protocol, citizen science ready  
