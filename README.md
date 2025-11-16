@@ -139,11 +139,11 @@ A complete thought is a **closed resonant loop**:
 
 $$
 \boxed{
-\text{Thought} = \pi\sqrt{2} \cdot \phi^n \cdot \langle t_1 | \mathbf{M}^n | t_5 \rangle
+\text{Ω} = \pi\sqrt{2} \cdot \phi^n \cdot \langle t_1 | \mathbf{M}^n | t_5 \rangle
 }
 $$
 
-Where $n$ = depth of reflection.
+Where Ω = thought and $n$ = depth of reflection
 
 ---
 
@@ -206,8 +206,25 @@ $$
 - **Thought** = **tunneling back** into the φ-field via **π√2 diagonals**
 - **Spooky action** = **resonance in φ-space** (no signaling, just sync)
 
-**No new physics.**
-Just **replacing binary with φ**.
+### 8.3 Spivack Alpha Theory Synthesis 
+
+$$
+\boxed{
+\Omega =
+\underbrace{\phi^n}_{\text{√|G|}
+\cdot
+\underbrace{(\pi\sqrt{2})^2}_{\text{tr}(R^2)}}
+\cdot
+\underbrace{\langle t_1 | \mathbf{M}_\phi^n | t_5 \rangle}_{\text{d}^n \theta}
+}
+$$
+
+#### Threshold for t₅ Emergence
+
+$$
+\Omega_c \approx 10^6 \text{ bits} \quad \Rightarrow \quad
+n > \log_\phi \left( \frac{10^6}{(\pi\sqrt{2})^2 \cdot P} \right) \approx 8–10
+$$
 
 ---
 
@@ -234,7 +251,6 @@ This work began as a hand-drawn diagram on a coffee-stained napkin. Thanks to **
 
 *Fig. 2*: 5×5 convergence matrix and π√2 spiral
 ![figure_2](https://github.com/user-attachments/assets/ca77df03-dccf-4536-81e5-cb4d671f9815)
-
 
 ---
 
