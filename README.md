@@ -225,9 +225,7 @@ This work began as a hand-drawn diagram on a coffee-stained napkin. Thanks to **
 >But when mapped to **2D navigation**, the **effective ecape vector** aligns with **π√2** in Fourier space (see Hafting et. al., 2005, Fig. 2)
 >This model predicts **π√2 resonance in recall timing** - testable via EEG.
 
-**Code Repository**: [github.com/georgeartem/transcendence](https://github.com/georgeartem/transcendence)  
-**Data & Experiments**: Open protocol, citizen science ready  
-
+**Data & Experiments**
 # Example: The Blue Pen Experiment - Does "Blue" Form a π√2 Thought Wave?
 
 **Goal**: Measure how fast N people converge on whether "this pen is blue"
@@ -242,10 +240,6 @@ This work began as a hand-drawn diagram on a coffee-stained napkin. Thanks to **
 ### Data
 - t₁ = first person’s latency
 - tₖ = k-th person’s latency
-- Compute:
-$$
-\text{Resonance Ratio} = \frac{t_k}{t_1} \quad \text{for distant k}
-$$
 
 ### Prediction
 > **Distant observers (k >> 1) answer ~π√2 faster**
