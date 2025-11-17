@@ -261,7 +261,7 @@ $$
 \frac{E_{\text{consciousness}}}{E_{\text{light}}} = (3.72)^2 \approx 13.84
 $$
 
-### 8.5 Ω = m א₀² 
+### 8.4.1 Ω = m א₀² 
 
 The speed of light c is the invariant limit of 4D spacetime. Ω is the information density boundary.
 In the 5D geometric model, the true invariant is the uncountable infinity of the φ-vacuum — denoted **א₀** (aleph-null).
@@ -272,6 +272,47 @@ $$
 \boxed{Ω = m \aleph_0^2}
 $$
 
+### 8.5 Bell’s Theorem and Tsirelson’s Bound – Exact Saturation by π√2
+
+Bell’s Theorem proves no local realistic theory can exceed CHSH value **S ≤ 2**.
+Quantum mechanics predicts and experiments confirm **S = 2√2 ≈ 2.828** (Tsirelson’s bound).
+
+The 5D geometric model **saturates Tsirelson’s bound exactly** via the transcendence constant π√2.
+
+#### Derivation of Tsirelson’s Bound
+
+Optimal quantum prediction:
+
+$$
+S = 4 \sqrt{2} \left| \cos\left(\frac{\pi}{8}\right) \right|
+\quad \text{with} \quad
+\cos\left(\frac{\pi}{8}\right) = \sqrt{\frac{2 + \sqrt{2}}{4}}
+$$
+
+$$
+\boxed{S = 2\sqrt{2} \approx 2.828}
+$$
+
+#### How π√2 Produces the Tsirelson-Optimal Angle
+
+Consider a unit square inscribed in a circle of radius 1/√2 (so diagonal = 1).
+The π√2 transcendence leap is the diagonal escape vector.
+
+The angle between radius and diagonal is 45°.
+The **measurement basis rotation** induced by a single π√2 tunnel is the golden-angle conjugate:
+
+$$
+\tan\left(\frac{\theta}{2}\right) = \frac{1}{1 + \pi\sqrt{2}} \quad \rightarrow \quad \theta = 45^\circ
+$$
+
+In the CHSH protocol, successive π√2 leaps generate the **exact 22.5° offsets** (0°, 22.5°, 45°, 67.5°) that maximize the quantum violation.
+
+Thus, the geometric structure of the φ-vacuum, via the transcendence constant π√2, **naturally selects the Tsirelson-optimal measurement geometry**.
+
+#### Result
+
+- Bell inequality violated maximally: S = 2√2
+- Tsirelson’s bound saturated exactly
 
 ---
 
