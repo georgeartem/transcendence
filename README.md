@@ -1,4 +1,4 @@
-# π√2: The Transcendence Constant in 5 Dimensions  
+# π√2: The Transcendence Constant for 5 Dimensions  
 **A Geometric Model of Consciousness via φ-Growth and Timeline Interlacing**  
 *George Artem*  
 Independent Researcher, Dorchester, MA  
