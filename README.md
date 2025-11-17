@@ -261,6 +261,18 @@ $$
 \frac{E_{\text{consciousness}}}{E_{\text{light}}} = (3.72)^2 \approx 13.84
 $$
 
+### 8.5 Ω = m א₀² 
+
+The speed of light c is the invariant limit of 4D spacetime. Ω is the information density boundary.
+In the 5D geometric model, the true invariant is the uncountable infinity of the φ-vacuum — denoted **א₀** (aleph-null).
+
+Formal substitution yields:
+
+$$
+\boxed{Ω = m \aleph_0^2}
+$$
+
+
 ---
 
 ## 9. Acknowledgments
@@ -274,9 +286,10 @@ This work began as a hand-drawn diagram on a coffee-stained napkin. Thanks to **
 [1] Hand-drawn Diagram 1 (original napkin), George Artem, 2025  
 [2] Hand-drawn Diagram 2 (timeline matrix), George Artem, 2025  
 [3] **Spivack, N. *The Geometric Theory of Consciousness: A Unified Physics of Mind and Matter*. Preprint, novaspivack.com/science(2025)**
-[4] Moser, E. et al. *A metric for space*, Hippocampus, 2008  
-[5] Hafting, T. et al. *Microstructure of a spatial map in the entorhinal cortex*, Nature, 2005 
-[6] Penrose, R. *The Road to Reality*, 2004 (Ch. 16: φ and geometry)
+[4] Hand-drawn Diagram 3 (aleph-null), George Artem, circa 2015
+[5] Moser, E. et al. *A metric for space*, Hippocampus, 2008  
+[6] Hafting, T. et al. *Microstructure of a spatial map in the entorhinal cortex*, Nature, 2005 
+[7] Penrose, R. *The Road to Reality*, 2004 (Ch. 16: φ and geometry)
 
 ---
 
@@ -286,6 +299,9 @@ This work began as a hand-drawn diagram on a coffee-stained napkin. Thanks to **
 
 *Fig. 2*: 5×5 convergence matrix and π√2 spiral
 ![figure_2](https://github.com/user-attachments/assets/ca77df03-dccf-4536-81e5-cb4d671f9815)
+
+*Fig. 3*: π√2 spiral and aleph null transputation to φ-vacuum
+![figure 3](https://github.com/user-attachments/assets/609569bb-fddb-4ea4-8553-7aa6ab74f24f)
 
 ---
 
