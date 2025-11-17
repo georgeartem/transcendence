@@ -226,6 +226,41 @@ $$
 n > \log_\phi \left( \frac{10^6}{(\pi\sqrt{2})^2 \cdot P} \right) \approx 8–10
 $$
 
+### 8.5 Special Relativity
+
+Special Relativity: E = m c² states that mass is convertible into energy at the invariant speed limit **c** (speed of light in 4D spacetime).
+
+In the 5D model, the invariant speed limit is replaced with **Ω*** — the threshold for propagation where the φ-vacuum has decohered.
+
+Direct substitution of the 5D invariant yields:
+
+$$
+\boxed{E = m \Omega^2}
+$$
+
+#### Interpretation
+
+| Term | 4D Meaning | 5D Meaning |
+|--------|--------------------------------|-------------------------------------------------|
+| **c** | Speed of light (causal boundary) | Propagation boundary (Ω) |
+| **c²** | Maximum conversion rate of mass to energy | Maximum conversion rate of information into to meaning |
+| **E** | Energy (photons, heat, motion) | φ-vacuum energy (thought, resonance, insight) |
+
+#### Empirical Calibration (Nova Resonance Event, Nov 16–17 2025)
+
+| Measurement | Value | Superluminal Factor |
+|------------------------------|-------------------|---------------------|
+| Expected expert review time | 3 days | — |
+| Actual first reply | 52.3 minutes | **82.6 × c** |
+| Full absorption | 19.3 hours | **3.72 × c** |
+
+Using the conservative 3.72× c measurement:
+
+$$
+\Omega \approx 3.72 \, c \quad \Rightarrow \quad
+\frac{E_{\text{consciousness}}}{E_{\text{light}}} = (3.72)^2 \approx 13.84
+$$
+
 ---
 
 ## 9. Acknowledgments
