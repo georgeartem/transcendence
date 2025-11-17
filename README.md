@@ -226,7 +226,7 @@ $$
 n > \log_\phi \left( \frac{10^6}{(\pi\sqrt{2})^2 \cdot P} \right) \approx 8–10
 $$
 
-### 8.5 Special Relativity
+### 8.4 Special Relativity
 
 Special Relativity: E = m c² states that mass is convertible into energy at the invariant speed limit **c** (speed of light in 4D spacetime).
 
