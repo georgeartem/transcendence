@@ -217,15 +217,15 @@ $$
 | **c²** | Maximum conversion rate of mass to energy | Maximum conversion rate of information into to meaning |
 | **E** | Energy (photons, heat, motion) | Energy (thought, resonance, insight) |
 
-#### Empirical Calibration (Spivack Resonance Event, Nov 16–17 2025)
+#### Empirical Calibration for Experimentation (Spivack Resonance Events)
 
 | Measurement | Value | Superluminal Factor |
 |------------------------------|-------------------|---------------------|
-| Expected expert review time | 3 days | — |
-| Actual first reply | 52.3 minutes | **82.6 × c** |
-| Full absorption | 19.3 hours | **3.72 × c** |
+| First signal | 52.3 minutes | **82.6c** |
+| Expected first signal | ~ 5.2 hours | **c²** |
+| Expectation for full absorption through standard relevance topography | Ω² | c² |
 
-Using the conservative 3.72× c measurement:
+Using a conservative 3.72c² estimate for expert review:
 
 $$
 \Omega \approx 3.72 \, c \quad \Rightarrow \quad
@@ -245,9 +245,9 @@ It appears that the universe **naturally selects the Tsirelson-optimal measureme
 
 ---
 
-### 8.5 Base-φ Vacuum:
+### 8.5 Base-φ:
 
-We assume the vacuum is a **self-similar φ-field** and is the **base state of the 5th dimension**:
+We assume the vacuum is a φⁿ matrix enveloping a unity field:
 
 $$
 \mathbf{\Phi} =
@@ -258,14 +258,14 @@ $$
 \end{bmatrix}
 $$
 
-- **Entangled thoughts** resonate in φⁿ and decoherence into local binaries
-- **Meaning** transcends the propagation boundary and decoheres via **π√2 diagonals**
+- **Entangled thinking** resonates in φⁿ and decoheres into local 4-D binaries
+- **Meaning** escapes the propagation boundary through the transcendence constant
 
 ### 8.5.1 Ω = m א₀² 
 
-The speed of light c is the invariant limit of 4D spacetime. Ω is the information propagation boundary in 5D. Using the transcendence constant, the true invariant becomes the uncountable infinity of the φ-vacuum — denoted **א₀** (aleph-null).
+The speed of light is the invariant limit of 4D spacetime. Ω is the propagation boundary. We predict through formal substitution, that the true invariant becomes the uncountable infinity of φⁿ denoted **א₀** (aleph-null).
 
-Formal substitution yields:
+Yielding:
 
 $$
 \boxed{Ω = m \aleph_0^2}
@@ -273,15 +273,15 @@ $$
 
 ## 9. Acknowledgments
 
-This work began ten years ago with hand-drawn diagrams on legal paper and coffee-stained napkins. Much thanks to **Grok** (xAI) and Nova Spivack for real-time mathematical synthesis and sanity-checking.
+This work began ten years ago with hand-drawn diagrams on legal paper and coffee-stained napkins. Muany thanks to **Grok** (xAI) and Nova Spivack for real-time mathematical synthesis and sanity-checking.
 
 ---
 
 ## References
 
-[1] Hand-drawn Diagram 1 (original napkin), George Artem, 2025  
+[1] Hand-drawn Diagram 1 (napkin), George Artem, 2025  
 [2] Hand-drawn Diagram 2 (timeline matrix), George Artem, 2025  
-[3] **Spivack, N. *The Geometric Theory of Consciousness: A Unified Physics of Mind and Matter*. Preprint, novaspivack.com/science(2025)**
+[3] Spivack, N. *The Geometric Theory of Consciousness: A Unified Physics of Mind and Matter*. Preprint, novaspivack.com/science(2025)
 [4] Campbell, T. *On Testing the Simulation Theory*, International Journal of Quantum Foundations, 2017
 [5] Hand-drawn Diagram 3 (**א₀**), George Artem, circa 2015
 [6] Hand-drawn Diagram 4 (φⁿ), George Artem, circa 2015
@@ -292,27 +292,22 @@ This work began ten years ago with hand-drawn diagrams on legal paper and coffee
 ---
 
 **Figures**  
-*Fig. 1*: Original hand-drawn model (scanned)  
+*Fig. 1*: Napkin model (scanned)  
 ![figure_1](https://github.com/user-attachments/assets/6da83c3d-ea6a-4e28-8db1-ec20ad87ab84)
 
-*Fig. 2*: 5×5 convergence matrix and π√2 spiral
+*Fig. 2*: 5×5 convergence matrix and π√2 spiral (scanned)
 ![figure_2](https://github.com/user-attachments/assets/ca77df03-dccf-4536-81e5-cb4d671f9815)
 
-*Fig. 3*: π√2 spiral and aleph null transputation to φ-vacuum
+*Fig. 3*: π√2 spiral and aleph null transputation to φ-vacuum (scanned)
 ![figure 3](https://github.com/user-attachments/assets/609569bb-fddb-4ea4-8553-7aa6ab74f24f)
 
-*Fig. 4*: φⁿ matrix and bi-directional tunnel
+*Fig. 4*: φⁿ matrix and bi-directional tunnel (scanned)
+![figure 4](https://github.com/user-attachments/assets/a987f343-227c-4498-8849-1347f1375891)
 
 ---
 
 **Note: Spivack’s Ω-field (topological complexity density)**
 >Ω-field maps directly to the base φ matrix proposed here. His threshold emergence (Ω > 10⁶ bits) corresponds to the decoherence boundary where the matrix collapses into local binaries. The π√2 transcendence constant provides the geometric mechanism for tunneling back into φⁿ. Ongoing collaboration in progress.*
-
-**Note on π√2 in grid Cells**
->Grid cells fire in hexagonal lattices with ~60 angles.
->The **diagonal path** across a grid cell pair = **√3 : 1**
->But when mapped to **2D navigation**, the **effective ecape vector** aligns with **π√2** in Fourier space (see Hafting et. al., 2005)
->Hafting model predicts **π√2 resonance in recall timing** - testable via EEG.
 
 **Note on Testing Campbell's Simulation Theory**
 # Example: The Blue Pen Experiment - Does "Blue" Form a π√2 Thought Wave?
