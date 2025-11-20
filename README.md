@@ -1,8 +1,9 @@
 # π√2: The Transcendence Constant  
 **A Geometric Model for Transcendence via φⁿ and Timeline Interlacing**  
-*George Artem*  
+*George Artem*
+Master of Science, Information Systems - University of Washington (2020)
 Independent Researcher, Dorchester, MA  
-*georgeartem@protonmail.com*  
+*artomk@uw.edu*  
 
 ---
 
