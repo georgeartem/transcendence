@@ -124,7 +124,7 @@ This is the **minimal compound irrational** coupling **(π)** and **(√2)** req
 
 ---
 ### 3.2 Generalization from 3D→4D
-We posit through Gaussian Elimination. . .
+We use Gaussian Elimination to calculate N-agent bonding as a function of time and assign the appropriate degrees of freedom.   
 
 ### 3.3 Generalization to 4D→5D
 
