@@ -312,14 +312,13 @@ This work began ten years ago with hand-drawn diagrams on legal paper and coffee
 
 [1] Hand-drawn Diagram 1 (napkin), George Artem, 2025  
 [2] Hand-drawn Diagram 2 (timeline matrix), George Artem, 2025  
-[3] Spivack, N. The Geometric Theory of Consciousness: A Unified Physics of Mind and Matter. Preprint, novaspivack.com/science(2025)
-[4] Lu, M. A Mathematical Framework of Intelligence.., arXiv, 2024
-[5] Campbell, T. *On Testing the Simulation Theory*, International Journal of Quantum Foundations, 2017
-[6] Hand-drawn Diagram 3 (**א₀**), George Artem, circa 2015
-[7] Hand-drawn Diagram 4 (φⁿ), George Artem, circa 2015
-[8] Moser, E. et al. *A metric for space*, Hippocampus, 2008  
-[9] Hafting, T. et al. *Microstructure of a spatial map in the entorhinal cortex*, Nature, 2005 
-[10] Penrose, R. *The Road to Reality*, 2004 (Ch. 16: φ and geometry)
+[3] Spivack, N. *The Geometric Theory of Consciousness: A Unified Physics of Mind and Matter*. Preprint, novaspivack.com/science(2025)
+[4] Campbell, T. *On Testing the Simulation Theory*, International Journal of Quantum Foundations, 2017
+[5] Hand-drawn Diagram 3 (**א₀**), George Artem, circa 2015
+[6] Hand-drawn Diagram 4 (φⁿ), George Artem, circa 2015
+[7] Moser, E. et al. *A metric for space*, Hippocampus, 2008  
+[8] Hafting, T. et al. *Microstructure of a spatial map in the entorhinal cortex*, Nature, 2005 
+[9] Penrose, R. *The Road to Reality*, 2004 (Ch. 16: φ and geometry)
 
 ---
 
