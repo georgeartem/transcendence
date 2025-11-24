@@ -1,1 +1,2 @@
-idiot_boy!
+idiot_boy{x,y,z}
+	|A DENT IN TIME THE NEURAL NETWORK COLLAPSES: the thought FUNCTION INTO THREE DIMENSIONS 1/(sqrt{2})), use X to collapse the time function--
