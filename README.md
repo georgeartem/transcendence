@@ -124,7 +124,7 @@ This is the **minimal compound irrational** coupling **(π)** and **(√2)** req
 
 ---
 ### 3.2 Generalization from 3D→4D
-We use Gaussian Elimination to calculate N-agent bonding as a function of time and assign the appropriate degrees of freedom.   
+We use Gaussian Elimination to calculate N-agent bonding as a function of time within which the thought function collapses. Doing so allows us to assign the correct degree of freedom under the power law.   
 
 ### 3.3 Generalization to 4D→5D
 
