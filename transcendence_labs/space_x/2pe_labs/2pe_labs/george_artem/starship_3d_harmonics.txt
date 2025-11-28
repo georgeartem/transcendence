@@ -1,0 +1,102 @@
+!pip install vtk
+!pip install pyvista
+!pip install nodejs 
+!pip install npm
+!pip install ipywidgets
+!pip install trame
+!pip install trame-client
+!pip install trame-server
+!pip install trame-vtk
+!pip install trame-vuetify
+!pip install trame-jupyter-extension
+!pip install jupyter-server-proxy
+!jupyter server extension enable trame-jupyter-extension
+
+import pyvista as pv
+import numpy as np
+import requests
+import json
+import ipywidgets
+from ipywidgets import interact, FloatSlider
+import trame as trame
+from pyvista.trame.jupyter import show_trame
+
+trame.server_proxyEnabled = True
+trame.app.disabled = False
+
+# Set Jupyter backend to 'server' for interactive visualization
+pv.set_jupyter_backend('server')
+
+# Create plotter for interactive visualization
+plotter = pv.Plotter(notebook=True)
+
+# Super Heavy Booster (cylinder, 70 m tall, 9 m diameter)
+super_heavy = pv.Cylinder(radius=4.5, height=70, direction=(0, 0, 1), resolution=50)
+super_heavy.translate([0, 0, -35], inplace=True)  # Base at Z = -35, extends to Z = 35
+
+# Starship Body (cylinder, 40 m tall, 9 m diameter)
+starship_body = pv.Cylinder(radius=4.5, height=40, direction=(0, 0, 1), resolution=50)
+starship_body.translate([0, 0, 20], inplace=True)  # Base at Z = 20, extends to Z = 60
+
+# Starship Nose (approximated with ParametricEllipsoid, 10 m tall, 9 m diameter at base)
+starship_nose = pv.ParametricEllipsoid(4.5, 4.5, 5.0)  # Base radius 4.5 m, height 10 m
+starship_nose.points[:, 2] *= 2  # Stretch Z-axis to 10 m total height
+starship_nose.translate([0, 0, 40], inplace=True)  # Base at Z = 40, extends to Z = 50
+
+# Fetch vibration data once
+response = requests.get("http://localhost:5000/flight/Starship%20SN20?stage=initial", timeout=10)
+if response.status_code == 200:
+    data = response.json()
+    time_data = np.array(data["time_seconds"])
+    vibration = np.array(data["vibration_amplitude_g"])
+else:
+    print(f"Error: {response.status_code}, {response.text}")
+    time_data = np.array([0])
+    vibration = np.array([0])
+
+# Initialize vibration scalars with the first value
+initial_vibration = vibration[0] if len(vibration) > 0 else 0.0
+super_heavy.point_data['vibration'] = np.full(super_heavy.n_points, initial_vibration, dtype=float)
+starship_body.point_data['vibration'] = np.full(starship_body.n_points, initial_vibration, dtype=float)
+starship_nose.point_data['vibration'] = np.full(starship_nose.n_points, initial_vibration, dtype=float)
+
+# Add meshes to the plotter once
+plotter.add_mesh(super_heavy, scalars='vibration', cmap='plasma', opacity=0.8, label='Super Heavy Booster')
+plotter.add_mesh(starship_body, scalars='vibration', cmap='plasma', opacity=0.8, label='Starship Body')
+plotter.add_mesh(starship_nose, scalars='vibration', cmap='plasma', opacity=0.8, label='Starship Nose')
+
+# Add scalar bar and legend
+plotter.add_scalar_bar(title='Vibration (g)', n_labels=5)
+plotter.update_scalar_bar_range([min(vibration), max(vibration)])
+plotter.add_legend()
+
+# Function to update vibration scalars based on time index
+def update_vibration(time_idx):
+    print(f"Slider value (time_idx): {time_idx}")
+    current_vibration = vibration[time_idx]
+    print(f"Updating to vibration: {current_vibration}")  # Debug: Verify data updates
+    super_heavy.point_data['vibration'] = np.full(super_heavy.n_points, current_vibration, dtype=float)
+    starship_body.point_data['vibration'] = np.full(starship_body.n_points, current_vibration, dtype=float)
+    starship_nose.point_data['vibration'] = np.full(starship_nose.n_points, current_vibration, dtype=float)
+    #explicitly update the scalars
+    plotter.update_scalars('vibration', mesh=super_heavy)
+    plotter.update_scalars('vibration', mesh=starship_body)
+    plotter.update_scalars('vibration', mesh=starship_nose)
+    #render
+    plotter.render()
+
+# Create a slider for time steps
+time_slider = ipywidgets.FloatSlider(min=0, max=len(time_data)-1, step=1, value=0, description='Time Step')
+
+# Link the slider to the update function
+ipywidgets.interact(update_vibration, time_idx=time_slider)
+
+# Set camera position for a better view
+plotter.camera_position = [(120, 120, 120), (60, 60, 60), (0, 0, 1)]
+# Show the interactive plotter
+plotter.show()
+
+# Print bounds for verification
+print("Super_Heavy:", super_heavy.bounds)
+print("Starship_Body:", starship_body.bounds)
+print("Starship_Nose:", starship_nose.bounds)

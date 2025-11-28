@@ -1,0 +1,70 @@
+Starship 7 - Ship 33 Failures - A Narrative
+
+There are dramatic differences between a successful atmospheric re-entry and a catastrophic failure. When an object slams into the atmosphere at 7.8km per second or 17,500 mph, a typical low earth orbit, it hits a wall of air molecules, compressing and superheating them to thousands of degrees. This creates the glowing plasma, the peak heating and friction phase typically lasts on the order of seconds to a couple of minutes depending on the trajectory and speed. 
+
+The intense atmospheric heating phase is pretty short. For a steep, fast re-entry the worst of it can be over in 10-20 seconds as the object decelerates rapidly, shredding most of its kinetic energy.
+
+For reference, telemetry data shows that the Space Shuttle Columbia was traveling around 12,144 mph when it broke apart upon re-entry at around 200,000 feet. The breakup of the heat tiles initiated a chain reaction: aerodynamic forces tore it apart, and the wreckage kept tumbling through the atmosphere. Those pieces, no longer streamlined or protected, were exposed to intense heat and drag for much longer—minutes, not seconds—as they fell.
+
+The official flight plan for the rocket known as Starship 7 consisted of two phases. The first phase, initiated by the supermassive booster that was caught, completed successfully on January 16, 2025, from Starbase, Texas. From there, Ship 33 separated and launched following an eastward suborbital trajectory over the Gulf of Mexico, past Cuba, and toward a planned splashdown in the Indian Ocean, however Ship 33 met an untimely end. 
+
+Liftoff occurred at 4:37 PM CST (22:37 UTC) and telemetry data indicates that at roughly T+8:26, Ship 33 was at an altitude of 146 kilometers (roughly 479,000 feet) traveling at a speed of about 21,000 kph (13,000 mph) when contact with Ship 33 was lost.
+
+T ~ 7:15 was the final nominal trajectory call out indicating that Ship 33 was within reasonably expected flight path boundaries and was experiencing no issues.
+
+T + 7:40 one of six raptor engines shut down, followed by more engine shutdown. This was not part of the scheduled in-space engine re-light procedure, which was scheduled for later in the flight given official statements and goals of testing Ship 33's new Block 2 features.
+
+The Block 2 design included “higher thrust engines,” implying improved performance, possibly through tweaks to the combustion chamber, injector design, or turbopump efficiency. These upgrades aimed to boost thrust and reliability, critical for the Block 2’s stretched propellant tanks, which increased fuel capacity for longer missions but required engines to handle greater loads. The Block 2 ship carried six Raptor engines—three sea-level and three vacuum-optimized (RVacs)—and the in-space engine re-light likely focused on ensuring these could operate seamlessly under ascent and space conditions.
+
+T + 8:26 telemetry freeze with one engine still firing and SpaceX lost contact at 146km altitude. The telemetry loss officially explained as the result of a fire in the aft section, possibly from an oxygen or fuel leak, leading to the initiation of the FTS system and an explosion.
+
+Once the vehicle broke apart, the pieces should have been expected to follow ballistic paths back toward Earth under gravity.
+
+T + 12:00 re-entry observed at roughly 100km or 328,000 feet altitude near Cockburn Town in the Turks & Caicos Islands at 21.75 N 71.58 W in an area between 2,640 km and 2,714 km East of the launchpad at Boca Chica, Texas. This indicates a 3:33 minute delta from telemetry loss to re-entry observation. Or so it would seem based on 
+Grok's initial responses to prompting. 
+
+What happens next is interesting. Grok appears to go haywire in the context of a classic AI hallucination. This happens based on prompting that sought to rectify the narrative data of Ship 33's official flight path (heading East) and it's subsequent demise with observations of the debris field entering the atmosphere in an obviously westward heading. The net result of this hallucination is fascinating. Either I am hallucinating and causing Grok to hallucinate, and we are both hallucinating together, or together we have grasped on to something that can definitively show that the official narrative and the official telemetry as produced by SpaceX for public consumption is simply wrong. However cool the idea of hallucinating with Grok might be, i find this unlikely to be the case. Here's why.
+
+First let's highlight what these apparent hallucinations were. Inconsistencies in reporting the time of planned in-space refiring of the raptor engines. Early on in discussion concerning the in-space engine re-light, Grok states that this procedure was planned for half a minute after telemetry loss, or roughly T + 9:00. Then Grok's understanding of the official flight plan narrative changes. Grok states that the in space re-light was scheduled for T + 37:33. Much later. Either someone is messing with the publicly available information, or Grok is trying to obfuscate, or is confused (Grok loses track of the underlying details during a discussion of the higher level consequences they imply). This is alarming!
+
+Second, adding 7 minutes and 40 seconds (T+7:40) to when liftoff occurred at 4:37 PM CST (22:37 UTC) brings us to approximately 22:44:40 UTC, and T+8:26 corresponds to 22:45:26 UTC. Telemetry data indicates that at T+8:26, Ship 33 was at an altitude of 146 kilometers (91 miles) with a speed of about 21,000 kph (13,000 mph). Grok then states that the Turks and Caicos observations suggest that the re-entry debris entered the atmosphere was near 21-22°N latitude and 71-72°W longitude by T+8:26 though the exact position of the explosion at T+7:40 would be slightly west of this, possibly near 20-21°N, 75-76°W, based on its trajectory and velocity.
+
+Here too Grok begins to lose track of the underlying telemetry data and the official timeline. Engine failure began at 7:40 ~ roughly 30 seconds after the last "nominal trajectory" call out. The explosion, or "unscheduled disassembly" as SpaceX refers to these types of events, occurred at T+8:26. Ok. Perhaps the problem set is beyond the scale of difficulty that Grok can at this point in time is capable of keeping track of. As I mentioned earlier, Grok appears to lose track of the underlying details when engaged in this higher level inquiry into what went wrong and ultimately why the trajectory of the debris field observed over Turks & Caicos appear to be heading west, not east, as would be expected with the official eastward launch.
+
+Yet, the debris trajectory isn't the only strange part of this inquiry. It's also the time and location at which debris was witnessed!
+
+As we've noted earlier. Turks and Caicos sits about 2,000 km east-southeast of Starbase. At 21,000 kph, Ship 33 could’ve reached that longitude in roughly 6-7 minutes from launch—close to when telemetry died. If FTS triggered there, debris wouldn’t plummet “straight down” over T&C. It’d keep arcing eastward, gradually descending as gravity and sparse upper-atmosphere drag (minimal at 100+ km) take hold. By the time pieces hit denser air (say, 50-80 km, where they’d glow as fireballs), they’d be well east of T&C—closer to the planned Indian Ocean splashdown - unless something screwy happened.
+
+We've also established that the FTS system was initiated at T + 8:27 roughly a minute after onboard failures began at around 146km altitude and 21,000 kph. That’s a massive amount of eastward momentum for a vehicle estimated at 85-100 metric tons dry mass, plus whatever residual fuel was left. We’re talking roughly 583,300 kg·m/s eastward. The explosive force of FTS varies, but for context, similar systems on other rockets (like Falcon 9) use charges in the range of a few kilograms of high explosives—let’s say 5-10 kg of something like RDX, yielding maybe 20-40 MJ of energy. That’s a big bang, but it’s not enough to reverse 583,300 kg·m/s of momentum outright!
+
+The FTS blast itself might impart a few hundred m/s of impulse in various directions as fragments scatter—say, 200-300 m/s radially, depending on the piece’s mass and proximity to the detonation. For a 1-ton fragment (a reasonable chunk of Starship), that’s only 200-300 kg·m/s of new momentum, peanuts compared to its original 5,833 kg·m/s eastward. Even if the explosion was asymmetrical and pushed some pieces westward, it’s unlikely to fully overcome that forward motion in a vacuum or near-vacuum at 146 km. What's more, is considering that the breakup occurred at 146 km, straight-up gravity at 9.8 m/s² (technically a bit less that high, but close enough) wouldn’t yank it straight down into the atmosphere over Turks and Caicos like a cartoon anvil. That 21,000 kph eastward velocity dominates!
+
+Debris keeps that momentum until drag or breakup forces slow it. After FTS, Ship 33 didn’t “launch itself back” downward; it fragmented, and those pieces kept coasting on their suborbital arc. For simplicity, imagine a 100-ton craft splitting into chunks—say, 1-ton pieces. Each carries roughly 5,833 kg·m/s eastward momentum. Gravity’s pull (9.8 m/s²) would take time to bring them down—about 172 seconds to fall 146 km in a vacuum, ignoring any remaining upward velocity.
+
+Ship 33’s telemetry drops at 8:27 (507 seconds) into the flight, January 16, 2025, at 146 km and 21,000 kph eastward. If the FTS triggered right then, gravity at 9.8 m/s² pulls debris down from 146 km in about 172 seconds. That lands us at 11:19 mission time (679 seconds) when debris hits the deck, or at least the denser atmosphere where it’d glow. Reports from Turks and Caicos peg the fireball sightings around 6:49-6:50 PM EST, per local posts and chatter on X. Launch was at 6:41 PM EST, so debris visibility at 8-9 minutes post-launch (480-540 seconds) is the target. T + 11:19, overshoots T + 8:50 (530 seconds) by about 149 seconds. Over that amount of time, the debris should have re-entered over 1,000km eastward of Turks & Caicos somewhere over the Atlantic Ocean.
+
+
+The videos.
+
+5:57 PM EST: Sun’s set at ~293° (west-southwest), ~3° below horizon—twilight, not daylight.
+6:50 PM EST: ~16° below, same heading—dark enough for fireballs to stand out, not mimic sun.
+Accuracy: Your narrative’s T&C sightings (6:49-6:50 PM EST) align with post-sunset sky. No solar trick explains westward debris—problem persists.
+Still accurate—sun’s out of play. Want to add video specifics next or tweak the timing further?
+
+https://x.com/adavenport354/status/1880026262254809115
+
+
+in-space-relight 8:53
+
+https://www.youtube.com/live/ruP7AFTyQzo
+
+AstroYonder has telemetry around 9:40 - telemetry struck at 13:00
+
+
+
+Starship 8 - Ship 34 - 17,000km/h at 146km altitude at 7:40 
+
+loss of attitude control at 9:00 around space engine re-light at ~ 8:50 -- loss of telemetry shortly afterwards 9:30
+
+Liftoff at 6:30:40 EST
+Debris over the Ragged Islands, Bahamas posted at 6:45 EST
