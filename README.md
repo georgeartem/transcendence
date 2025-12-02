@@ -120,42 +120,59 @@ with vector x1 = {a, b, c}
 
 We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot": 
 
-pivot \* {a | x, y, z}
-&nbsp;	{b | x, y}
-&nbsp;	{c | x, y}
+[pivot₁] \*     {a | x, y, z}
+                   {b | x, y}
+                   {c | x, y}
 
 a second pivot leads to:
 
-pivot(2) \* {b | x, y}
-&nbsp;	   {c | x}
+[pivot₂] \*        {b | x, y}
+                      {c | x}
 
 We then solve for the variables through back substitution. If none of the pivots are zero there is only one solution; but if any of the pivots happen to be zero, then the elimination technique has to stop temporarily or permanently.
 
-Using the example above and basic arithmetic operations we are able to model static two dimensional geometric planes within a virtualized reality inside a computer. The same is true for rendering matrix where n = 4. 
+Using the example above and basic arithmetic operations we are able to model static two dimensional geometric planes within a virtualized reality inside a computer. The same is true for a rendering matrix where n = 4. 
 
 ## Gauss’s law (electric)
-
-∇ · E = ρ / ε₀
+$$
+\boxed{\text ∇ · E = ρ / ε₀
+ }
+$$
 
 ## Gauss’s law (magnetic)
+$$
+\boxed{\text ∇ · B = 0 
+ }
+$$
 
-∇ · B = 0
 
 ## Faraday’s law
-
-∇ × E = −∂B/∂t
+$$
+\boxed{\text ∇ × E = −∂B/∂t
+ }
+$$
 
 ## Ampère–Maxwell law
+$$
+\boxed{\text ∇ × B = μ₀J + μ₀ε₀ ∂E/∂t 
+ }
+$$
 
-∇ × B = μ₀J + μ₀ε₀ ∂E/∂t
+In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form:∇ · E = 0
+$$
+\boxed{\text ∇ · B = 0
+ }
+$$
 
-In vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form:∇ · E = 0
+$$
+\boxed{\text ∇ × E = −∂B/∂t
+ }
+$$
 
-∇ · B = 0
-
-∇ × E = −∂B/∂t
-
-∇ × B = (1/c²) ∂E/∂t where c² = 1/(ε₀μ₀)
+$$
+\boxed{\text ∇ × B = (1/c²) ∂E/∂t where c² = 1/(ε₀μ₀) 
+ }
+$$
 
 
 $$
@@ -182,7 +199,7 @@ $$
 
 
 $$
-\boxed{\text c = 1 / √(μ₀ ε₀) ≈ 299792458 m/s exactly 
+\boxed{\text c = 1 / √(μ₀ ε₀) ≈ 299792458 m/s 
  }
 $$
 
