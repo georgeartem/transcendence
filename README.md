@@ -110,24 +110,47 @@ Gaussian Elimination amounts to a factorization of the coefficient matrix. We fa
 
 If Ax = b fails to have a unique solution, there may be no solution or infinitely many. We want to understand where the elimination process breaks down, in order to minimize the number of arithmetic operations and reduce costs. Without cost controls a computer could carry out trillions of operations, rounding each result to a fixed number of digits and produce a totally meaningless "solution".
 
-Reducing this to the simplest three dimensional system:\\
+Reducing this to the simplest three dimensional system:
 
-{a | x, y, z}\\
-{b | x, y, z}\\
-{c | x, y, z}\\
+$$
+\mathbf{A} = 
+\begin{bmatrix}
+\a & x & y & z \\
+\b & x & y & z \\
+\c & x & y & z \\
+\end{bmatrix}
+$$
 
-with vector x1 = {a, b, c}\\
+with vector:
+$$
+\mathbf{X1} = 
+\begin{bmatrix}
+\a & b & c \\
+\end{bmatrix}
+$$
 
-We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":\\
+We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":
 
-[pivot₁] \*     {a | x, y, z}\\
-                   {b | x, y}\\
-                   {c | x, y}
+[pivot₁] \*
+$$
+\mathbf{X2} = 
+\begin{bmatrix}
+\a & x & y & z\\
+\0 & b & x & y \\
+\0 & c & x & y \\
+\end{bmatrix}
+$$
 
-a second pivot leads to:\\
+a second pivot leads to:
 
-[pivot₂] \*        {b | x, y}\\
-                      {c | x}\\
+[pivot₂] \*        
+$$
+\mathbf{X3} = 
+\begin{bmatrix}
+\b & x & y \\
+\0 & c & x \\
+\end{bmatrix}
+$$
 
 We then solve for the variables through back substitution. If none of the pivots are zero there is only one solution; but if any of the pivots happen to be zero, then the elimination technique has to stop temporarily or permanently.
 
@@ -157,10 +180,9 @@ $$
  }
 $$
 
-In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form:∇ · E = 0
+In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form: ∇ · E = 0
 $$
-\boxed{\text ∇ · B = 0
- }
+\text ∇ · B = 0
 $$
 
 $$
