@@ -106,9 +106,9 @@ This is the **minimal compound irrational** coupling **(π)** and **(√2)** req
 
 ---
 ### 3.2 Generalization from 3D→4D
-Gaussian Elimination amounts to a factorization of the coefficient matrix. We factor transposed and inverse matrices of A into a product LU of a lower triangular matrix L and an upper triangular matrix U.\\
+Gaussian Elimination amounts to a factorization of the coefficient matrix. We factor transposed and inverse matrices of A into a product LU of a lower triangular matrix L and an upper triangular matrix U.
 
-If Ax = b fails to have a unique solution, there may be no solution or infinitely many. We want to understand where the elimination process breaks down, in order to minimize the number of arithmetic operations and reduce costs. Without cost controls a computer could carry out trillions of operations, rounding each result to a fixed number of digits and produce a totally meaningless "solution".\\
+If Ax = b fails to have a unique solution, there may be no solution or infinitely many. We want to understand where the elimination process breaks down, in order to minimize the number of arithmetic operations and reduce costs. Without cost controls a computer could carry out trillions of operations, rounding each result to a fixed number of digits and produce a totally meaningless "solution".
 
 Reducing this to the simplest three dimensional system:\\
 
@@ -129,9 +129,9 @@ a second pivot leads to:\\
 [pivot₂] \*        {b | x, y}\\
                       {c | x}\\
 
-We then solve for the variables through back substitution. If none of the pivots are zero there is only one solution; but if any of the pivots happen to be zero, then the elimination technique has to stop temporarily or permanently.\\
+We then solve for the variables through back substitution. If none of the pivots are zero there is only one solution; but if any of the pivots happen to be zero, then the elimination technique has to stop temporarily or permanently.
 
-Using the example above and basic arithmetic operations we are able to model static two dimensional geometric planes within a virtualized reality inside a computer. The same is true for a rendering matrix where n = 4.\\ 
+Using the example above and basic arithmetic operations we are able to model static two dimensional geometric planes within a virtualized reality inside a computer. The same is true for a rendering matrix where n = 4.
 
 ## Gauss’s law (electric)
 $$
@@ -157,7 +157,7 @@ $$
  }
 $$
 
-In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form:∇ · E = 0\\
+In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form:∇ · E = 0
 $$
 \boxed{\text ∇ · B = 0
  }
