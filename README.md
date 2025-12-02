@@ -124,12 +124,12 @@ $$
 with vector:
 
 $$
-\mathbf{x} = \begin{bmatrix} a \\ b \\ c \\ \end{bmatrix}
+\mathbf{x} = \begin{bmatrix} a, \\ b, \\ c \\ \end{bmatrix}
 $$
 
 We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":
 
-[pivot₁] *
+[pivot₁] *\\
 $$
 \mathbf{Ax} = 
 \begin{bmatrix}
@@ -141,7 +141,7 @@ $$
 
 a second pivot leads to:
 
-[pivot₂] *        
+[pivot₂] *\\        
 $$
 \mathbf{Ax} = 
 \begin{bmatrix}
