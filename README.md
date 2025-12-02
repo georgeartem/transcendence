@@ -129,7 +129,7 @@ $$
 
 We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":
 
-[pivot₁] *\\
+[pivot₁] *
 
 $$
 \mathbf{Ax} = 
@@ -142,7 +142,7 @@ $$
 
 a second pivot leads to:
 
-[pivot₂] *\\        
+[pivot₂] *        
 
 $$
 \mathbf{Ax} = 
@@ -226,21 +226,23 @@ $$
 \boxed{\text Z₀ = √(μ₀/ε₀) ≈ 376.730313668 }
 $$
 
-Where Ω embodies the vacuum's impedance to electromagnetic wave propagation\\
+Where Ω embodies the vacuum's impedance to electromagnetic wave propagation
 
 $$
-\boxed{\text ε₀ = 1/(μ₀ c²) is a binary mess
+\boxed{\text ε₀ = 1/(μ₀ c²)
 }
 $$
+
+Leading to a binary mess.
 
 $$
 \boxed{\text μ₀ = 4π × 10⁻⁷ H/m
 }
 $$
 
-For n=4 the vacuum's flux cycle is the closed causal loop (c² = 1/(μ₀ε₀))\\
+For n=4 the vacuum's flux cycle is the closed causal loop (c² = 1/(μ₀ε₀))
 
-where μ₀ enforces magnetic "squareness" (discrete flux quanta φ₀ = h/(2e)), while ε₀ curves the electric field lines.\\
+where μ₀ enforces magnetic "squareness" (discrete flux quanta φ₀ = h/(2e)), while ε₀ curves the electric field lines.
 
 Z₀ emerges as a shadow resonance from the n=5 convergence matrix ≈4.48027 as the computation hovers within ~ 99.1% of π√2 which hints at a deeper φ-π√2 coupling that "leaks" into physical constants where φ^n for n→∞ approximates the vacuum's fractal-like convergence fluctuations that occur through self-similar branching, leading to the propagation limit Ω.
 
