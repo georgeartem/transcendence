@@ -125,30 +125,30 @@ with vector:
 $$
 \mathbf{X1} = 
 \begin{bmatrix}
-\a & b & c \\
+\text a & b & c \\
 \end{bmatrix}
 $$
 
 We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":
 
-[pivot₁] \*
+[pivot₁] *
 $$
 \mathbf{X2} = 
 \begin{bmatrix}
 \a & x & y & z\\
-\0 & b & x & y \\
-\0 & c & x & y \\
+\b & 0 & x & y \\
+\c & 0 & x & y \\
 \end{bmatrix}
 $$
 
 a second pivot leads to:
 
-[pivot₂] \*        
+[pivot₂] *        
 $$
 \mathbf{X3} = 
 \begin{bmatrix}
-\b & x & y \\
-\0 & c & x \\
+\b & y & x \\
+\c & 0 & x \\
 \end{bmatrix}
 $$
 
