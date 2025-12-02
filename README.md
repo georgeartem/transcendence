@@ -130,6 +130,7 @@ $$
 We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":
 
 [pivot₁] *\\
+
 $$
 \mathbf{Ax} = 
 \begin{bmatrix}
@@ -142,6 +143,7 @@ $$
 a second pivot leads to:
 
 [pivot₂] *\\        
+
 $$
 \mathbf{Ax} = 
 \begin{bmatrix}
@@ -179,8 +181,9 @@ $$
 $$
 
 In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form: ∇ · E = 0
+
 $$
-\text ∇ · B = 0
+\boxed{\text ∇ · B = 0}
 $$
 
 $$
