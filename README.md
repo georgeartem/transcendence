@@ -106,123 +106,120 @@ This is the **minimal compound irrational** coupling **(π)** and **(√2)** req
 
 ---
 ### 3.2 Generalization from 3D→4D
-Gaussian Elimination amounts to a factorization of the coefficient matrix. We factor transposed and inverse matrices of A into a product LU of a lower triangular matrix L and an upper triangular matrix U.
+Gaussian Elimination amounts to a factorization of the coefficient matrix. We factor transposed and inverse matrices of A into a product LU of a lower triangular matrix L and an upper triangular matrix U.\
 
-If Ax = b fails to have a unique solution, there may be no solution or infinitely many. We want to understand where the elimination process breaks down, in order to minimize the number of arithmetic operations and reduce costs. Without cost controls a computer could carry out trillions of operations, rounding each result to a fixed number of digits and produce a totally meaningless "solution".
+If Ax = b fails to have a unique solution, there may be no solution or infinitely many. We want to understand where the elimination process breaks down, in order to minimize the number of arithmetic operations and reduce costs. Without cost controls a computer could carry out trillions of operations, rounding each result to a fixed number of digits and produce a totally meaningless "solution".\
 
-Reducing this to the simplest three dimensional system: 
+Reducing this to the simplest three dimensional system:\
 
-{a | x, y, z}
-{b | x, y, z}
-{c | x, y, z}
+{a | x, y, z}\
+{b | x, y, z}\
+{c | x, y, z}\
 
-with vector x1 = {a, b, c}
+with vector x1 = {a, b, c}\
 
-We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot": 
+We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":\
 
-[pivot₁] \*     {a | x, y, z}
-                   {b | x, y}
-                   {c | x, y}
+[pivot₁] \*     {a | x, y, z}\
+                   {b | x, y}\
+                   {c | x, y}\
 
-a second pivot leads to:
+a second pivot leads to:\
 
-[pivot₂] \*        {b | x, y}
-                      {c | x}
+[pivot₂] \*        {b | x, y}\
+                      {c | x}\
 
-We then solve for the variables through back substitution. If none of the pivots are zero there is only one solution; but if any of the pivots happen to be zero, then the elimination technique has to stop temporarily or permanently.
+We then solve for the variables through back substitution. If none of the pivots are zero there is only one solution; but if any of the pivots happen to be zero, then the elimination technique has to stop temporarily or permanently.\
 
-Using the example above and basic arithmetic operations we are able to model static two dimensional geometric planes within a virtualized reality inside a computer. The same is true for a rendering matrix where n = 4. 
+Using the example above and basic arithmetic operations we are able to model static two dimensional geometric planes within a virtualized reality inside a computer. The same is true for a rendering matrix where n = 4.\ 
 
 ## Gauss’s law (electric)
 $$
 \boxed{\text ∇ · E = ρ / ε₀
  }
 $$
-
+\
 ## Gauss’s law (magnetic)
 $$
 \boxed{\text ∇ · B = 0 
  }
 $$
-
-
+\
 ## Faraday’s law
 $$
 \boxed{\text ∇ × E = −∂B/∂t
  }
 $$
-
+\
 ## Ampère–Maxwell law
 $$
 \boxed{\text ∇ × B = μ₀J + μ₀ε₀ ∂E/∂t 
  }
 $$
-
-In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form:∇ · E = 0
+\
+In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form:∇ · E = 0\
 $$
 \boxed{\text ∇ · B = 0
  }
 $$
-
+\
 $$
 \boxed{\text ∇ × E = −∂B/∂t
  }
 $$
-
+\
 $$
 \boxed{\text ∇ × B = (1/c²) ∂E/∂t where c² = 1/(ε₀μ₀) 
  }
 $$
-
-
+\
 $$
 \boxed{\text ∯ E · dA = Q\_enc / ε₀
- 
  }
 $$
-
+\
 $$
 \boxed{\text ∯ B · dA = 0
  }
 $$
-
+\
 $$
 \boxed{\text ∮ E · dl = − dΦ\_B/dt
  }
 $$
-
+\
 $$
 \boxed{
 \text ∮ B · dl = μ₀ I\_enc + μ₀ε₀ dΦ\_E/dt
  }
 $$
-
-
+\
 $$
 \boxed{\text c = 1 / √(μ₀ ε₀) ≈ 299792458 m/s 
  }
 $$
-
-
+\
 $$
 \boxed{\text Z₀ = √(μ₀/ε₀) ≈ 376.730313668 }
 $$
-
+\
 Where Ω embodies the vacuum's impedance to electromagnetic wave propagation
-
+\
 $$
-\boxed{\text ε₀ = 1/(μ₀ c²) is 1 over an integer × π × (binary mess)
+\boxed{\text ε₀ = 1/(μ₀ c²) is a binary mess
 }
 $$
-
+\
 $$
-\boxed{\text μ₀ = 4π × 10⁻⁷ H/m exactly
+\boxed{\text μ₀ = 4π × 10⁻⁷ H/m
 }
 $$
+\
+For n=4 the vacuum's flux cycle is the closed causal loop (c² = 1/(μ₀ε₀))\ 
+\
+where μ₀ enforces magnetic "squareness" (discrete flux quanta φ₀ = h/(2e)), while ε₀ curves the electric field lines.
 
-For n=4 the vacuum's flux cycle is the closed causal loop (c² = 1/(μ₀ε₀)) where μ₀ enforces magnetic "squareness" (discrete flux quanta φ₀ = h/(2e)), while ε₀ curves the electric field lines.
-
-Z₀ emerges as a shadow resonance from the n=5 convergence matrix ≈4.48027 as the computation hovers within ~0.85% of π√2 which hints at a deeper φ-π√2 coupling that "leaks" into physical constants where φ^n for n→∞ approximates the vacuum's fractal-like convergence fluctuations that occur through self-similar branching, leading to the propagation limit Ω.
+Z₀ emerges as a shadow resonance from the n=5 convergence matrix ≈4.48027 as the computation hovers within ~ 99.1% of π√2 which hints at a deeper φ-π√2 coupling that "leaks" into physical constants where φ^n for n→∞ approximates the vacuum's fractal-like convergence fluctuations that occur through self-similar branching, leading to the propagation limit Ω.
 
 ### 3.3 Generalization to 4D→5D
 
