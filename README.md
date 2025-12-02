@@ -122,20 +122,18 @@ $$
 $$
 
 with vector:
+
 $$
-\mathbf{X1} = 
-\begin{bmatrix}
-\text a & b & c \\
-\end{bmatrix}
+\mathbf{x} = \begin{bmatrix} a \\ b \\ c \\ \end{bmatrix}
 $$
 
 We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":
 
 [pivot₁] *
 $$
-\mathbf{X2} = 
+\mathbf{Ax} = 
 \begin{bmatrix}
-\a & x & y & z\\
+\a & x & y & z \\
 \b & 0 & x & y \\
 \c & 0 & x & y \\
 \end{bmatrix}
@@ -145,7 +143,7 @@ a second pivot leads to:
 
 [pivot₂] *        
 $$
-\mathbf{X3} = 
+\mathbf{Ax} = 
 \begin{bmatrix}
 \b & y & x \\
 \c & 0 & x \\
