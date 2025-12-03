@@ -529,7 +529,7 @@ It appears that the universe **naturally selects the Tsirelson-optimal measureme
 
 ### 8.5 Base-φ:
 
-We assume the vacuum is a φⁿ matrix enveloping a unity field:
+We assume the vacuum is a φⁿ matrix is a reality enveloping unity field:
 
 $$
 \mathbf{\Phi} =
