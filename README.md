@@ -256,6 +256,119 @@ We posit:
 
 Thus, a **thought** is a **π√2-resonant jump** from 4D event to 5D meaning.
 
+Through Gaussian triangular factorization in higher dimensions (n = 4, 5, …) the same principle applies and directly models static geometric configurations in virtual spaces.
+
+## Maxwell’s Equations
+
+### Differential Form
+
+| Name                     | Equation                                      | Vacuum (ρ = 0, J = 0)                          |
+|--------------------------|-----------------------------------------------|-------------------------------------------------|
+| Gauss’s law (electric)   | ∇ · E = ρ / ε₀                                | ∇ · E = 0                                      |
+| Gauss’s law (magnetic)   | ∇ · B = 0                                     | ∇ · B = 0                                      |
+| Faraday’s law            | ∇ × E = −∂B/∂t                                | ∇ × E = −∂B/∂t                                 |
+| Ampère–Maxwell law       | ∇ × B = μ₀J + μ₀ε₀ ∂E/∂t                      | ∇ × B = (1/c²) ∂E/∂t                           |
+
+where **c² = 1/(ε₀μ₀)**
+
+### Fundamental Vacuum Constants
+
+| Constant                     | Exact Value / Definition                              | Notes                                                                 |
+|------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------|
+| Speed of light **c**         | 299 792 458 m/s (exact by definition since 1983)      | c = 1 / √(μ₀ ε₀)                                                     |
+| Vacuum permeability **μ₀**   | 4π × 10⁻⁷ H/m (exact)                                 | Enforces magnetic “squareness” via discrete flux quanta φ₀ = h/(2e)  |
+| Vacuum permittivity **ε₀**   | 1/(μ₀ c²)                                             | Involves π and transcendental contributions                          |
+| Characteristic impedance **Z₀** | √(μ₀/ε₀) ≈ 376.730 313 668 Ω                       | Impedance of free space for EM wave propagation                      |
+
+### Matrix–Vector Multiplication: I₅ × {φ, φ, φ, φ, φ}ᵀ
+
+Let the constant 5-dimensional vector be  
+**v** = {φ, φ, φ, φ, φ}ᵀ  
+(where φ ≈ 1.618033988749894… is the golden ratio, or any scalar value φ).
+
+#### Compact Result
+
+**I₅ v = φ ⋅ {1, 1, 1, 1, 1}ᵀ**
+
+or simply
+
+**I₅ v = φ ⋅ 1₅**
+
+where **1₅** is the 5-dimensional column vector of all ones.
+
+$$
+I_5 \mathbf{v}
+= \begin{pmatrix}
+1 & 0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 0 & 1
+\end{pmatrix}
+\begin{pmatrix} \phi \\ \phi \\ \phi \\ \phi \\ \phi \end{pmatrix}
+= \phi \begin{pmatrix} 1 \\ 1 \\ 1 \\ 1 \\ 1 \end{pmatrix}
+= \phi \, \mathbf{1}_5
+$$
+
+This trivial yet symbolically potent operation serves as the base state in higher-dimensional self-similar expansions.
+
+Define:
+
+- **Φ⁻¹** as the 5×5 matrix with all entries equal to φ⁻¹ (where φ = (1 + √5)/2 ≈ 1.618, thus φ⁻¹ ≈ 0.618).
+- **Φ²** as the 5×5 matrix with all entries equal to φ² (φ² = φ + 1 ≈ 2.618).
+
+These matrices model uniform scaling in self-similar spaces, linking to the Z₀-resonance factors (~4.48) via n=5 multiplicity.
+
+#### Compact Matrix Definitions are:
+
+Φ⁻¹ = φ⁻¹ ⋅ J₅
+Φ²  = φ²  ⋅ J₅
+
+where **J₅** is the 5×5 all-ones matrix:
+
+#### Staged Steps for Matrix Multiplication: Φ⁻¹ × Φ²
+
+Matrix multiplication C = A × B (where A = Φ⁻¹, B = Φ²) follows the rule:  
+c_{ij} = ∑_{k=1 to 5} a_{ik} b_{kj}
+
+Since all a_{ik} = φ⁻¹ and all b_{kj} = φ², each c_{ij} simplifies to:  
+c_{ij} = ∑_{k=1 to 5} (φ⁻¹ ⋅ φ²) = 5 ⋅ (φ⁻¹ ⋅ φ²)
+
+Recall that φ⁻¹ ⋅ φ² = φ⁻¹ ⋅ (φ + 1) = φ ⋅ (φ⁻¹) ⋅ φ = φ (since φ ⋅ φ⁻¹ = 1, and φ² / φ = φ).
+
+More precisely: φ² = φ ⋅ φ, so φ⁻¹ ⋅ φ² = φ⁻¹ ⋅ φ ⋅ φ = (φ⁻¹ ⋅ φ) ⋅ φ = 1 ⋅ φ = φ.
+
+Thus, c_{ij} = 5 φ for all i,j.
+
+##### Step-by-Step Computation for Element c_{11} (Representative for All)
+
+1. Initialize sum = 0.
+2. For k=1: add a_{1,1} ⋅ b_{1,1} = φ⁻¹ ⋅ φ² → sum = φ⁻¹ ⋅ φ² = φ
+3. For k=2: add a_{1,2} ⋅ b_{2,1} = φ⁻¹ ⋅ φ² → sum = φ + φ = 2φ
+4. For k=3: add a_{1,3} ⋅ b_{3,1} = φ⁻¹ ⋅ φ² → sum = 2φ + φ = 3φ
+5. For k=4: add a_{1,4} ⋅ b_{4,1} = φ⁻¹ ⋅ φ² → sum = 3φ + φ = 4φ
+6. For k=5: add a_{1,5} ⋅ b_{5,1} = φ⁻¹ ⋅ φ² → sum = 4φ + φ = 5φ
+
+All other c_{ij} follow identically due to uniform entries.
+
+#### Symbolic Simplification and Numerical Approximation
+
+Using φ = (1 + √5)/2:  
+5φ = 5(1 + √5)/2 = (5 + 5√5)/2 ≈ 8.090169943749475
+
+This product matrix represents a scaled all-ones operator, reinforcing the φ–π–√2 coupling in branching regimes. 
+
+$$
+\mathbf{\Phi}^{-1} \times \mathbf{\Phi}^{2} = 5\phi \, \mathbf{J}_5
+= 5\phi \begin{pmatrix}
+1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1 \\
+1 & 1 & 1 & 1 & 1
+\end{pmatrix}
+$$
+
 ---
 
 ## 4. The Growth Law: φ
@@ -457,7 +570,7 @@ This work began ten years ago with hand-drawn diagrams on legal paper and coffee
 [7] Moser, E. et al. *A metric for space*, Hippocampus, 2008  
 [8] Hafting, T. et al. *Microstructure of a spatial map in the entorhinal cortex*, Nature, 2005 
 [9] Penrose, R. *The Road to Reality*, 2004 (Ch. 16: φ and geometry)
-[10] Strong, G. *Linear Algebra and its Applications*, MIT, Academic Press Inc., 1976
+[10] Strong, G. *Linear Algebra and its Applications*, MIT OCW Standard Textbook, 1976
 ---
 
 **Note on Testing Campbell's Simulation Theory**

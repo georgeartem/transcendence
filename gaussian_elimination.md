@@ -87,28 +87,9 @@ This proximity hints at a deeper **φ–π–√2 coupling** that “leaks” in
 
 ### Matrix–Vector Multiplication: I₅ × {φ, φ, φ, φ, φ}ᵀ
 
-The 5×5 **identity matrix** I₅ is defined as
-
-I₅ = 
-⎡ 1  0  0  0  0 ⎤ \\
-⎢ 0  1  0  0  0 ⎥ \\
-⎢ 0  0  1  0  0 ⎥ \\
-⎢ 0  0  0  1  0 ⎥ \\ 
-⎣ 0  0  0  0  1 ⎦ \\
-
 Let the constant 5-dimensional vector be  
 **v** = {φ, φ, φ, φ, φ}ᵀ  
 (where φ ≈ 1.618033988749894… is the golden ratio, or any scalar value φ).
-
-#### Explicit Multiplication (row-by-row)
-
-I₅ v = \\
- ⎡ 1  0  0  0  0 ⎤ ⎡ φ ⎤   ⎡ 1·φ + 0·φ + 0·φ + 0·φ + 0·φ ⎤   ⎡ φ ⎤ \\
- ⎢ 0  1  0  0  0 ⎥ ⎢ φ ⎥   ⎢ 0·φ + 1·φ + 0·φ + 0·φ + 0·φ ⎥   ⎢ φ ⎥ \\
- ⎢ 0  0  1  0  0 ⎥ ⎢ φ ⎥ = ⎢ 0·φ + 0·φ + 1·φ + 0·φ + 0·φ ⎥ = ⎢ φ ⎥ \\ 
- ⎢ 0  0  0  1  0 ⎥ ⎢ φ ⎥   ⎢ 0·φ + 0·φ + 0·φ + 1·φ + 0·φ ⎥   ⎢ φ ⎥ \\
- ⎣ 0  0  0  0  1 ⎦ ⎣ φ ⎦   ⎣ 0·φ + 0·φ + 0·φ + 0·φ + 1·φ ⎦   ⎣ φ ⎦ \\
-
 
 #### Compact Result
 
