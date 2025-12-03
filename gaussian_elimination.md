@@ -60,14 +60,10 @@ where **c² = 1/(ε₀μ₀)**
 
 ### Integral Form
 
-∯ E · dA = Q_enc / ε₀
-∯ B · dA = 0
-∮ E · dl = − dΦ_B / dt
-∮ B · dl = μ₀ I_enc + μ₀ε₀ dΦ_E / dt
-
-
-### Fundamental Vacuum Constants
-
+\\ ∯ E · dA = Q_enc / ε₀
+\\ ∯ B · dA = 0
+\\ ∮ E · dl = − dΦ_B / dt
+\\ ∮ B · dl = μ₀ I_enc + μ₀ε₀ dΦ_E / dt
 
 ### Fundamental Vacuum Constants
 
@@ -93,11 +89,12 @@ This proximity hints at a deeper **φ–π–√2 coupling** that “leaks” in
 
 The 5×5 **identity matrix** I₅ is defined as
 
-I₅ = ⎡ 1  0  0  0  0 ⎤
-⎢ 0  1  0  0  0 ⎥
-⎢ 0  0  1  0  0 ⎥
-⎢ 0  0  0  1  0 ⎥
-⎣ 0  0  0  0  1 ⎦
+I₅ = 
+\\ ⎡ 1  0  0  0  0 ⎤
+\\ ⎢ 0  1  0  0  0 ⎥
+\\ ⎢ 0  0  1  0  0 ⎥
+\\ ⎢ 0  0  0  1  0 ⎥
+\\ ⎣ 0  0  0  0  1 ⎦
 
 Let the constant 5-dimensional vector be  
 **v** = {φ, φ, φ, φ, φ}ᵀ  
@@ -105,11 +102,12 @@ Let the constant 5-dimensional vector be
 
 #### Explicit Multiplication (row-by-row)
 
-I₅ v = ⎡ 1  0  0  0  0 ⎤ ⎡ φ ⎤   ⎡ 1·φ + 0·φ + 0·φ + 0·φ + 0·φ ⎤   ⎡ φ ⎤
-⎢ 0  1  0  0  0 ⎥ ⎢ φ ⎥   ⎢ 0·φ + 1·φ + 0·φ + 0·φ + 0·φ ⎥   ⎢ φ ⎥
-⎢ 0  0  1  0  0 ⎥ ⎢ φ ⎥ = ⎢ 0·φ + 0·φ + 1·φ + 0·φ + 0·φ ⎥ = ⎢ φ ⎥
-⎢ 0  0  0  1  0 ⎥ ⎢ φ ⎥   ⎢ 0·φ + 0·φ + 0·φ + 1·φ + 0·φ ⎥   ⎢ φ ⎥
-⎣ 0  0  0  0  1 ⎦ ⎣ φ ⎦   ⎣ 0·φ + 0·φ + 0·φ + 0·φ + 1·φ ⎦   ⎣ φ ⎦
+I₅ v = 
+\\ ⎡ 1  0  0  0  0 ⎤ ⎡ φ ⎤   ⎡ 1·φ + 0·φ + 0·φ + 0·φ + 0·φ ⎤   ⎡ φ ⎤
+\\ ⎢ 0  1  0  0  0 ⎥ ⎢ φ ⎥   ⎢ 0·φ + 1·φ + 0·φ + 0·φ + 0·φ ⎥   ⎢ φ ⎥
+\\ ⎢ 0  0  1  0  0 ⎥ ⎢ φ ⎥ = ⎢ 0·φ + 0·φ + 1·φ + 0·φ + 0·φ ⎥ = ⎢ φ ⎥
+\\ ⎢ 0  0  0  1  0 ⎥ ⎢ φ ⎥   ⎢ 0·φ + 0·φ + 0·φ + 1·φ + 0·φ ⎥   ⎢ φ ⎥
+\\ ⎣ 0  0  0  0  1 ⎦ ⎣ φ ⎦   ⎣ 0·φ + 0·φ + 0·φ + 0·φ + 1·φ ⎦   ⎣ φ ⎦
 
 
 #### Compact Result
@@ -182,12 +180,12 @@ All other c_{ij} follow identically due to uniform entries.
 
 #### Resulting Matrix
 
-Φ⁻¹ × Φ² = 5φ ⋅ J₅ = ⎡ 5φ  5φ  5φ  5φ  5φ ⎤
-⎢ 5φ  5φ  5φ  5φ  5φ ⎥
-⎢ 5φ  5φ  5φ  5φ  5φ ⎥
-⎢ 5φ  5φ  5φ  5φ  5φ ⎥
-⎣ 5φ  5φ  5φ  5φ  5φ ⎦
-
+Φ⁻¹ × Φ² = 5φ ⋅ J₅ = 
+\\ ⎡ 5φ  5φ  5φ  5φ  5φ ⎤
+\\ ⎢ 5φ  5φ  5φ  5φ  5φ ⎥
+\\ ⎢ 5φ  5φ  5φ  5φ  5φ ⎥
+\\ ⎢ 5φ  5φ  5φ  5φ  5φ ⎥
+\\ ⎣ 5φ  5φ  5φ  5φ  5φ ⎦
 
 #### Symbolic Simplification and Numerical Approximation
 
