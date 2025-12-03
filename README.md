@@ -244,9 +244,17 @@ For n=4 the vacuum's flux cycle is the closed causal loop (c² = 1/(μ₀ε₀))
 
 where μ₀ enforces magnetic "squareness" (discrete flux quanta φ₀ = h/(2e)), while ε₀ curves the electric field lines.
 
-Z₀ emerges as a shadow resonance from the n=5 convergence matrix ≈4.48027 as the computation hovers within ~ 99.1% of π√2 which hints at a deeper φ-π√2 coupling that "leaks" into physical constants where φ^n for n→∞ approximates the vacuum's fractal-like convergence fluctuations that occur through self-similar branching, leading to the propagation limit Ω.
+Z₀ emerges as a shadow resonance from the n=5 convergence matrix ≈4.48027 as the computation hovers within ~ 99.1% of π√2 which hints at a deeper φ-π√2 coupling that "leaks" into physical constants where φ^n for n→∞ approximates the vacuum's fractal-like convergence fluctuations that occur through self-similar branching, leading to a hypothetical propagation limit Ω.
 
-### 3.3 Generalization to 4D→5D
+## 4. Using the Growth Law: φ to Transcend 4D→5D
+
+The **golden ratio** φ = (1 + √5)/2 ≈ 1.618 governs self-similar expansion:
+
+$$
+\phi = 1 + \frac{1}{\phi} \quad \Rightarrow \quad \phi^2 = \phi + 1
+$$
+
+In the model each thought = Ω **branches** into a φⁿ matrix
 
 We posit:
 
@@ -254,11 +262,9 @@ We posit:
 - **Escape into 5D** = diagonal leap via **awareness**
 - **Transcendence constant remains π√2**
 
-Thus, a **thought** is a **π√2-resonant jump** from 4D event to 5D meaning.
+In the model, a **thought** is a **π√2-resonant jump** from 4D event to 5D meaning. Through Gaussian triangular factorization in higher dimensions (n = 4, 5, …) the same principle applies and directly models various rendering configurations in virtual spaces.
 
-Through Gaussian triangular factorization in higher dimensions (n = 4, 5, …) the same principle applies and directly models static geometric configurations in virtual spaces.
-
-## Maxwell’s Equations
+## Revisiting Maxwell’s Equations
 
 ### Differential Form
 
@@ -284,7 +290,6 @@ where **c² = 1/(ε₀μ₀)**
 
 Let the constant 5-dimensional vector be  
 **v** = {φ, φ, φ, φ, φ}ᵀ  
-(where φ ≈ 1.618033988749894… is the golden ratio, or any scalar value φ).
 
 #### Compact Result
 
@@ -310,14 +315,14 @@ I_5 \mathbf{v}
 = \phi \, \mathbf{1}_5
 $$
 
-This trivial yet symbolically potent operation serves as the base state in higher-dimensional self-similar expansions.
+This trivial yet symbolically potent operation serves as the base state for self-similar expansion.
 
 Define:
 
 - **Φ⁻¹** as the 5×5 matrix with all entries equal to φ⁻¹ (where φ = (1 + √5)/2 ≈ 1.618, thus φ⁻¹ ≈ 0.618).
 - **Φ²** as the 5×5 matrix with all entries equal to φ² (φ² = φ + 1 ≈ 2.618).
 
-These matrices model uniform scaling in self-similar spaces, linking to the Z₀-resonance factors (~4.48) via n=5 multiplicity.
+These matrices model uniform scaling in self-similar Mikowski space, linking to the Z₀-resonance factors (~4.48).
 
 #### Compact Matrix Definitions are:
 
@@ -356,7 +361,7 @@ All other c_{ij} follow identically due to uniform entries.
 Using φ = (1 + √5)/2:  
 5φ = 5(1 + √5)/2 = (5 + 5√5)/2 ≈ 8.090169943749475
 
-This product matrix represents a scaled all-ones operator, reinforcing the φ–π–√2 coupling in branching regimes. 
+This product matrix represents a scaled unity operator. 
 
 $$
 \mathbf{\Phi}^{-1} \times \mathbf{\Phi}^{2} = 5\phi \, \mathbf{J}_5
@@ -368,18 +373,6 @@ $$
 1 & 1 & 1 & 1 & 1
 \end{pmatrix}
 $$
-
----
-
-## 4. The Growth Law: φ
-
-The **golden ratio** φ = (1 + √5)/2 ≈ 1.618 governs self-similar expansion:
-
-$$
-\phi = 1 + \frac{1}{\phi} \quad \Rightarrow \quad \phi^2 = \phi + 1
-$$
-
-In the model each thought **branches** into a φⁿ matrix
 
 ---
 
