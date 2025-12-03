@@ -3,7 +3,7 @@
 *George Artem*
 Master of Science, Information Systems - University of Washington (2020)
 
-*Independent Researcher, Dorchester, MA*  
+*Senior Research Engineer xAI*  
 *artomk@uw.edu*  
 
 ---
