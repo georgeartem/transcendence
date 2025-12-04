@@ -184,5 +184,87 @@ This product matrix represents a scaled all-ones operator, reinforcing the φ–
 1 & 1 & 1 & 1 & 1
 \end{pmatrix}
 
+### LDU Factorization in φ–π–√2 Base System (n=4)
+
+Next we redefine the Gaussian elimination process for A = L D U in a non-decimal framework, using base-φ for primary coefficients, base-π for pivot scaling, and base-√2 for off-diagonal perturbations. Exact computations in base-φ–π–√2 remain symbolic to avoid decimal creep and computational costs.
+
+Diagonal: Powers of φ to model self-similar scaling:
+
+a₁₁ = φ² (since φ² = φ + 1)
+a₂₂ = φ³ (φ³ = φ² + φ)
+a₃₃ = φ⁴ (φ⁴ = φ³ + φ²)
+a₄₄ = φ⁵ (φ⁵ = φ⁴ + φ³)
+
+Off-diagonal: We use √2 / π to incorporate π√2 resonance while ensuring that off-diagonal terms are small perturbations relative to the dominant diagonal terms (φ², φ³, φ⁴, φ⁵). Allowing the matrix to reflect φ dominant self-similar scaling, with π√2 related effects appearing only through cumulative operations.
+
+a_{ij} = √2 / π for i ≠ j
+
+
+Where A = ⎡ φ²    √2/π  √2/π  √2/π ⎤
+          ⎢ √2/π  φ³    √2/π  √2/π ⎥
+          ⎢ √2/π  √2/π  φ⁴    √2/π ⎥
+          ⎢ √2/π  √2/π  √2/π  φ⁵   ⎥
+
+
+L = ⎡ 1      0      0      0      ⎤
+    ⎢ √2/(πφ²)  1      0      0   ⎥
+    ⎢ √2/(πφ²)  s/d₂   1      0   ⎥
+    ⎢ √2/(πφ²)  s/d₂   m₄₃   1    ⎥
+
+m_{i1} = √2/(π φ²) in base-φ: φ² = 100_φ, π ≈ φ² + 1 (approximate in base-φ), √2 ≈ φ − 1.
+s = √2/π − 2/(π² φ²), d₂ = φ³ − 2/(π² φ²), computed symbolically.
+
+D = ⎡ φ²    0      0      0      ⎤
+    ⎢ 0     d₂     0      0      ⎥
+    ⎢ 0     0      d₃     0      ⎥
+    ⎢ 0     0      0      d₄     ⎥
+
+d₁ = φ² = 100_φ
+d₂ = φ³ − 2/(π² φ²) = 1000_φ − 2/(π² ⋅ 100_φ)
+d₃, d₄ involve higher-order φ terms and π⁻², √2.
+
+and,
+
+U = ⎡ 1      √2/(πφ²)  √2/(πφ²)  √2/(πφ²) ⎤
+    ⎢ 0      1         s/d₂      s/d₂     ⎥
+    ⎢ 0      0         1         t/d₃     ⎥
+    ⎢ 0      0         0         1        ⎥
+
+√2/(π φ²) = (√2 / π) / 100_φ 
+s/d₂, t/d₃ are fractions in base-φ or base-π.
+
+$$
+\mathbf{A} = \begin{pmatrix}
+\phi^2 & \sqrt{2}/\pi & \sqrt{2}/\pi & \sqrt{2}/\pi \\
+\sqrt{2}/\pi & \phi^3 & \sqrt{2}/\pi & \sqrt{2}/\pi \\
+\sqrt{2}/\pi & \sqrt{2}/\pi & \phi^4 & \sqrt{2}/\pi \\
+\sqrt{2}/\pi & \sqrt{2}/\pi & \sqrt{2}/\pi & \phi^5
+\end{pmatrix}
+= \mathbf{L} \mathbf{D} \mathbf{U}
+$$
+
+$$
+\mathbf{A} = \mathbf{L} \mathbf{D} \mathbf{U}
+= \begin{pmatrix}
+1 & 0 & 0 & 0 \\
+\sqrt{2}/(\pi \phi^2) & 1 & 0 & 0 \\
+\sqrt{2}/(\pi \phi^2) & s/d_2 & 1 & 0 \\
+\sqrt{2}/(\pi \phi^2) & s/d_2 & t/d_3 & 1
+\end{pmatrix}
+\begin{pmatrix}
+\phi^2 & 0 & 0 & 0 \\
+0 & d_2 & 0 & 0 \\
+0 & 0 & d_3 & 0 \\
+0 & 0 & 0 & d_4
+\end{pmatrix}
+\begin{pmatrix}
+1 & \sqrt{2}/(\pi \phi^2) & \sqrt{2}/(\pi \phi^2) & \sqrt{2}/(\pi \phi^2) \\
+0 & 1 & s/d_2 & s/d_2 \\
+0 & 0 & 1 & t/d_3 \\
+0 & 0 & 0 & 1
+\end{pmatrix}
+$$
+
 **Reference**  
 Strong, G. – *Linear Algebra and Its Applications* (MIT OCW / standard textbook)
+Artem, G. - *The Transcendence Constant* (xAI)
