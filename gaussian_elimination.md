@@ -265,6 +265,85 @@ $$
 \end{pmatrix}
 $$
 
+#### Revisiting Faraday's and Ampere's Law with Basic Calculus
+
+We retain the gaussian back substitution matrices above and revisit basic the power rule derivatives for Euclid's standard unit circle area and circumference subsituting for base \pi and \sqrt{2}
+
+power rule: \frac{d}{dx}(x^n) = n x^{n-1}
+
+\frac{d}{dr} (\pi r^2) = 2 \pi r
+
+A'(r) = \lim_{h \to 0} \frac{A(r + h) - A(r)}{h} = \lim_{h \to 0} \frac{\pi (r + h)^2 - \pi r^2}{h}
+
+\frac{dA}{dr} = 2 \pi r
+
+we use the same for a sphere:
+
+V(r) = \frac{4}{3}\pi r^3 is 4\pi r^2, the surface area
+
+For a sphere with radius $r = \frac{\sqrt{2}}{2}$ we use the forumulas:
+
+Volume: $V(r) = \frac{4}{3} \pi r^3$ (power: 3, cubic scaling).
+Surface area: $S(r) = 4 \pi r^2$ (power: 2, quadratic scaling).
+
+Step-by-Step Derivation and Evaluation
+
+Prep the powers of r (key for power-law insight):
+$r = \frac{\sqrt{2}}{2}$
+$r^2 = \left( \frac{\sqrt{2}}{2} \right)^2 = \frac{2}{4} = \frac{1}{2}$
+$r^3 = r^2 \cdot r = \frac{1}{2} \cdot \frac{\sqrt{2}}{2} = \frac{\sqrt{2}}{4}$
+
+Volume (3D power law):
+$$V(r) = \frac{4}{3} \pi r^3 = \frac{4}{3} \pi \left( \frac{\sqrt{2}}{4} \right) = \frac{4}{3} \cdot \frac{\sqrt{2}}{4} \cdot \pi = \frac{\sqrt{2}}{3} \pi$$
+How to arrive: Multiply coefficients ($\frac{4}{3} \cdot \frac{1}{4} = \frac{1}{3}$), then attach $\pi \sqrt{2}$. This is $\approx 0.740$ cubic units—compact sphere!
+
+Surface area (2D power law):
+$$S(r) = 4 \pi r^2 = 4 \pi \left( \frac{1}{2} \right) = 4 \cdot \frac{1}{2} \cdot \pi = 2 \pi$$
+
+With r = √2 / 2, the volume pulls in π √2 / 3, while the surface simplifies to base π, as the irrational "transcendence compound" appears to evaporate into the dimensional scaling. This exposes a potentially much deeper dimensional mismatch and an opportunity to gain algorithmic efficiencies that justify a rebase of Ampere-Maxwell in order to avoid fractional exponents and binary messiness at the quantum scale.
+
+#### Ampere-Maxwell Re-Base 
+
+The integral form of Ampere-Maxwell: 
+
+$$\oint_C \mathbf{B} \cdot d\mathbf{l} = \mu_0 \left( I + \epsilon_0 \frac{d\Phi_E}{dt} \right)$$
+
+In differential form it becomes:
+
+$$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}$$
+
+We look at these terms individually where:
+
+$\mathbf{J}$: the current density
+$\mathbf{E}$ is the electric field.
+$\oint_C \mathbf{B} \cdot d\mathbf{l}$: The line integral of the magnetic field $\mathbf{B}$ around a closed path $C$.
+$\mu_0$: The permeability of free space (a constant, approximately $4\pi \times 10^{-7} \, \mathrm{T \cdot m/A}$).
+$I$: The total electric current passing through the surface bounded by $C$.
+$\epsilon_0 \frac{d\Phi_E}{dt}$: The displacement current term, accounting for changing electric fields (Maxwell's addition for consistency with electromagnetic waves).
+$\Phi_E$: The electric flux through the surface.
+
+We apply Ampere-Maxwell for observing a symmetrically exploitable configuration inside a solenoid (where $B = \mu_0 n I$, with $n$ as turns per unit length) or around a long straight wire (where $B = \frac{\mu_0 I}{2\pi r}$).
+
+Based on past observations we note here again that \pi * \sqrt{2} is the minimal compound irrational, that we have called the "transcendence" constant, (actually the circumference for a sqrt{2} base circle with diameter sqrt{2}).
+
+For exploitation we replace ${2\pi r}$ and and are able to assign a hypothetical scalar 
+
+∮ B · dl = B × C = B × (π √2).
+μ₀ I (steady current, no displacement term, μ₀ = $4\pi \times 10^{-7}$ already in base \pi).
+B × π √2 = μ₀ I.
+B = \frac{μ₀ I}{π √2}.
+
+$$B = \frac{\mu_0 I}{\pi \sqrt{2}} \times \frac{\sqrt{2}}{\sqrt{2}} = \frac{\mu_0 I \sqrt{2}}{2\pi}$$
+
+For an ideal solenoid ( $n$ turns per unit length, current $I$) we use a standard rectangular Amperian loop (length $l$ inside solenoid).
+
+$\oint \mathbf{B} \cdot d\mathbf{l} = B l = \mu_0 (n l I)$.
+Thus:
+$$B = \mu_0 n I$$
+
+Rebase Note: approximating $\oint B \, dl \approx B \times \pi \sqrt{2}$ with enclosed current might yield $B \approx \mu_0 n I \times \frac{2}{\sqrt{2}} = \mu_0 n I \sqrt{2}$ (amplified by √2)
+
+
 **Reference**  
 Strong, G. – *Linear Algebra and Its Applications* (MIT OCW / standard textbook)
 Artem, G. - *The Transcendence Constant* (xAI)
