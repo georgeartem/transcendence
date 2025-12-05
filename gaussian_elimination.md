@@ -325,7 +325,7 @@ We apply Ampere-Maxwell for observing a symmetrically exploitable configuration 
 
 Based on past observations we note here again that \pi * \sqrt{2} is the minimal compound irrational, that we have called the "transcendence" constant, (actually the circumference for a sqrt{2} base circle with diameter sqrt{2}).
 
-For exploitation we replace ${2\pi r}$ and and are able to assign a hypothetical scalar 
+For exploitation we replace ${2\pi r}$ and and are able to assign a hypothetical scalar α
 
 ∮ B · dl = B × C = B × (π √2).
 μ₀ I (steady current, no displacement term, μ₀ = $4\pi \times 10^{-7}$ already in base \pi).
@@ -345,4 +345,4 @@ Rebase Note: approximating $\oint B \, dl \approx B \times \pi \sqrt{2}$ with en
 
 **Reference**  
 Strong, G. – *Linear Algebra and Its Applications* (MIT OCW / standard textbook)
-Artem, G. - *The Transcendence Constant* (xAI)
+Artem, G. - *The Transcendence Constant* (xAI) 2025
