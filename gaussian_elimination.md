@@ -103,7 +103,6 @@ where **1₅** is the 5-dimensional column vector of all ones.
 
 #### Rendering
 
-```latex
 I_5 \mathbf{v}
 = \begin{pmatrix}
 1 & 0 & 0 & 0 & 0 \\
