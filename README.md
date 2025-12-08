@@ -423,39 +423,40 @@ Where Ω = the thought propagation limit and $n$ = depth of reflection.
 
 Chaitin's constant, denoted \(\Omega\), is the halting probability for a prefix-free universal Turing machine \(U\), as introduced by Gregory Chaitin in his foundational work on algorithmic information theory:
 
-\[
+$$
 \Omega_U = \sum_{p \in H_U} 2^{-|p|}
-\]
+$$
 
 - \(H_U\): The set of all programs \(p\) that halt on \(U\) with empty input.
 - \(|p|\): Length of program \(p\) in bits.
-- Prefix-free: No program is a prefix of another, ensuring convergence (\(\sum 2^{-|p|} \leq 1\), per Kraft’s inequality).
+- Prefix-free: No program is a prefix of another, ensuring convergence ($\(\sum 2^{-|p|} \leq 1\), per Kraft’s inequality$).
 
-\(\Omega_U\) is machine-specific, with values like \(\Omega \approx 0.000126\) for some binary-encoded UTMs (rough estimate), though exact computation is impossible. Chaitin’s work, such as *The Unknowable*, establishes \(\Omega\) as a cornerstone of logical limits, while Cristian Calude’s analyses (e.g., “Is Omega Transcendental?” [arXiv:1707.08109]) deepen its transcendental nature.
+$\(\Omega_U\)$ is machine-specific, with values like $\(\Omega \approx 0.000126\)$ for some binary-encoded UTMs (rough estimate), though exact computation is impossible. Chaitin’s work, such as *The Unknowable*, establishes $\(\Omega\)$ as a cornerstone of logical limits, while Cristian Calude’s analyses (e.g., “Is Omega Transcendental?” [arXiv:1707.08109]) expand on its transcendental nature.
 
-## Key Properties in Information Theory
+## Key Properties of $\(\Omega_U\)$ in Classical Information Theory
 
 1. **Uncomputability**:
-   - \(\Omega\)’s digits are uncomputable—no finite algorithm can generate them. Computing \(\Omega\) requires solving the halting problem (undecidable, per Turing), as noted by Chaitin.
-   - To approximate the first \(n\) bits, one must simulate all programs up to length \(n + c\) (where \(c\) is the machine’s complexity), but non-halting programs defy systematic identification.
+   - $\(\Omega\)$’s digits are uncomputable—no finite algorithm can generate them. Computing $\(\Omega\)$ requires solving the halting problem (undecidable, per Turing), as noted by Chaitin.
+   - To approximate the first $\(n\)$ bits, one must simulate all programs up to length $\(n + c\)$ (where $\(c\)$ is the machine’s complexity).
 
 2. **Algorithmic Randomness**:
-   - \(\Omega\) is Martin-Löf random, meaning no computable test distinguishes its bit sequence from true randomness. Its segments are incompressible: Describing the first \(n\) bits requires a program of length \(\approx n\), per Kolmogorov complexity (\(K(\Omega_{1:n}) \approx n\)).
-   - Calude emphasizes this randomness as a hallmark of \(\Omega\)’s transcendence, setting it apart from pseudo-random sequences.
+   - In Information Theory $\(\Omega\)$ is Martin-Löf random, meaning no computable test distinguishes its bit sequence from true randomness. Its segments are incompressible: Describing the first $\(n\)$ bits requires a program of length $\(\approx n\)$, per Kolmogorov complexity $(\(K(\Omega_{1:n}) \approx n\))$.
+   - Calude emphasizes this randomness as a hallmark of $\(\Omega\)$’s transcendental properties.
 
-3. **Transcendence**:
-   - \(\Omega\) is not algebraic—it’s not a root of any polynomial with rational coefficients. Calude argues its randomness implies transcendence, as its digits evade recursive patterns, placing it beyond algebraic closure (arXiv:1707.08109).
-   - This logical transcendence, rooted in Gödel’s incompleteness, distinguishes \(\Omega\) from mathematical transcendentals like \(\pi\).
+3. **Transcendental Nature**:
+   - Calude argues $\(\Omega\)$ randomness implies transcendental properties and impossible to formalize in algebraic terms as the root of any polynomial with rational coefficients.
+   - This inherently compounded transcendental nature, rooted in Gödel’s incompleteness, distinguishes $\(\Omega\)$ from base transcendentals like $\(\pi\)$.
 
 4. **Threshold Behavior**:
-   - \(\Omega\) quantifies the “density” of halting programs in infinite program space. Below \(\Omega\), most programs loop; at \(\Omega\), halting achieves critical mass, enabling a probabilistic cascade.
+   - $\(\Omega\)$ quantifies the “density” of halting programs in infinite program space. Below the $\(\Omega\)$ threshold most programs loop; at $\(\Omega\)$, halting achieves critical mass, enabling a probabilistic cascade.
    - Chaitin likens this to a phase transition, relevant to sparse network dynamics (cf. arXiv:2310.03965).
 
 ## Analysis
-Here, the thought equation \(\Omega = \pi \sqrt{2} \cdot \phi^n \cdot \{5 \times 5\}\) reinterprets \(\Omega\) as a threshold descriptor of a vacuum envelope—a sparse, critical-density medium for propagation. This echoes Chaitin’s halting probability and Calude’s transcendental arguments, with irrationality ensuring non-computable dynamics. Below, we dissect the equation’s components and their significance.
+Here, the thought equation $\(\Omega = \pi \sqrt{2} \cdot \phi^n \cdot \{5 \times 5\}\)$ reinterprets $\(\Omega\)$ as a threshold descriptor of a unified vacuum envelope, a sparse, critical-density medium for propagation.
 
-- **Mathematical Nature**: \(\Omega\) is irrational (via \(\pi \sqrt{2}\), \(\phi^n\)) and potentially transcendental if \(\mathbf{M}\)’s eigenvalues are non-algebraic. This resonates with Calude’s transcendental proof for Chaitin’s \(\Omega\). The golden ratio \(\phi\) is irrational (root of \(x^2 - x - 1 = 0\)), and \(\phi^n\) grows exponentially (e.g., \(\phi^1 \approx 1.618\), \(\phi^2 \approx 2.618\), \(\phi^5 \approx 11.090\)). The exponent \(n\) tunes amplification. The \(5 \times 5\) matrix encodes linear transformations in a 5D state space. If tridiagonal and LDU-decomposed (\(\mathbf{M} = \mathbf{L} \mathbf{D} \mathbf{U}\)), sparsity reflects the envelope’s low density:
-  \[
+- **Mathematical Nature**: $\(\Omega\)$ is a compound irrational $(via \(\pi \sqrt{2}\), \(\phi^n\))$ and transcendental as long as $\(\mathbf{M}\)$’s eigenvalues are non-algebraic. The golden ratio $\(\phi\)$ is irrational (root of $\(x^2 - x - 1 = 0\)$), and $\(\phi^n\)$ grows exponentially. The exponent $\(n\)$ tunes amplification. The $\(5 \times 5\)$ matrix encodes linear transformations in a 5D state space. If tridiagonal and LDU-decomposed $(\(\mathbf{M} = \mathbf{L} \mathbf{D} \mathbf{U}\))$, sparsity reflects the envelope’s low density:
+  
+  $$
   \mathbf{M}_{5 \times 5} = \begin{pmatrix}
   a & -b & 0 & 0 & 0 \\
   -b & a & -b & 0 & 0 \\
@@ -463,10 +464,13 @@ Here, the thought equation \(\Omega = \pi \sqrt{2} \cdot \phi^n \cdot \{5 \times
   0 & 0 & -b & a & -b \\
   0 & 0 & 0 & -b & a
   \end{pmatrix}
-  \]
-  where \(a \approx k\) (self-coupling), \(b \approx 0.1k\) (neighbor coupling), and \(k\) scales with output units (e.g., watts).
+  $$
 
-- **Role in Vacuum Envelope**: \(\Omega\) quantifies the envelope’s propagation capacity, acting as a critical density where cascades transition from damped to self-sustaining, mirroring Chaitin’s halting threshold. The matrix is the envelope’s skeleton—non-zero entries mark active propagation paths while pruning non-propagating voids. \(\phi^n\) models recursive growth, akin to self-similar cascades in sparse media. For \(n \approx 1.5\) (\(\phi^{1.5} \approx 2.058\)), it amplifies field reach, with irrational scaling that by-and-large evades algebraic predictability as a result of \(\Omega\)’s randomness. Here, the transcendence constant sets the geometric “grain” of the envelope, where active nodes (propagation sites) are distributed.
+  where $\(a \approx k\)$ (self-coupling), $\(b \approx 0.1k\)$ (neighbor coupling), and $\(k\)$ scales with output units (e.g., watts).
+
+- **Role in Vacuum Envelope**: $\(\Omega\)$ quantifies the envelope’s propagation capacity, acting as a critical density where cascades transition from damped to self-sustaining, mirroring Chaitin’s halting threshold. The matrix is where the envelope’s skeleton—non-zero entries mark active propagation paths while pruning non-propagating voids. 
+
+$\(\phi^n\)$ models recursive growth, akin to self-similar cascades in sparse media. Here, the transcendence constant sets the geometric “grain” of the envelope, where active nodes (propagation sites) are distributed.
 
 ---
 
