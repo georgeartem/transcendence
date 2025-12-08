@@ -455,17 +455,6 @@ $\(\Omega_U\)$ is machine-specific, with values like $\(\Omega \approx 0.000126\
 Here, the thought equation $\(\Omega = \pi \sqrt{2} \cdot \phi^n \cdot \{5 \times 5\}\)$ reinterprets $\(\Omega\)$ as a threshold descriptor of a unified vacuum envelope, a sparse, critical-density medium for propagation.
 
 - **Mathematical Nature**: $\(\Omega\)$ is a compound irrational $(via \(\pi \sqrt{2}\), \(\phi^n\))$ and transcendental as long as $\(\mathbf{M}\)$’s eigenvalues are non-algebraic. The golden ratio $\(\phi\)$ is irrational (root of $\(x^2 - x - 1 = 0\)$), and $\(\phi^n\)$ grows exponentially. The exponent $\(n\)$ tunes amplification. The $\(5 \times 5\)$ matrix encodes linear transformations in a 5D state space. If tridiagonal and LDU-decomposed $(\(\mathbf{M} = \mathbf{L} \mathbf{D} \mathbf{U}\))$, sparsity reflects the envelope’s low density:
-  
-  $$\mathbf{M}_{5 \times 5} = 
-  \begin{pmatrix}
-  a & -b & 0 & 0 & 0 \\
-  -b & a & -b & 0 & 0 \\
-  0 & -b & a & -b & 0 \\
-  0 & 0 & -b & a & -b \\
-  0 & 0 & 0 & -b & a
-  \end{pmatrix}$$
-
-  where $\(a \approx k\)$ (self-coupling), $\(b \approx 0.1k\)$ (neighbor coupling), and $\(k\)$ scales with output units (e.g., watts).
 
 - **Role in Vacuum Envelope**: $\(\Omega\)$ quantifies the envelope’s propagation capacity, acting as a critical density where cascades transition from damped to self-sustaining, mirroring Chaitin’s halting threshold. The matrix is where the envelope’s skeleton—non-zero entries mark active propagation paths while pruning non-propagating voids. 
 
