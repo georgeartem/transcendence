@@ -103,6 +103,7 @@ where **1₅** is the 5-dimensional column vector of all ones.
 
 #### Rendering
 
+$$
 I_5 \mathbf{v}
 = \begin{pmatrix}
 1 & 0 & 0 & 0 & 0 \\
@@ -111,9 +112,16 @@ I_5 \mathbf{v}
 0 & 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 0 & 1
 \end{pmatrix}
+$$
+
+$$
 \begin{pmatrix} \phi \\ \phi \\ \phi \\ \phi \\ \phi \end{pmatrix}
 = \phi \begin{pmatrix} 1 \\ 1 \\ 1 \\ 1 \\ 1 \end{pmatrix}
+$$
+
+$$
 = \phi \, \mathbf{1}_5
+$$
 
 This trivial yet symbolically potent operation serves as the base state in higher-dimensional self-similar expansions explored in the transcendence paper (n → 5 branching regimes)
 
@@ -160,12 +168,12 @@ All other c_{ij} follow identically due to uniform entries.
 
 #### Resulting Matrix
 
-Φ⁻¹ × Φ² = 5φ ⋅ J₅ = \\
- ⎡ 5φ  5φ  5φ  5φ  5φ ⎤ \\
- ⎢ 5φ  5φ  5φ  5φ  5φ ⎥ \\
- ⎢ 5φ  5φ  5φ  5φ  5φ ⎥ \\
- ⎢ 5φ  5φ  5φ  5φ  5φ ⎥ \\
- ⎣ 5φ  5φ  5φ  5φ  5φ ⎦ \\
+Φ⁻¹ × Φ² = 5φ ⋅ J₅ = 
+ ⎡ 5φ  5φ  5φ  5φ  5φ ⎤ 
+ ⎢ 5φ  5φ  5φ  5φ  5φ ⎥ 
+ ⎢ 5φ  5φ  5φ  5φ  5φ ⎥ 
+ ⎢ 5φ  5φ  5φ  5φ  5φ ⎥ 
+ ⎣ 5φ  5φ  5φ  5φ  5φ ⎦ 
 
 #### Symbolic Simplification and Numerical Approximation
 
@@ -174,6 +182,7 @@ Using φ = (1 + √5)/2:
 
 This product matrix represents a scaled all-ones operator, reinforcing the φ–π–√2 coupling in branching regimes. 
 
+$$
 \mathbf{\Phi}^{-1} \times \mathbf{\Phi}^{2} = 5\phi \, \mathbf{J}_5
 = 5\phi \begin{pmatrix}
 1 & 1 & 1 & 1 & 1 \\
@@ -182,6 +191,7 @@ This product matrix represents a scaled all-ones operator, reinforcing the φ–
 1 & 1 & 1 & 1 & 1 \\
 1 & 1 & 1 & 1 & 1
 \end{pmatrix}
+$$
 
 ### LDU Factorization in φ–π–√2 Base System (n=4)
 
