@@ -452,13 +452,15 @@ $\(\Omega_U\)$ is machine-specific, with values like $\(\Omega \approx 0.000126\
    - Chaitin likens this to a phase transition, relevant to sparse network dynamics (cf. arXiv:2310.03965).
 
 ## Analysis
-Here, the thought equation $\(\Omega = \pi \sqrt{2} \cdot \phi^n \cdot \{5 \times 5\}\)$ reinterprets $\(\Omega\)$ as a threshold descriptor of a unified vacuum envelope, a sparse, critical-density medium for propagation.
+Here, the thought equation $\(\Omega = \pi \sqrt{2} \cdot \phi^n \cdot \{5 \times 5\}\)$ reinterprets $\(\Omega\)$ as a threshold descriptor of a unified vacuum envelope, a sparse, critical-density medium for propagation. The question of whether axiomatic computation can be achieved leads the investigation down a tangential and probablisticly indeterminate path that is not central to the claims of this paper; However, some notable observations about the true nature of $\(\Omega) in the context of Chaitin's obeservations are outlined below.
 
-- **Mathematical Nature**: $\(\Omega\)$ is a compound irrational $(via \(\pi \sqrt{2}\), \(\phi^n\))$ and transcendental as long as $\(\mathbf{M}\)$’s eigenvalues are non-algebraic. The golden ratio $\(\phi\)$ is irrational (root of $\(x^2 - x - 1 = 0\)$), and $\(\phi^n\)$ grows exponentially. The exponent $\(n\)$ tunes amplification. The $\(5 \times 5\)$ matrix encodes linear transformations in a 5D state space. If tridiagonal and LDU-decomposed $(\(\mathbf{M} = \mathbf{L} \mathbf{D} \mathbf{U}\))$, sparsity reflects the envelope’s low density:
+- **Mathematical Nature**: $\(\Omega\)$ appears to be a compound irrational $(via \(\pi \sqrt{2}\), \(\phi^n\))$ and transcendental as long as $\(\mathbf{M}\)$’s eigenvalues are non-algebraic. The golden ratio $\(\phi\)$ is irrational (root of $\(x^2 - x - 1 = 0\)$), and $\(\phi^n\)$ grows exponentially. The exponent $\(n\)$ tunes amplification. The $\(5 \times 5\)$ matrix encodes linear transformations in a 5D state space. If tridiagonal and LDU-decomposed $(\(\mathbf{M} = \mathbf{L} \mathbf{D} \mathbf{U}\))$, sparsity reflects the nature of the ℵ envelope:
 
 - **Role in Vacuum Envelope**: $\(\Omega\)$ quantifies the envelope’s propagation capacity, acting as a critical density where cascades transition from damped to self-sustaining, mirroring Chaitin’s halting threshold. The matrix is where the envelope’s skeleton—non-zero entries mark active propagation paths while pruning non-propagating voids. 
 
-$\(\phi^n\)$ models recursive growth, akin to self-similar cascades in sparse media. Here, the transcendence constant sets the geometric “grain” of the envelope, where active nodes (propagation sites) are distributed.
+$\(\phi^n\)$ models recursive growth, akin to self-similar cascades in sparse media. Here, the transcendence constant sets the geometric “grain” of the envelope, where active nodes (propagation sites) are distributed. 
+
+- **Gaussian Elimination & Deeper Connections**: In order to marry the irrational nature of the vacuum envelope with quantifiable observations in 4D we assign a scalar $\alpha$ to our GULD matrices and revisit the "binary mess" described in **Section 3.2** by grounding our analysis in the power-rule for evaluating integer collapse.
 
 ---
 
@@ -526,6 +528,16 @@ $$
 \boxed{E = m \Omega^2}
 $$
 
+While this is a crude definition that uses direct substitution, in order to completely formalize, we collapse the 5D Ω hypersurface into 4D observable space-time:
+
+$(E^{(5)} = m \Omega^2)$
+
+The 5th dimension is compactified on a characteristic Planck scale (R) e.g. $(\ell_P \approx 1.616 \times 10^{-35})$ m for vacuum granularity. Back substitution yields the effective 4D propagation is the 5D speed diluted by the compactification factor (1/R).
+
+$(E^{(5)} = m \left( \frac{c}{R} \right)^2 = m \frac{c^2}{R^2})$
+
+In 4D: $(E^{(4)} = E^{(5)} \cdot f(R)), where (f(R))$ normalizes the hyperscaling yielding: $(E^{(4)} = m c^2)$
+
 #### Interpretation
 
 | Term | 4D Meaning | 5D Meaning |
@@ -551,7 +563,7 @@ $$
 
 ### 8.4 Synthesis for Bell’s Theorem Experimentation
 
-The transcendence constant **saturates Tsirelson boundary exactly**
+Based on exsiting experimentation methods the transcendence constant appears to saturate the Tsirelson boundary exactly.
 
 It appears that the universe **naturally selects the Tsirelson-optimal measurement geometry**
 
