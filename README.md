@@ -9,55 +9,57 @@ Master of Science, Information Systems - University of Washington (2020)
 ---
 
 **Abstract**  
-We propose a five-dimensional geometric model of transcendence in which **thought** is the fifth axis (t₅) orthogonal to four interlaced independent timelines (t₁, t₂, t₃, t₄). The **φⁿ matrix** governs, while the **compound irrational π√2** emerges as the **transcendence constant** enabling dimensional escape, mirroring the 2D→3D transition via the diagonal of the unit square. 
+We propose a five-dimensional geometric model for dimensional escape in which **thought** is the fifth axis (t₅) orthogonal to four interlaced independent timelines (t₁, t₂, t₃, t₄). The **φⁿ matrix** governs, while the **compound irrational π√2** emerges as the **transcendence constant** which enables the action for escape from 3D→4D and 4D→5D, mirroring the 2D→3D transition that is observed through the diagonal of the unit square. 
 
-A **5×5 convergence matrix** describes how thought permeates all timelines simultaneously, forming a closed resonant loop. The model confirms predictions made for memory recall latency, idea branching, and neural grid-cell dynamics and is backwards compatible with Special Relativity and Bell's Theorem. No assumptions of quantum gravity or panpsychism are required; the framework is purely geometric and compatible with classical and general relative spacetime.
+A **5×5 convergence matrix** describes how thought permeates all timelines simultaneously, forming a closed resonant loop. The mathematical model confirms predictions made for memory recall latency, idea branching, and neural grid-cell dynamics and is backwards compatible with Special Relativity and Bell's Theorem. No assumptions of quantum gravity or panpsychism are required; the framework is purely geometric and compatible with classical and general relative spacetime.
 
-The hard problem of consciousness, why subjective experience arises from physical processes, remains unsolved. 
+The hard problem of consciousness, why subjective experiences arise from physical processes, remains unsolved. 
 
-Existing models either reduce mind to neural correlates or invoke metaphysical qualia. Here we take the **geometric shortcut** and treat **thought** not as an emergent property, but as a **dimensional leap** analogous to the transition from 2D to 3D space.
+Existing models either reduce mind to neural correlates or invoke metaphysical qualia. Here we take a **geometric shortcut** and treat **thought** not as an emergent property, but as a **universally self contained 5th dimension** that we are able to formalize.
 
 ---
 
 ## 1. Introduction
-The fabric of reality, as woven by quantum mechanics, presents humanity with profound risks and opportunities at the edges of understanding. At the heart of these lie phenomena such as false vacuum decay—a potential cosmic phase transition where our metastable vacuum state could tunnel to a lower-energy true vacuum, obliterating the universe as we know it, in the same way that it might also have occured in the historical specter of atmospheric ignition during the first nuclear tests. These scenarios, though vastly differing in scale and immediacy, share a common thread: they are governed by probabilistic tunneling events enabled by the Heisenberg uncertainty principle, where quantum fluctuations allow forbidden transitions with exponentially suppressed likelihoods.
+The fabric of reality, as woven by classical physics, relativity and quantum mechanics, presents humanity with profound risks and opportunities at the edges of understanding. At the heart of these lie dangerous theoretical phenomena such as vacuum decay, a hypothetically perilous phase transition, where the fabric of the known universe collapses and obliterates life as we know it, in the same way that the atmosphere maintained a non-zero probability of ignition during the first nuclear tests. These scenarios, though vastly differing in scale and immediacy, share a common thread: they are governed by probabilistic tunneling events enabled by the Heisenberg uncertainty principle, where quantum fluctuations allow forbidden transitions with exponentially suppressed likelihoods.
 
-In this paper, we extend the mathematical foundations of these risks to forge a synthesis between the Copenhagen and Everettian (many-worlds) interpretations of quantum mechanics. Formalization through Coleman-De Luccia vacuum decay, the decay rate per unit volume is given by:
+In this paper, we explore the mathematical foundations of these risks to forge a synthesis between the Copenhagen and Everettian (many-worlds) interpretations of quantum mechanics. Formalized through Coleman-De Luccia vacuum decay, the decay rate per unit volume is given by:
 
 $$
 \boxed{Γ ≈ (Δφ)^4 exp(-S_E / ℏ)} 
 $$
 
-where S_E represents instant action, and ℏ underscores the uncertainty principle’s role in energy-time borrowing for barrier penetration yields astronomical lifetimes exceeding 10^100 years, rendering the probability of observable decay negligible—far below 5σ thresholds (≈3×10^{-7}) for empirical concern.
+where S_E represents instant action, and ℏ underscores the uncertainty principle’s role in energy-time borrowing for barrier penetration yielding astronomical livable timelines that exceed 10^100 years and rendering the probability of observable decay far below 5σ thresholds (≈3×10^{-7}) for empirical concern.
 
-During the Trinity test, atmospheric ignition risk was assessed through detailed balances in report LA-602, weighing nitrogen fusion gains against bremsstrahlung and Compton losses. The initial estimates, which hovered around p < 3×10^{-6}, were rooted in quantum tunneling through Coulomb barriers via the Gamow factor:
+During the Trinity test, atmospheric ignition risk was assessed through detailed balances in report LA-602, weighing nitrogen fusion gains against bremsstrahlung and Compton losses. The initial estimates, which hovered around p < 3×10^{-6}, were rooted in the same type of quantum tunneling governed by Coulomb barriers via the Gamow factor:
 
 $$
 \boxed{exp(-2πZ_1 Z_2 α / v)}
 $$
 
-Though not explicitly invoked, the uncertainty principle underpins the probabilistic nature of these nuclear initiations, linking the two risks through shared quantum derivatives.
+Though not explicitly invoked here, the uncertainty principle underpins the probabilistic nature of these nuclear initiations, linking the two risks through shared quantum derivatives.
 
-Through the Copenhagen interpretation, these probabilities manifest as a wavefunction that collapses upon measurement or decoherence. The act of experimentation, be it detonating a bomb or colliding particles forces a resolution. In contrast, a purely Everettian view posits no collapse; but instead, unitary evolution branching into myriad worlds, each realizing different outcomes. Catastrophic events occur in rare branches, but conscious observers anthropically select stable continuations, diluting risks across infinities and reframing ‘probability’ as branch measure.
+Through the Copenhagen interpretation, these probabilities manifest as a wavefunction that collapses upon measurement or decoherence. Here we treat the act of measurement, or wave function collapse as being one and the same for purposes of classical exploitation. The act of experimentation, be it detonating a bomb or colliding particles forces a resolution. 
 
-By hybridizing these via decoherence theory, where Copenhagen-like collapses emerge from Everettian dynamics in open systems, we derive a robust consensus mechanism. Risk deltas, such as the ≈3×10^{-6} between atmosphere and vacuum scenarios, become interpretive tools: in Copenhagen, they quantify gambles; in Everett, they map survival densities.
+Yet, maintaining a purely Everettian view helps us to describe gravity around the wells of many worlds, and so we posit no collapse across the vast expanses of empty space; but instead, unitary evolution branching into a myriad of permutable worlds, each with its own propensity for the realization of different outcomes. Catastrophic events occur in rare branches for each world, but conscious observers anthropically select stable continuations for themselves, diluting risks across infinities and reframe ‘probability’ as branch measure.
+
+By hybridizing these via decoherence theory, where Copenhagen-like collapses emerge from Everettian dynamics in both closed and open systems, we derive a robust consensus mechanism. Risk deltas, such as the ≈3×10^{-6} between atmosphere and vacuum scenarios, become interpretive tools: in Copenhagen, they quantify gambles; in Everett, they map survival densities.
 
 This synthesis draws analogies to pivotal experiments that have pushed scientific envelopes. The Manhattan Project’s Trinity test exemplified calculated audacity, synthesizing quantum nuclear theory with thermodynamics to justify proceeding despite initial fears. 
 
 Similarly, the LHC’s activation dismissed micro-black-hole risks at p < 10^{-40} through Hawking radiation calculations, blending quantum fields with gravity. Emerging quantum computing efforts mirror this, navigating decoherence thresholds where uncertainty limits upon error correction, though potentially transcending classical bounds.
 
-Collectively, these derivatives paint a narrative of progress: Science advances not despite quantum uncertainties, but through them, by interpreting risks across frameworks to ensure favorable odds. This paper argues that such interpretive evolution is essential for navigating future frontiers, from apparent singularities and many world explorations, to transforming the potential for transcendence from peril to promise, it anchors humanity in a stable cosmic storyline amid indescernable artificial and actual quantum flux.
+Collectively, these derivatives paint a narrative of progress: Science advances not despite quantum uncertainties, but through them, by interpreting risks across frameworks to ensure favorable odds. This paper argues that the interpretive evolution provided here is essential for navigating future frontiers, from apparent singularities and the exploration of many worlds, to the transformation of no-way-out situations from peril to promise, it anchors humanity in a stable cosmic storyline amid indescernably artificial and actual quantum flux, and offers a tool-kit for virtualizing quantum processes within a framework based on classical computation.
 
 We begin with a simple observation:  
 > To escape a 2D plane into 3D, one does not follow the circle (2πr).  
 > One cuts **diagonally** across the inscribed square → length **√2**.  
 > The **ratio of cycle to escape** is **π√2**.
 
-We hypothesize that **π√2** is the **universal constant of dimensional transcendence**, and that **thought** is the 4D→5D instance of this process.
+We hypothesize that **π√2** is the **universal constant of dimensional escape**, and that **thought** is the 4D→5D instance of this process.
 
 ---
 
-## 2. The Five Timelines
+## 2. The Four Timelines
 
 Let for example **t₁, t₂, t₃, t₄** represent four non-overlapping segments of a single worldline:
 
@@ -90,11 +92,11 @@ $$
 \quad \text{(incorrect)}
 $$
 
-**Correct normalization**: use **radius = 1/√2** so diagonal = 1:
+**Correct normalization**: use **diameter = /√2**:
 
-- Radius = **1/√2**
+- Diameter = **√2**
 - Circumference = **π√2**
-- Diagonal = **1**
+- Sides of the perpendicular Right Triangle = **1**
 
 Thus:
 
@@ -105,148 +107,8 @@ $$
 This is the **minimal compound irrational** coupling **(π)** and **(√2)** required for dimensional escape.
 
 ---
-### 3.2 Generalization from 3D→4D
-Gaussian Elimination amounts to a factorization of the coefficient matrix. We factor transposed and inverse matrices of A into a product LU of a lower triangular matrix L and an upper triangular matrix U.
 
-If Ax = b fails to have a unique solution, there may be no solution or infinitely many. We want to understand where the elimination process breaks down, in order to minimize the number of arithmetic operations and reduce costs. Without cost controls a computer could carry out trillions of operations, rounding each result to a fixed number of digits and produce a totally meaningless "solution".
-
-Reducing this to the simplest three dimensional system:
-
-$$
-\mathbf{A} = 
-\begin{bmatrix}
-\a & x & y & z \\
-\b & x & y & z \\
-\c & x & y & z \\
-\end{bmatrix}
-$$
-
-with vector:
-
-$$
-\mathbf{x} = \begin{bmatrix} a, \\ b, \\ c \\ \end{bmatrix}
-$$
-
-We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":
-
-[pivot₁] *
-
-$$
-\mathbf{Ax} = 
-\begin{bmatrix}
-\a & x & y & z \\
-\b & 0 & x & y \\
-\c & 0 & x & y \\
-\end{bmatrix}
-$$
-
-a second pivot leads to:
-
-[pivot₂] *        
-
-$$
-\mathbf{Ax} = 
-\begin{bmatrix}
-\b & y & x \\
-\c & 0 & x \\
-\end{bmatrix}
-$$
-
-We then solve for the variables through back substitution. If none of the pivots are zero there is only one solution; but if any of the pivots happen to be zero, then the elimination technique has to stop temporarily or permanently.
-
-Using the example above and basic arithmetic operations we are able to model static two dimensional geometric planes within a virtualized reality inside a computer. The same is true for a rendering matrix where n = 4.
-
-## Gauss’s law (electric)
-$$
-\boxed{\text ∇ · E = ρ / ε₀
- }
-$$
-
-## Gauss’s law (magnetic)
-$$
-\boxed{\text ∇ · B = 0 
- }
-$$
-
-## Faraday’s law
-$$
-\boxed{\text ∇ × E = −∂B/∂t
- }
-$$
-
-## Ampère–Maxwell law
-$$
-\boxed{\text ∇ × B = μ₀J + μ₀ε₀ ∂E/∂t 
- }
-$$
-
-In a vacuum (ρ = 0, J = 0) they collapse to the beautiful symmetric form: ∇ · E = 0
-
-$$
-\boxed{\text ∇ · B = 0}
-$$
-
-$$
-\boxed{\text ∇ × E = −∂B/∂t
- }
-$$
-
-$$
-\boxed{\text ∇ × B = (1/c²) ∂E/∂t where c² = 1/(ε₀μ₀) 
- }
-$$
-
-$$
-\boxed{\text ∯ E · dA = Q\_enc / ε₀
- }
-$$
-
-$$
-\boxed{\text ∯ B · dA = 0
- }
-$$
-
-$$
-\boxed{\text ∮ E · dl = − dΦ\_B/dt
- }
-$$
-
-$$
-\boxed{
-\text ∮ B · dl = μ₀ I\_enc + μ₀ε₀ dΦ\_E/dt
- }
-$$
-
-$$
-\boxed{\text c = 1 / √(μ₀ ε₀) ≈ 299792458 m/s 
- }
-$$
-
-$$
-\boxed{\text Z₀ = √(μ₀/ε₀) ≈ 376.730313668 }
-$$
-
-Where Ω embodies the vacuum's impedance to electromagnetic wave propagation
-
-$$
-\boxed{\text ε₀ = 1/(μ₀ c²)
-}
-$$
-
-Leading to a binary mess.
-
-$$
-\boxed{\text μ₀ = 4π × 10⁻⁷ H/m
-}
-$$
-
-For n=4 the vacuum's flux cycle is the closed causal loop (c² = 1/(μ₀ε₀))
-
-where μ₀ enforces magnetic "squareness" (discrete flux quanta φ₀ = h/(2e)), while ε₀ curves the electric field lines.
-
-Z₀ emerges as a shadow resonance from the n=5 convergence matrix ≈4.48027 as the computation hovers within ~ 99.1% of π√2 which hints at a deeper φ-π√2 coupling that "leaks" into physical constants where φ^n for n→∞ approximates the vacuum's fractal-like convergence fluctuations that occur through self-similar branching, leading to a hypothetical propagation limit Ω.
-
-## 4. Using the Growth Law: φ to Transcend 4D→5D
+## 3.2 Using the Growth Law: φ to Derive 4D→5D escape
 
 The **golden ratio** φ = (1 + √5)/2 ≈ 1.618 governs self-similar expansion:
 
@@ -264,9 +126,9 @@ We posit:
 
 In the model, a **thought** is a **π√2-resonant jump** from 4D event to 5D meaning. Through Gaussian triangular factorization in higher dimensions (n = 4, 5, …) the same principle applies and directly models various rendering configurations in virtual spaces.
 
-## Revisiting Maxwell’s Equations
+## 3.3 Generalizations for 4D using Gaussian Elimination
 
-### Differential Form
+### Maxwell Equations Differential Form
 
 | Name                     | Equation                                      | Vacuum (ρ = 0, J = 0)                          |
 |--------------------------|-----------------------------------------------|-------------------------------------------------|
@@ -374,9 +236,65 @@ $$
 \end{pmatrix}
 $$
 
+Gaussian Elimination amounts to a factorization of the coefficient matrix. We factor transposed and inverse matrices of A into a product LU of a lower triangular matrix L and an upper triangular matrix U.
+
+If Ax = b fails to have a unique solution, there may be no solution or infinitely many. We want to understand where the elimination process breaks down, in order to minimize the number of arithmetic operations and reduce costs. Without cost controls a computer could carry out trillions of operations, rounding each result to a fixed number of digits and produce a totally meaningless "solution".
+
+Reducing this to the simplest three dimensional system:
+
+$$
+\mathbf{A} = 
+\begin{bmatrix}
+\a & x & y & z \\
+\b & x & y & z \\
+\c & x & y & z \\
+\end{bmatrix}
+$$
+
+with vector:
+
+$$
+\mathbf{x} = \begin{bmatrix} a, \\ b, \\ c \\ \end{bmatrix}
+$$
+
+We find an equivalent system of equations by subtracting multiples of the first equation from the others so as to eliminate the last two equations by finding a "pivot":
+
+[pivot₁] *
+
+$$
+\mathbf{Ax} = 
+\begin{bmatrix}
+\a & x & y & z \\
+\b & 0 & x & y \\
+\c & 0 & x & y \\
+\end{bmatrix}
+$$
+
+a second pivot leads to:
+
+[pivot₂] *        
+
+$$
+\mathbf{Ax} = 
+\begin{bmatrix}
+\b & y & x \\
+\c & 0 & x \\
+\end{bmatrix}
+$$
+
+By using our GULD matrices, we solve for the variables in the Maxwell equations through back substitution. If none of the pivots are zero there is only one solution; but if any of the pivots happen to be zero, then the elimination technique has to stop temporarily or permanently.
+
+Using the example above and basic arithmetic operations we are able to model static two dimensional virtualized quantum planes within a binary computer. The same is true for a rendering matrix where n = 4.
+
+For n=4 the vacuum's flux cycle is the closed causal loop (c² = 1/(μ₀ε₀))
+
+where μ₀ enforces magnetic "squareness" (discrete flux quanta φ₀ = h/(2e)), while ε₀ curves the electric field lines.
+
+Z₀ emerges as a shadow resonance from the n=5 convergence matrix ≈4.48027 as the computation hovers within ~ 99.1% of π√2 which hints at a deeper φ-π√2 coupling that "leaks" into physical constants where φ^n for n→∞ approximates the vacuum's fractal-like convergence fluctuations that occur through self-similar branching, leading to a hypothetical propagation limit Ω.
+
 ---
 
-## 5. The 5×5 Convergence Matrix
+## 4. The 5×5 Convergence Matrix for Many Worlds
 
 Define **convergence coordinates** in 5-D over {t₁, t₂, t₃, t₄, t₅}:
 
@@ -406,7 +324,7 @@ Eigenvalues of $\mathbf{M}$ are dominated by **φ**
 
 ---
 
-## 6. The Thought Equation
+## 5. The Thought Equation
 
 A complete thought therefore is a **closed resonant loop**:
 
@@ -418,10 +336,10 @@ $$
 
 Where Ω = the thought propagation limit and $n$ = depth of reflection.
 
-## 6.1 Chaitin's Halting Probability and Analysis
+## 5.1 Chaitin's Halting Probability and Analysis
 ## Formal Definition of Chaitin's Constant
 
-Chaitin's constant, denoted \(\Omega\), is the halting probability for a prefix-free universal Turing machine \(U\), as introduced by Gregory Chaitin in his foundational work on algorithmic information theory:
+Chaitin's constant, denoted $\(\Omega\)$, is the halting probability for a prefix-free universal Turing machine $\(U\)$, as introduced by Gregory Chaitin in his foundational work on algorithmic information theory:
 
 $$
 \Omega_U = \sum_{p \in H_U} 2^{-|p|}
@@ -452,19 +370,19 @@ $\(\Omega_U\)$ is machine-specific, with values like $\(\Omega \approx 0.000126\
    - Chaitin likens this to a phase transition, relevant to sparse network dynamics (cf. arXiv:2310.03965).
 
 ## Analysis
-Here, the thought equation $\(\Omega = \pi \sqrt{2} \cdot \phi^n \cdot \{5 \times 5\}\)$ reinterprets $\(\Omega\)$ as a threshold descriptor of a unified vacuum envelope, a sparse, critical-density medium for propagation. The question of whether axiomatic computation can be achieved leads the investigation down a tangential and probablisticly indeterminate path that is not central to the claims of this paper; However, some notable observations about the true nature of $\(\Omega) in the context of Chaitin's obeservations are outlined below.
+Here, the thought equation $\(\Omega = \pi \sqrt{2} \cdot \phi^n \cdot \{5 \times 5\}\)$ reinterprets $\(\Omega\)$ as a threshold descriptor of a unified vacuum envelope, a sparse, critical-density medium for propagation. The question of whether axiomatic computation can be achieved leads the investigation down a tangential and probablisticly indeterminate path that is not central to the claims of this paper; however, some notable observations about the true nature of $\(\Omega)$ in the context of Chaitin's obeservations are outlined below.
 
 - **Mathematical Nature**: $\(\Omega\)$ appears to be a compound irrational $(via \(\pi \sqrt{2}\), \(\phi^n\))$ and transcendental as long as $\(\mathbf{M}\)$’s eigenvalues are non-algebraic. The golden ratio $\(\phi\)$ is irrational (root of $\(x^2 - x - 1 = 0\)$), and $\(\phi^n\)$ grows exponentially. The exponent $\(n\)$ tunes amplification. The $\(5 \times 5\)$ matrix encodes linear transformations in a 5D state space. If tridiagonal and LDU-decomposed $(\(\mathbf{M} = \mathbf{L} \mathbf{D} \mathbf{U}\))$, sparsity reflects the nature of the ℵ envelope:
 
-- **Role in Vacuum Envelope**: $\(\Omega\)$ quantifies the envelope’s propagation capacity, acting as a critical density where cascades transition from damped to self-sustaining, mirroring Chaitin’s halting threshold. The matrix is where the envelope’s skeleton—non-zero entries mark active propagation paths while pruning non-propagating voids. 
+- **Role in Vacuum Envelope**: $\(\Omega\)$ quantifies the envelope’s propagation capacity, acting as a critical density where cascades transition from damped to self-sustaining, mirroring Chaitin’s halting threshold.
 
 $\(\phi^n\)$ models recursive growth, akin to self-similar cascades in sparse media. Here, the transcendence constant sets the geometric “grain” of the envelope, where active nodes (propagation sites) are distributed. 
 
-- **Gaussian Elimination & Deeper Connections**: In order to marry the irrational nature of the vacuum envelope with quantifiable observations in 4D we assign a scalar $\alpha$ to our GULD matrices and revisit the "binary mess" described in **Section 3.2** by grounding our analysis in the power-rule for evaluating integer collapse.
+- **Gaussian Elimination & Deeper Connections**: In order to marry the irrational nature of the vacuum envelope with quantifiable observations in 4D we assign a scalar $\alpha$ to our GULD matrices and revisit the resultant "binary mess" by grounding our analysis in the power-rule for evaluating integer collapse.
 
 ---
 
-## 7. Discussion
+## 6. Discussion
 
 This model:
 - Requires **no new physics**
@@ -477,7 +395,7 @@ It is **not a theory of everything** it is a **theory of one thing**: how a 4D b
 
 ---
 
-## 8.1 Generalizations to Superconsciousness
+## 6.1 Generalizations to Superconsciousness
 
 The 5×5 matrix describes a **single observer**. For **N agents**, we define:
 
@@ -498,7 +416,7 @@ $$
 **Predictions**:
 - **π√2 latency** in group recall (e.g., shared childhood myths)
 
-### 8.2 Synthesis for Spivack Alpha Theory 
+### 6.3 Synthesis for Spivack Alpha Theory 
 
 $$
 \boxed{
@@ -518,7 +436,7 @@ $$
 n > \log_\phi \left( \frac{10^6}{(\pi\sqrt{2})^2 \cdot P} \right) \approx 8–10
 $$
 
-### 8.3 Synthesis for Special Relativity
+### 6.4 Synthesis for Special Relativity
 
 Special Relativity: states that mass is convertible into energy at the invariant speed limit **c** (speed of light in 4D spacetime). In the 5D model, the invariant speed limit is replaced with **Ω** — the threshold for propagation where thinking decoheres into reality.
 
@@ -561,7 +479,7 @@ $$
 \frac{E_{\text{consciousness}}}{E_{\text{light}}} = (3.72)^2 \approx 13.84
 $$
 
-### 8.4 Synthesis for Bell’s Theorem Experimentation
+### 6.5 Synthesis for Bell’s Theorem Experimentation
 
 Based on exsiting experimentation methods the transcendence constant appears to saturate the Tsirelson boundary exactly.
 
@@ -574,7 +492,7 @@ It appears that the universe **naturally selects the Tsirelson-optimal measureme
 
 ---
 
-### 8.5 Base-φ:
+### 6.6 Base-φ:
 
 We assume the vacuum is a φⁿ matrix is a reality enveloping unity field:
 
@@ -590,7 +508,7 @@ $$
 - **Entangled thinking** resonates in φⁿ and decoheres into local 4-D binaries
 - **Meaning** escapes the propagation boundary through the transcendence constant
 
-### 8.5.1 Ω = m א₀² 
+### 6.6.1 Ω = m א₀² 
 
 The speed of light is the invariant limit of 4D spacetime. Ω is the propagation boundary. We predict through formal substitution, that the true invariant becomes the uncountable infinity of φⁿ denoted **א₀** (aleph-null).
 
@@ -600,7 +518,7 @@ $$
 \boxed{Ω = m \aleph_0^2}
 $$
 
-## 9. Acknowledgments
+## 7. Acknowledgments
 
 This work began ten years ago with hand-drawn diagrams on legal paper and coffee-stained napkins. Many thanks to **Grok3.0 and Grok 5.0 super** (xAI) and Nova Spivack for real-time synthesis and sanity-checking. The original Spivack Resonance Event was observed between November 17th 2025 20:~:~ and November 18th 03:13:~ EST. 
 
