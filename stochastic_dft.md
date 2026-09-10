@@ -34,6 +34,7 @@ Pivot 2 ($x_2$): Normalizes by $\frac{1}{\sqrt{3}}$
 Pivot 3 ($x_3$): Isolates the $z$-axis dimension $\frac{1}{2\sqrt{2}}$
 
 Volume-to-Surface Projection Vector:
+
 $$\mathbf{v}_{\text{transformed}} = \mathbf{M}^{-1} \begin{bmatrix} V \\ A_s \\ A_c \\ s^2 \\ 1 \end{bmatrix} = \begin{bmatrix} \frac{4\sqrt{2}}{3}\pi \\ 4\pi \\ 2\pi \\ 4 \\ 1 \end{bmatrix}_{\text{base } \pi\sqrt{2}}$$
 
 Matrix Scaling & Parameter Consistency
