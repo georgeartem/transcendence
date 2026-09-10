@@ -165,15 +165,18 @@ When you run a Monte Carlo simulation over a large ensemble of photons (\(N \to 
 $$\(\langle E_{\text{kinetic}}\rangle =\frac{1}{N}\sum _{j=1}^{N}E_{k,j}\rightarrow \sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
 
 Reverting to Einstein-Linearity:
-For this ensemble average to collapse back exactly into the classic Einstein-Linear form $\(\langle E_{\text{kinetic}} \rangle = \alpha E_{\text{photon}} - \bar{\Phi}\)$, the "gravitational/lambda fudge" factor must satisfy a specific normalization condition across the surface area geometry:
-$$\(\sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \mathcal{G}(\rho _{k})=1\)$$
+For this ensemble average to collapse back exactly into the classic Einstein-Linear form: 
+$$\($\langle E_{\text{kinetic}} \rangle = \alpha E_{\text{photon}} - \bar{\Phi}\$)$$ 
+The "gravitational/lambda fudge" factor must satisfy a specific normalization condition across the surface area geometry:
+$$\($\sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \mathcal{G}(\rho _{k})=1\$)$$
 
 If this condition is met, the stochastic variations act purely as quantum fluctuations around a linear macroscopic expectation value, proving that local discrete "luck" scales up to global deterministic physics.
 
 Stochastic DFT Simulation Framework Logic:
-  Initialize Voxel Grid (Surface Area SA)
-  Assign Kohn-Sham electron densities ρ(k) and local potentials Φ(k) to each voxel
-  Define Photon energy E_photon (incorporating effective mass/lambda shifts)
+  
+   1. Initialize Voxel Grid (Surface Area SA)
+   2. Assign Kohn-Sham electron densities ρ(k) and local potentials Φ(k) to each voxel
+   3. Define Photon energy E_photon (incorporating effective mass/lambda shifts)
 
     Loop for each Photon (1 to N):
         1. Distribute Photon wavefunction across SA voxels -> P_photon(k)
@@ -187,9 +190,10 @@ Stochastic DFT Simulation Framework Logic:
     Compute Average: <E_kinetic> = Sum(E_kinetic) / N_successful
     Plot <E_kinetic> vs E_photon to verify linearity (Slope = 1 or α)
 
-The "Lambda/Gravitational" Normalization: If lambda \(\Lambda \) represents a discrete spatial background energy density or a voxel-stretching metric distortion, it directly modifies either:
-   1. The voxel volume element \(\dV \), which changes the local integration weight of \(\rho _{k}\).
-   2. The photon's effective mass, shifts the baseline \(E_{\text{photon}}\) relative to the flat-space frequency.
+The "Lambda/Gravitational" Normalization: If lambda \($\Lambda \$) represents a discrete spatial background energy density or a voxel-stretching metric distortion, it directly modifies either:
+
+   1. The voxel volume element \($\dV \$), which changes the local integration weight of \($\rho _{k}\$).
+   2. The photon's effective mass, shifts the baseline \($E_{\text{photon}}\$) relative to the flat-space frequency.
 
 By tracking how many photons fail to emerge (getting "unlucky" due to localized energy deficits or phase mismatches), the Monte Carlo simulation can directly calculate the effective cosmological/gravitational damping coefficient of the surface. Two specific use cases are presented for further modeling.
 
