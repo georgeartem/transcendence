@@ -157,7 +157,7 @@ Treating $V(\omega)$ as a Discrete Spectral Supremum where $\omega$ is $\aleph_0
 
 $$($\lim_{N \to \omega} \vert{} \psi_N \rangle$)$$ 
 
-The work function ($\Phi = V(\omega) - E_F$) rigorously marks the spectral boundary separating bound point-spectrum eigenvalues ($E_i \le E_F$) from the continuous spectrum ($E \ge V(\omega)$).
+The work function ($\Phi = V(\omega) - E_F$) rigorously marks the spectral boundary separating bound point-spectrum eigenvalues ($E_i \le E_F$) from the continuous spectrum E \ge V(\omega).
 
 Preconditioning via Boundary Truncation:
 Filtering out density residuals whose effective energy exceeds $V(\omega)$ is mathematically equivalent to projecting the density matrix onto the occupied + low-lying unoccupied subspace ($\mathcal{P}_{\text{bound}}$), which avoids wasting FLOPs on unphysical high-frequency vacuum states during early SCF cycles.
@@ -166,17 +166,17 @@ To bridge the gap between the discrete voxel-level stochastic fluctuations (the 
 
 $$(\mathcal{G}(\rho_k)\): \(E_{k,j}=\left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
 
-When you run a Monte Carlo simulation over a large ensemble of photons ($\(N \to \infty\)$) striking the surface area, the expected value (macroscopic measured energy \($\langle E_{\text{kinetic}} \rangle\)$) is the integral over all voxels weighted by their selection probability ($\(P_{\text{emit}}(k)\)$):
+When you run a Monte Carlo simulation over a large ensemble of photons $N \to \infty$ striking the surface area, the expected macroscopic measured energy \langle E_{\text{kinetic}} \rangle is the integral over all voxels weighted by their selection probability (P_{\text{emit}}(k)):
 
 $$(\langle E_{\text{kinetic}}\rangle =\frac{1}{N}\sum _{j=1}^{N}E_{k,j}\rightarrow \sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
 
-Reverting to Einstein-Linearity:
+***Reverting to Einstein-Linearity:***
 
 For this ensemble average to collapse back exactly into the classic Einstein-Linear form: 
 ($\langle E_{\text{kinetic}} \rangle = \alpha E_{\text{photon}} - \bar{\Phi}\$) 
 
 The "gravitational/lambda fudge" factor must satisfy a specific normalization condition across the surface area geometry:
-($\sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \mathcal{G}(\rho _{k})=1\$)
+\sum_{k \in \text{SA}} P_{\text{emit}}(k) \cdot \mathcal{G}(\rho_k) = 1
 
 If this condition is met, the stochastic variations act purely as quantum fluctuations around a linear macroscopic expectation value, proving that local discrete "luck" scales up to global deterministic physics.
 
