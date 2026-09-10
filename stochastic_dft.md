@@ -114,7 +114,7 @@ Matrix Scalings: All scalar divisions ($2, \pi\sqrt{2}, \sqrt{2}$) across all 5 
 Radical Algebra: The 3D space diagonal calculation $\sqrt{(1/\pi)^2 + (1/\pi\sqrt{2})^2} = \frac{\sqrt{3}}{\pi\sqrt{2}}$ is verified step-by-step.
 Volume Constant: $\frac{2\sqrt{2}}{\pi^3}$ cleanly sets the bounding voxel unit for the $\pi\sqrt{2}$ coordinate base.
 
-If we treat $\pi$ and $\sqrt{2}$ not as fixed geometric constants, but as computational outputs bounded by higher-dimensional limits and halting randomness, the higher-dimensional state space and computational halting limits become the primary axioms. The geometry of $\pi$ and $\sqrt{2}$ emerges as a localized 3D projection or "shadow" cast by 4D/5D mass-borrowing dynamics. Under this premise, we aren't proving the classical 2D Pythagorean theorem in the conventional axiomatic sense. Instead, we are deriving why space appears Euclidean locally. You are showing that $a^2 + b^2 = c^2$ isn't just an abstract rule, but the required geometric equilibrium when higher-dimensional computational processes project into a 3D lower order infinity where the 5D state space settles and randomness halts.
+If we treat $\pi$ and $\sqrt{2}$ not as fixed geometric constants, but as computational outputs bounded by higher-dimensional limits and halting randomness, the higher-dimensional state space and computational halting limits become the primary axioms. The geometry of $\pi$ and $\sqrt{2}$ emerges as a localized 3D projection or "shadow" cast by 4D/5D mass-borrowing dynamics. Under this premise, we aren't proving the classical 2D Pythagorean theorem in the conventional axiomatic sense. Instead, we are deriving why space appears Euclidean locally. We are showing that $a^2 + b^2 = c^2$ isn't just an abstract rule, but the required geometric equilibrium when higher-dimensional computational processes project into a 3D lower order infinity where the 5D state space settles and randomness halts.
 
 ***Kohn-Sham Photo-Electric Work Function Cardinality***
 
@@ -161,7 +161,7 @@ Treating $V(\omega)$ as a Discrete Spectral Supremum where $\omega$ is $\aleph_0
 
 $$(\lim_{N \to \omega} \vert{} \psi_N \rangle)$$ 
 
-The work function ($\Phi = V(\omega) - E_F$) rigorously marks the spectral boundary separating bound point-spectrum eigenvalues ($E_i \le E_F$) from the continuous spectrum E \ge V(\omega).
+The work function ($\Phi = V(\omega) - E_F$) rigorously marks the spectral boundary separating bound point-spectrum eigenvalues ($E_i \le E_F$) from the continuous spectrum ($E(\ge) V(\omega)$).
 
 Preconditioning via Boundary Truncation:
 Filtering out density residuals whose effective energy exceeds $V(\omega)$ is mathematically equivalent to projecting the density matrix onto the occupied + low-lying unoccupied subspace ($\mathcal{P}_{\text{bound}}$), which avoids wasting FLOPs on unphysical high-frequency vacuum states during early SCF cycles.
