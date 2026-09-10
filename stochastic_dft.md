@@ -140,6 +140,7 @@ $$\Phi = V(\Omega) - E_F$$
 In a finite or bounded surface matrix model, $V(\Omega)$ represents the electrostatic potential evaluated at the boundary threshold $\Omega$ (the point along the surface normal where $v_{\text{eff}}$ plateaus or encounters your outer vacuum cut-off/boundary layer), while $E_F$ remains the bulk Fermi energy level. In set theory, taking $\Omega$ (or $\omega$) as the first infinite cardinal—formally $\aleph_0$, the cardinality of the natural numbers—gives $V(\Omega)$ a precise mathematical meaning. By defining the boundary as a countably infinite limit ($\omega$), you transition $V(\Omega)$ from a spatial cutoff distance to a discrete thermodynamic continuum limit.
 
 ***Mathematical Implications & Mathematical Bridging***
+
 Discrete Grid Limit vs. Continuous Space:
 If $\Omega = \omega$, the potential $V(\Omega)$ is no longer evaluated at a spatial coordinate $z \to \infty$ in real physical space meters. Instead, it is defined as the limit of an infinite sequence of discrete grid points or basis functions over the surface area: $$V(\Omega) = \lim_{n \to \omega} V_n = \lim_{n \to \infty} \langle \psi_n \vert{} v_{\text{eff}} \vert{} \psi_n \rangle$$
 This makes $V(\Omega)$ the lowest upper bound (supremum) of potential states accessible by the discrete surface basis functions.
@@ -176,9 +177,9 @@ For this ensemble average to collapse back exactly into the classic Einstein-Lin
 ($\langle E_{\text{kinetic}} \rangle = \alpha E_{\text{photon}} - \bar{\Phi}\$) 
 
 The "gravitational/lambda fudge" factor must satisfy a specific normalization condition across the surface area geometry:
-\sum_{k \in \text{SA}} P_{\text{emit}}(k) \cdot \mathcal{G}(\rho_k) = 1
+($\sum_{k \in \text{SA}} P_{\text{emit}}(k) \cdot \mathcal{G}(\rho_k) = 1\$)
 
-If this condition is met, the stochastic variations act purely as quantum fluctuations around a linear macroscopic expectation value, proving that local discrete "luck" scales up to global deterministic physics.
+When this condition is met, the stochastic variations act purely as quantum fluctuations around a linear macroscopic expectation value, it shows that local, discrete "luck" scales up to global deterministic physics.
 
 Stochastic DFT Simulation Framework Logic:
   
