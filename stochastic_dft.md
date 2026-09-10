@@ -37,7 +37,7 @@ Volume-to-Surface Projection Vector:
 
 $$\mathbf{v}_{\text{transformed}} = \mathbf{M}^{-1} \begin{bmatrix} V \\ A_s \\ A_c \\ s^2 \\ 1 \end{bmatrix} = \begin{bmatrix} \frac{4\sqrt{2}}{3}\pi \\ 4\pi \\ 2\pi \\ 4 \\ 1 \end{bmatrix}_{\text{base } \pi\sqrt{2}}$$
 
-Matrix Scaling & Parameter Consistency
+Matrix Scaling & Parameter Consistency:
 The matrix is set up with five parameters ($C, A, R, D, SA$) across four rows, with the following verified scaling factors:
 
 $$\begin{bmatrix} C & A & R & D & SA \\ 4\pi\sqrt{2} & 4\pi & 2\sqrt{2} & 4\sqrt{2} & 8\pi \\ 2\pi\sqrt{2} & 2\pi & \sqrt{2} & 2\sqrt{2} & 4\pi \\ 2 & \sqrt{2} & 1/\pi & 2/\pi & 2\sqrt{2} \\ \sqrt{2} & 1 & 1/\pi\sqrt{2} & \sqrt{2}/\pi & 2 \end{bmatrix} \begin{matrix} 2 \\ \pi\sqrt{2} \\ \sqrt{2} \end{matrix}$$
@@ -67,7 +67,8 @@ $(2/\pi) / \sqrt{2} = \frac{\sqrt{2}}{\pi}$
 $2\sqrt{2} / \sqrt{2} = \mathbf{2}$
 Status: Correct.
 
-2. Geometric Identity & Area Checks
+Geometric Identity & Area Checks:
+
 For radius $R = \frac{1}{\pi\sqrt{2}}$ (Row 4 values):
 Diameter ($D$):
 $$D = 2R = 2 \left(\frac{1}{\pi\sqrt{2}}\right) = \frac{\sqrt{2}}{\pi}$$
@@ -83,11 +84,11 @@ Square Enclosing the Circle (Side $s = D = \sqrt{2}/\pi$):
 $$\text{Area}_{\text{square}} = s^2 = \left(\frac{\sqrt{2}}{\pi}\right)^2 = \frac{2}{\pi^2}$$
 Written Text: "Now the hemisphere unit square with side $\sqrt{2}/\pi$ has an area of $2/\pi^2$ square hemisphere units" $\rightarrow$ Correct.
 
-3. Space Diagonal Derivation (Pythagorean Calculation)
-The diagram calculates the 3D space diagonal for a bounding box with base $1/\pi$ and height $1/\pi\sqrt{2}$:
+Space Diagonal Derivation (Pythagorean Calculation) - the framework calculates the 3D space diagonal for a bounding box with base $1/\pi$ and height $1/\pi\sqrt{2}$:
+
 $$\sqrt{\left(\frac{1}{\pi}\right)^2 + \left(\frac{1}{\pi\sqrt{2}}\right)^2}$$
-Step-by-Step Evaluation:
-Square each component:
+
+Step-by-Step Evaluation: Square each component:
 $$\left(\frac{1}{\pi}\right)^2 = \frac{1}{\pi^2}$$
 $$\left(\frac{1}{\pi\sqrt{2}}\right)^2 = \frac{1}{2\pi^2}$$
 Add components with common denominator $2\pi^2$:
@@ -97,9 +98,9 @@ $$\sqrt{\frac{3}{2\pi^2}} = \frac{\sqrt{3}}{\pi\sqrt{2}}$$
 Written Result: $=\frac{\sqrt{3}}{\pi\sqrt{2}}$
 Status: Correct.
 
-4. Volumetric Unit Evaluation
-At the bottom right, the volumetric unit for the matrix frame is given as:
+Volumetric Unit Evaluation - the volumetric unit for the matrix frame is given as:
 $$\frac{2\sqrt{2}}{\pi^3} \text{ units}$$
+
 Verification:
 If the voxel bounding volume is constructed using side lengths $s_x = \frac{\sqrt{2}}{\pi}$, $s_y = \frac{\sqrt{2}}{\pi}$, and $s_z = \frac{1}{\pi\sqrt{2}}$:
 $$\text{Volume} = s_x \cdot s_y \cdot s_z = \left(\frac{\sqrt{2}}{\pi}\right) \cdot \left(\frac{\sqrt{2}}{\pi}\right) \cdot \left(\frac{1}{\pi\sqrt{2}}\right) = \frac{2}{\pi^2} \cdot \frac{1}{\pi\sqrt{2}} = \frac{2}{\pi^3\sqrt{2}} = \frac{\sqrt{2}}{\pi^3}$$
