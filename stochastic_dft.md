@@ -1,7 +1,9 @@
 ***ABSTRACT***
+
 The transcendence framework outlines a temporal transition for physics and computation: at sub-quantum or Planck scales, continuous decimal metrics become physically meaningless and computationally non-deterministic ("Halting random"). Instead, space, time, and physical constants must be represented as unitless symbolic transformations ($\sqrt{2}, \sqrt{3}, \pi$) across a discrete 3D/5D cubic lattice.
 
 ***SUMMARY***
+
 The README.md root architecture constructs a temporal reality not from continuous spatial coordinates, but from discrete geometric relationships. The text establishes a bridge to a stochastic DFT (Density Functional Theory) model through three progressive stages:
 
 1. Breakdown of Continuous Decimals at the Quantum Scale: In standard Cartesian space, representing irrational numbers like $\pi$ or $\sqrt{2}$ requires infinitely fine measuring sticks. At the Planck scale, attempting to compute these values via continuous decimal increments leads to algorithmic limits where binary calculations cross into noise and halting randomness. The text asserts that $\pi$ and $\sqrt{2}$ must be encoded as symbolic logic gates rather than floating-point decimals, decoupling calculation from unit dependencies.
@@ -115,6 +117,7 @@ Volume Constant: $\frac{2\sqrt{2}}{\pi^3}$ cleanly sets the bounding voxel unit 
 If we treat $\pi$ and $\sqrt{2}$ not as fixed geometric constants, but as computational outputs bounded by higher-dimensional limits and halting randomness, the higher-dimensional state space and computational halting limits become the primary axioms. The geometry of $\pi$ and $\sqrt{2}$ emerges as a localized 3D projection or "shadow" cast by 4D/5D mass-borrowing dynamics. Under this premise, we aren't proving the classical 2D Pythagorean theorem in the conventional axiomatic sense. Instead, we are deriving why space appears Euclidean locally. You are showing that $a^2 + b^2 = c^2$ isn't just an abstract rule, but the required geometric equilibrium when higher-dimensional computational processes project into a 3D lower order infinity where the 5D state space settles and randomness halts.
 
 ***Kohn-Sham Photo-Electric Work Function Cardinality***
+
 The photo-electric work function is defined as the minimum work needed to move an electron from inside the bulk, across the surface area, into the vacuum region just outside the material:
 
 $$\Phi = V(\infty) - E_F$$
@@ -156,7 +159,7 @@ In metallic surface slabs or low-work-function surfaces, long-wavelength density
 
 Treating $V(\omega)$ as a Discrete Spectral Supremum where $\omega$ is $\aleph_0$ correctly maps the spatial continuum limit ($z \to \infty$) into a discrete Hilbert space limit: 
 
-$$($\lim_{N \to \omega} \vert{} \psi_N \rangle$)$$ 
+$$(\lim_{N \to \omega} \vert{} \psi_N \rangle)$$ 
 
 The work function ($\Phi = V(\omega) - E_F$) rigorously marks the spectral boundary separating bound point-spectrum eigenvalues ($E_i \le E_F$) from the continuous spectrum E \ge V(\omega).
 
@@ -167,16 +170,18 @@ To bridge the gap between the discrete voxel-level stochastic fluctuations (the 
 
 $$(\mathcal{G}(\rho_k)\): \(E_{k,j}=\left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
 
-When you run a Monte Carlo simulation over a large ensemble of photons $N \to \infty$ striking the surface area, the expected macroscopic measured energy \langle E_{\text{kinetic}} \rangle is the integral over all voxels weighted by their selection probability (P_{\text{emit}}(k)):
+When you run a Monte Carlo simulation over a large ensemble of photons N $\to$ $\infty$ striking the surface area, the expected macroscopic measured energy $(\langle E_{\text{kinetic}} \rangle)$ is the integral over all voxels weighted by their selection probability $(\P_{\text{emit}}(k))$:
 
 $$(\langle E_{\text{kinetic}}\rangle =\frac{1}{N}\sum _{j=1}^{N}E_{k,j}\rightarrow \sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
 
 ***Reverting to Einstein-Linearity:***
 
-For this ensemble average to collapse back exactly into the classic Einstein-Linear form: 
+For this ensemble average to collapse back exactly into the classic Einstein-Linear form:
+
 ($\langle E_{\text{kinetic}} \rangle = \alpha E_{\text{photon}} - \bar{\Phi}\$) 
 
 The "gravitational/lambda fudge" factor must satisfy a specific normalization condition across the surface area geometry:
+
 ($\sum_{k \in \text{SA}} P_{\text{emit}}(k) \cdot \mathcal{G}(\rho_k) = 1\$)
 
 When this condition is met, the stochastic variations act purely as quantum fluctuations around a linear macroscopic expectation value, it shows that local, discrete "luck" scales up to global deterministic physics.
@@ -204,7 +209,7 @@ The "Lambda/Gravitational" Normalization: If lambda \($\Lambda \$) represents a 
    1. The voxel volume element \($\dV \$), which changes the local integration weight of \($\rho _{k}\$).
    2. The photon's effective mass, shifts the baseline \($E_{\text{photon}}\$) relative to the flat-space frequency.
 
-By tracking how many photons fail to emerge (getting "unlucky" due to localized energy deficits or phase mismatches), the Monte Carlo simulation can directly calculate the effective cosmological/gravitational damping coefficient of the surface. Two specific use cases are presented for further modeling.
+By tracking how many photons fail to emerge (getting "unlucky" due to localized energy deficits or phase mismatches), the Monte Carlo simulation can directly calculate the effective cosmological/gravitational damping coefficient of the surface. Two specific use cases are presented for further modeling:
 
 ***1. Regularization of Ultra-Weak Bound States in Quantum Monte Carlo Density Functional Theory via an Information-Entropy $\Omega$-Bound: Validation on the Helium Dimer ($\text{He}_2$)***
 
