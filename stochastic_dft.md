@@ -168,13 +168,15 @@ $$(\mathcal{G}(\rho_k)\): \(E_{k,j}=\left(E_{\text{photon}}-\Phi _{k}\right)\cdo
 
 When you run a Monte Carlo simulation over a large ensemble of photons (\(N \to \infty\)) striking the surface area, the expected value (macroscopic measured energy \(\langle E_{\text{kinetic}} \rangle\)) is the integral over all voxels weighted by their selection probability $\(P_{\text{emit}}(k)\)$:
 
-$$\(\langle E_{\text{kinetic}}\rangle =\frac{1}{N}\sum _{j=1}^{N}E_{k,j}\rightarrow \sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
+$$(\langle E_{\text{kinetic}}\rangle =\frac{1}{N}\sum _{j=1}^{N}E_{k,j}\rightarrow \sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
 
 Reverting to Einstein-Linearity:
+
 For this ensemble average to collapse back exactly into the classic Einstein-Linear form: 
-$$\($\langle E_{\text{kinetic}} \rangle = \alpha E_{\text{photon}} - \bar{\Phi}\$)$$ 
+$$($\langle E_{\text{kinetic}} \rangle = \alpha E_{\text{photon}} - \bar{\Phi}\$)$$ 
+
 The "gravitational/lambda fudge" factor must satisfy a specific normalization condition across the surface area geometry:
-$$\($\sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \mathcal{G}(\rho _{k})=1\$)$$
+$$($\sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \mathcal{G}(\rho _{k})=1\$)$$
 
 If this condition is met, the stochastic variations act purely as quantum fluctuations around a linear macroscopic expectation value, proving that local discrete "luck" scales up to global deterministic physics.
 
