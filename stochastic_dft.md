@@ -161,7 +161,7 @@ Treating $V(\omega)$ as a Discrete Spectral Supremum where $\omega$ is $\aleph_0
 
 $$(\lim_{N \to \omega} \vert{} \psi_N \rangle)$$ 
 
-The work function ($\Phi = V(\omega) - E_F$) rigorously marks the spectral boundary separating bound point-spectrum eigenvalues ($E_i \le E_F$) from the continuous spectrum ($E(\ge) V(\omega)$).
+The work function ($\Phi = V(\omega) - E_F$) rigorously marks the spectral boundary separating bound point-spectrum eigenvalues ($E_i \le E_F$) from the continuous spectrum $E \ge V(\omega)$.
 
 Preconditioning via Boundary Truncation:
 Filtering out density residuals whose effective energy exceeds $V(\omega)$ is mathematically equivalent to projecting the density matrix onto the occupied + low-lying unoccupied subspace ($\mathcal{P}_{\text{bound}}$), which avoids wasting FLOPs on unphysical high-frequency vacuum states during early SCF cycles.
