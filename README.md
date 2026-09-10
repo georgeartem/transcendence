@@ -3,7 +3,7 @@
 *George Artem*
 Master of Science, Information Systems - University of Washington (2020)
 
-*Senior Research Engineer xAI, founder METACAMPUS LLP*  
+*Senior Research Scientist xAI, founder METACAMPUS LLP*  
 *artomk@uw.edu*  
 
 ---
