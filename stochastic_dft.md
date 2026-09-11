@@ -345,7 +345,7 @@ Fourth-Order Interaction Boundary ($n = 4$):
 $$\hat{\Phi}^4 = \left( \frac{2\sqrt{2}}{\pi^3} \right) (3\Phi + 2) \mathbf{I} = \left( \frac{2\sqrt{2}}{\pi^3} \right) \left( \frac{7\sqrt{2} + 3\sqrt{10}}{2\sqrt{2}} \right) \mathbf{I} = \frac{7\sqrt{2} + 3\sqrt{10}}{\pi^3} \mathbf{I}$$
 Role: Non-local exchange-correlation boundary scaling factor for high-order grid bounds.
 
-***Volumetric Field Integration - Algebraic Transformation & Formulation of the Volumetric Operator $\hat{\Phi}^n$:***
+**Volumetric Field Integration - Algebraic Transformation & Formulation of the Volumetric Operator $\hat{\Phi}^n$:**
 
 A continuous hyper-surface or boundary in 5D projects onto 3D real-space by leaving a geometric footprint—an "inscription"—that dictates how space can be partitioned without losing volumetric continuity.
 3D Lattice Projection: On a standard Euclidean grid, volume elements scale as $(\Delta x)^3$. On a $\pi$-inscribed lattice, the natural bounding unit is constrained by spherical/hemispherical topologies ($D = \frac{\sqrt{2}}{\pi}$), turning every voxel into a topologically closed bounding box. 
