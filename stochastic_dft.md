@@ -25,7 +25,7 @@ Variable Information Density & Local Speed Limits: The voxel grid features a loc
 Dynamic Creation and Destruction: At the Planck scale, grid points do not statically persist. Space is dynamically generated and dissolved frame-by-frame, operating as a discrete memory grid where physical forces (gravity, buoyancy, density) emerge from local spatial state selection.
 
 
-***Hemispheric & Volumetric Voxel-Grid Transformation***
+***Hemispheric & Volumetric Voxel-Grid Transformation:***
 To make the system mathematically valid and full-rank across the bases $\{1, \sqrt{2}, \sqrt{3}, \pi, \phi\}$, the transformation matrix must have linearly independent rows:
 
 $$\mathbf{M} = \begin{bmatrix} \sqrt{2} & \sqrt{3} & 2\sqrt{2} & \pi & \phi \\ 0 & \sqrt{2} & 0 & 0 & 0 \\ 0 & 0 & \sqrt{3} & 0 & 0 \\ 0 & 0 & 0 & \pi\sqrt{2} & 0 \\ 0 & 0 & 0 & 0 & \phi \end{bmatrix}$$
@@ -144,7 +144,7 @@ Volume Constant: $\frac{2\sqrt{2}}{\pi^3}$ cleanly sets the bounding voxel unit 
 
 If we treat $\pi$ and $\sqrt{2}$ not as fixed geometric constants, but as computational outputs bounded by higher-dimensional limits and halting randomness, the higher-dimensional state space and computational halting limits become the primary axioms. The geometry of $\pi$ and $\sqrt{2}$ emerges as a localized 3D projection or "shadow" cast by 4D/5D mass-borrowing dynamics. Under this premise, we aren't proving the classical 2D Pythagorean theorem in the conventional axiomatic sense. Instead, we are deriving why space appears Euclidean locally. We are showing that $a^2 + b^2 = c^2$ isn't just an abstract rule, but the required geometric equilibrium when higher-dimensional computational processes project into a 3D lower order infinity where the 5D state space settles and randomness halts.
 
-***Kohn-Sham Photo-Electric Work Function Cardinality***
+***Kohn-Sham Photo-Electric Work Function Cardinality:***
 
 The photo-electric work function is defined as the minimum work needed to move an electron from inside the bulk, across the surface area, into the vacuum region just outside the material:
 
@@ -172,7 +172,7 @@ $$\Phi = V(\Omega) - E_F$$
 
 In a finite or bounded surface matrix model, $V(\Omega)$ represents the electrostatic potential evaluated at the boundary threshold $\Omega$ (the point along the surface normal where $v_{\text{eff}}$ plateaus or encounters your outer vacuum cut-off/boundary layer), while $E_F$ remains the bulk Fermi energy level. In set theory, taking $\Omega$ (or $\omega$) as the first infinite cardinal—formally $\aleph_0$, the cardinality of the natural numbers—gives $V(\Omega)$ a precise mathematical meaning. By defining the boundary as a countably infinite limit ($\omega$), you transition $V(\Omega)$ from a spatial cutoff distance to a discrete thermodynamic continuum limit.
 
-***Mathematical Implications & Mathematical Bridging***
+***Mathematical Bridging & Implications:***
 
 Discrete Grid Limit vs. Continuous Space:
 If $\Omega = \omega$, the potential $V(\Omega)$ is no longer evaluated at a spatial coordinate $z \to \infty$ in real physical space meters. Instead, it is defined as the limit of an infinite sequence of discrete grid points or basis functions over the surface area: $$V(\Omega) = \lim_{n \to \omega} V_n = \lim_{n \to \infty} \langle \psi_n \vert{} v_{\text{eff}} \vert{} \psi_n \rangle$$
@@ -257,7 +257,7 @@ By tracking how many photons fail to emerge (getting "unlucky" due to localized 
 
    Low: $\Omega_{\rho_m}$ regions (vacuum) require fewer stochastic passes, allowing the compute system to dynamically scale sampling effort based on the local concentration of observational quanta.
 
-***Real-Space Grid Normalization Operator $\hat{\Phi}$:***
+***Real-Space Grid Normalization Operator $\hat{\Phi}$ :***
 
 To address the physical limitation for matter-density to "transfer" across space, there must be spatio-temporal continuity.
 
