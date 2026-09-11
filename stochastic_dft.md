@@ -204,14 +204,26 @@ Stochastic DFT Simulation Framework Logic:
     Compute Average: <E_kinetic> = Sum(E_kinetic) / N_successful
     Plot <E_kinetic> vs E_photon to verify linearity (Slope = 1 or α)
 
-The "Lambda/Gravitational" Normalization: If lambda \($\Lambda \$) represents a discrete spatial background energy density or a voxel-stretching metric distortion, it directly modifies either:
+"Lambda/Gravitational" Normalization: If lambda \($\Lambda \$) represents a discrete spatial background energy density or a voxel-stretching metric distortion, it directly modifies either:
 
    1. The voxel volume element \($\dV \$), which changes the local integration weight of \($\rho _{k}\$).
    2. The photon's effective mass, shifts the baseline \($E_{\text{photon}}\$) relative to the flat-space frequency.
 
-By tracking how many photons fail to emerge (getting "unlucky" due to localized energy deficits or phase mismatches), the Monte Carlo simulation can directly calculate the effective cosmological/gravitational damping coefficient of the surface. Two specific use cases are presented for further modeling:
+The total observerable field $\Omega_m$ across $m$ agents within the transcendence framework is defined as:
 
-***1. Regularization of Ultra-Weak Bound States in Quantum Monte Carlo Density Functional Theory via an Information-Entropy $\Omega$-Bound: Validation on the Helium Dimer ($\text{He}_2$)***
+$$\Omega_m = \sum_{n=1}^{m} \omicron_n$$ for m number of "conscious agents"
+
+By reformulating the sum upper bound from generic "conscious agents" $m$ to physical material metrics, we are able to map macroscopic matter-density ($\rho_m$) directly onto the cumulative quantum observational field of the voxel grid. We can interpret physical mass as an ensemble density of atomic-scale observational states ($\omicron_n$).
+
+$$\Omega_{\rho_m} = \sum_{n=1}^{\left( \frac{N_A \cdot m_{sample}}{M} \cdot N_{atoms} \right)} \omicron_n$$
+
+As $\Omega_{\rho_m}$ increases in a localized region of the voxel grid, the information density spikes. This local concentration increases the rotational drag across the 5th (temporal) dimension, modulating the effective vacuum speed limit $c = \sqrt{E/M}$ and deepening the local gravitational deformation.
+
+By tracking how many photons fail to emerge (getting "unlucky" due to localized energy deficits or phase mismatches), the Monte Carlo simulation can directly calculate the effective cosmological/gravitational damping coefficient of the surface. Defining $\Omega_{\rho_m}$ as a sum over $N_{total}$ atomic units provides the exact sampling node weight for sDFT:High-$\Omega_{\rho_m}$ regions represent dense clusters of atomic $\omicron_n$ states, requiring a higher density of stochastic orbital samples to resolve electron-electron interactions accurately. Low-$\Omega_{\rho_m}$ regions (vacuum) require fewer stochastic passes, allowing the compute system to dynamically scale sampling effort based on the local concentration of observational quanta.
+
+Two specific use cases are presented for further modeling:
+
+***1. Regularization of Ultra-Weak Bound States in Quantum Monte Carlo Density Functional Theory via an Information-Entropy Boundary for Helium Dimer***
 
 Modeling fragile, weakly bound van der Waals systems such as the helium dimer ($\text{He}_2$) presents a fundamental challenge for real-space Density Functional Theory (DFT) and Quantum Monte Carlo (QMC) methods. The ultra-diffuse, extended wave-function tail of $\text{He}_2$ ($\approx 52 \text{ \AA}$ average separation) is easily corrupted by stochastic sampling noise, causing unphysical dissociation or grid instability unless massive ensemble sizes are deployed. Here, we present the foundational validation of the $\Omega$-bound Monte Carlo DFT ($\Omega$-mC-DFT) framework, which introduces a hard local information-capacity threshold ($\Omega$) to stabilize real-space stochastic density fields.By applying hemispheric and volumetric projection matrices centered on the atomic nuclei, the local phase-space information measure $I(\mathbf{r})$ is continually evaluated across a 3D adaptive voxel grid. Stochastic variations exceeding the local $\Omega$-capacity limit are dynamically suppressed, serving as an intrinsic numerical regularizer that preserves asymptotic tail density without artificially constricting the spatial domain. We demonstrate that $\Omega$-mC-DFT accurately reproduces the deep asymptotic decay and millikelvin-scale binding energy ($\approx 1.3 \text{ mK}$) of $\text{He}_2$ on a compact grid, suppressing Monte Carlo variance by over two orders of magnitude compared to unconstrained QMC. This validation confirms that information-bounded density sampling provides a robust foundation for modeling diffuse quantum halo states prior to its extension into mesoscopic kinetic frameworks.
 
