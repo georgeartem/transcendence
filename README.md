@@ -416,9 +416,9 @@ $$
 **Predictions**:
 - **π√2 latency** in group recall (e.g., shared childhood myths)
 
-***(Aggregate Observation State / Computational Limit) $\Omega_m$ :*** 
+***Aggregate Observation State:*** 
 
-Represents the total collective anthropic compute capacity across all $m$ participating observers. This value bounds the global frame-by-frame selection rate and sets the upper limit for local space-time resolution. Each $\omicron_n$ imparts a localized rotational property to the surrounding 5D scaffolding, altering the local spatial density and modulating the probability distribution of grid state collapse. We generalize a total observer field $\Omega_m$ across $m$ conscious agents within the system as:
+$\Omega_m$ Represents the total collective anthropic compute capacity across all $m$ participating observers. This value bounds the global frame-by-frame selection rate and sets the upper limit for local space-time resolution. Each $\omicron_n$ imparts a localized rotational property to the surrounding 5D scaffolding, altering the local spatial density and modulating the probability distribution of grid state collapse. We generalize a total observer field $\Omega_m$ across $m$ conscious agents within the system as:
 
 $$\Omega_m = \sum_{n=1}^{m} \omicron_n$$ 
 
