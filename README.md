@@ -397,7 +397,7 @@ It is **not a theory of everything** it is a **theory of one thing**: how a 4D b
 
 ## 6.1 Generalizations to Superconsciousness
 
-The 5×5 matrix describes a **single observer**. For **N agents**, we define:
+By defining $\Omega_m$ as a sum over $m$ individual agents ($\omicron_n$), the thought equation evolves from a single-observer model into a multi-agent superposition system. In the context of the stochastic model, increasing $m$ narrows the variance of the random basis sampling across the voxel grid, causing emergent physical properties. For the 5×5 matrix describes a **single observer**. For **N agents**, we define:
 
 $$
 \mathbf{M}_N[i,j] =
@@ -415,6 +415,16 @@ $$
 
 **Predictions**:
 - **π√2 latency** in group recall (e.g., shared childhood myths)
+
+***$\Omega_m$ (Aggregate Observation State / Computational Limit):*** 
+
+Represents the total collective anthropic compute capacity across all $m$ participating observers. This value bounds the global frame-by-frame selection rate and sets the upper limit for local space-time resolution. Each $\omicron_n$ imparts a localized rotational property to the surrounding 5D scaffolding, altering the local spatial density and modulating the probability distribution of grid state collapse. We generalize a total observer field $\Omega_m$ across $m$ conscious agents within the system as:
+
+$$\Omega_m = \sum_{n=1}^{m} \omicron_n$$ 
+
+By reformulating the sum upper bound from generic agents $m$ to physical material metrics, this equation maps macroscopic matter-density ($\rho_m$) directly onto the cumulative quantum observational field of the voxel grid. It redefines physical mass not as a passive Newtonian quantity, but as an ensemble density of atomic-scale observational states ($\omicron_n$).
+
+$$\Omega_{\rho_m} = \sum_{n=1}^{\left( \frac{N_A \cdot m_{sample}}{M} \cdot N_{atoms} \right)} \omicron_n$$
 
 ### 6.2 Synthesis for Spivack Alpha Theory 
 
