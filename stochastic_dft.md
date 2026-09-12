@@ -1,18 +1,22 @@
 ***ABSTRACT***
 
-The transcendence framework outlines a temporal transition for physics and computation: at sub-quantum or Planck scales, continuous decimal metrics become physically meaningless and computationally non-deterministic ("Halting random"). Instead, space, time, and physical constants must be represented as unitless symbolic transformations ($\sqrt{2}, \sqrt{3}, \pi$) across a discrete 3D/5D cubic lattice.
+The transcendence framework outlines a temporal transition for physics and computation: at sub-quantum scales, continuous decimal metrics become physically meaningless and computationally non-deterministic or "Halting random". Instead, space, time, and physical constants must be represented as unitless symbolic transformations ($\sqrt{2}, \sqrt{3}, \pi$) across a discrete 3D/5D cubic lattice.
+
+This paper presents an exact, scale-invariant spatial framework for real-space Stochastic Density Functional Theory (sDFT) that eliminates empirical grid-tuning parameters and resolves the numerical variance instabilities inherent to stochastic electronic structure methods. We introduce the Real-Space Grid Normalization Operator $\hat{\Phi}^n$, an exact algebraic scale hierarchy governed by golden-ratio powers $\Phi^n$ ($n \in \{-1, 0, 1, 2, 3, 4\}$) anchored to a base-$\pi$ inscribed 3D cubic voxel bounding volume unit $V_0 = \frac{2\sqrt{2}}{\pi^3}$. By incorporating a Cartesian diagonal basis transformation, $\hat{\Phi}^n$ provides exact, closed-form multi-scale normalization factors across real-space grid decimation ($n = -1$), volume integration ($n = 0, 1, 3$), discrete kinetic Laplacian stencils ($n = 2$), and non-local exchange-correlation boundaries ($n = 4$).
+
+To guarantee physical density conservation and prevent stochastic noise divergence during Monte Carlo sampling sweeps, we enforce a strict information-bounded capacity constraint $\Omega = \sum_{n} \omicron_n$, where discrete atomic/voxel channels $\omicron_n$ bound the total matter-density capacity of the spatial mesh. We demonstrate the practical numerical utility of this framework by integrating $\hat{\Phi}^n$ directly into lower-upper-diagonal (LUD) matrix staging and pivot selection within Gaussian elimination linear solvers. This dual construction—combining an exact geometric volume invariant with bounded matter-density channels—provides a mathematically complete, zero-parameter foundation for linear-scaling stochastic electronic structure calculations.
 
 ***SUMMARY***
 
-The README.md root architecture constructs a temporal reality not from continuous spatial coordinates, but from discrete geometric relationships. The text establishes a bridge to a stochastic DFT (Density Functional Theory) model through three progressive stages:
+The README.md root architecture constructs a temporal reality not from continuous spatial coordinates, but from discrete geometric relationships. Here we establish a bridge to a stochastic DFT (Density Functional Theory) model through three progressive stages:
 
 1. Breakdown of Continuous Decimals at the Quantum Scale: In standard Cartesian space, representing irrational numbers like $\pi$ or $\sqrt{2}$ requires infinitely fine measuring sticks. At the Planck scale, attempting to compute these values via continuous decimal increments leads to algorithmic limits where binary calculations cross into noise and halting randomness. The text asserts that $\pi$ and $\sqrt{2}$ must be encoded as symbolic logic gates rather than floating-point decimals, decoupling calculation from unit dependencies.
    
-2. Recursive Staging and the Transition to Randomness: To construct higher-dimensional spatial relationships, the system rotates unit vectors across intermediate angles ($45^\circ$ for $\sqrt{2}$, $90^\circ$ for $\sqrt{3}$, and subsequent prime roots like $\sqrt{5}, \sqrt{13}$). As the height scale $H \to 0$ and iterations $N \to \infty$, $\pi$ acts as a "temporal inscription of the cubic scaffolding." However, because space is instantaneously created and destroyed at the Planck threshold, deterministic evaluation fails.
+2. Recursive Staging and the Transition to Randomness: To construct higher-dimensional spatial relationships, the system rotates unit vectors across intermediate angles ($45^\circ$ for $\sqrt{2}$, $90^\circ$ for $\sqrt{3}$, and subsequent prime roots like $\sqrt{5}, \sqrt{13}$). As the height scale $H \to 0$ and iterations $N \to \infty$, $\pi$ acts as a "temporal inscription of the cubic scaffolding."
    
-3. Emergence of Stochastic DFT: In standard electronic structure calculations (Kohn-Sham DFT), deterministic diagonalization of grid points scales exponentially or cubically. When mapped to the transcendence cubic scaffolding, exact deterministic spatial tracking at every voxel becomes computationally intractable due to anthropic compute limits. To overcome this, the model moves to stochastic sampling: replacing exact orbital evaluations with random basis vectors (stochastic orbitals) sampled across the discrete voxel grid. Just as the text describes spatial values resolving into anthropic choice and probabilistic thresholds at $H \to 0$, stochastic DFT resolves global electronic densities and energy states by statistically sampling the underlying discrete lattice without requiring deterministic continuous paths.
+3. Emergence of Stochastic DFT: In standard electronic structure calculations (Kohn-Sham DFT), deterministic diagonalization of grid points scales exponentially or cubically. When mapped to the transcendence cubic scaffolding, exact deterministic spatial tracking at every voxel becomes computationally intractable due to anthropic compute limits. To overcome this, the model moves to stochastic sampling by replacing exact orbital evaluations with random basis vectors (stochastic orbitals) sampled across the discrete voxel grid. Just as spatial values resolve into anthropic choice and probabilistic thresholds at $H \to 0$, stochastic DFT resolves global electronic densities and energy states by statistically sampling the underlying discrete lattice without requiring deterministic continuous paths.
   
-The text defines several structural and dynamic properties that govern the underlying voxel grid:
+We define several structural and dynamic properties that govern the underlying voxel grid:
 
 Rotational Invariance via Symbolic Diagonalization: The voxel grid is not a static Cartesian container. Observing 2D or 3D space introduces an intrinsic rotational information property. For example, rotating the original decimal plane by $45^\circ$ maps the vector $\{\sqrt{2}, \sqrt{2}\}$ back to a unit length when divided by the unit lengths of individual voxels that are inherently tied to irrational roots ($\sqrt{2}, \sqrt{3}$) forming the structural hypotenuses across grid cells.
 
@@ -20,10 +24,9 @@ Non-Zero Z-Axis and Spatial Depth: A true information grid requires a non-zero Z
 
 $\Pi$ as a Temporal Inscription on 5D Geometry: Rather than being an arbitrary constant, $\pi$ represents the 5th (temporal) dimensional rotation through which space is created. A circle on the voxel grid is fundamentally compound ($\pi \cdot \sqrt{2}$), reflecting the rotation of discrete cubic vectors across time frames.
 
-Variable Information Density & Local Speed Limits: The voxel grid features a localized "vacuum density" (spatial/dimensional information density) determined by local mass distributions. While classical relativity sets $c = \sqrt{E/M}$ in 4D space-time, the 5D rotational mechanics of the voxel grid generate localized light speed and gravitational effects based on the frame-by-frame computational refresh rate of the lattice.
+Variable Information Density & Local Speed Limits: The voxel grid features a localized "vacuum density" (spatial/dimensional information density) determined by local mass distributions. While classical relativity sets $c = \sqrt{E/M}$ in 4D space-time, the 5D rotational mechanics of the voxel grid generates localized light speed and gravitational effects based on the frame-by-frame computational refresh rate of the lattice.
 
 Dynamic Creation and Destruction: At the Planck scale, grid points do not statically persist. Space is dynamically generated and dissolved frame-by-frame, operating as a discrete memory grid where physical forces (gravity, buoyancy, density) emerge from local spatial state selection.
-
 
 ***Hemispheric & Volumetric Voxel-Grid Transformation:***
 To make the system mathematically valid and full-rank across the bases $\{1, \sqrt{2}, \sqrt{3}, \pi, \phi\}$, the transformation matrix must have linearly independent rows:
@@ -253,11 +256,11 @@ As $\Omega_{\rho_m}$ increases in a localized region of the voxel grid, the info
 
 By tracking how many photons fail to emerge (getting "unlucky" due to localized energy deficits or phase mismatches), the Monte Carlo simulation can directly calculate the effective cosmological/gravitational damping coefficient of the surface. Defining $\Omega_{\rho_m}$ as a sum over $N_{total}$ atomic units provides the exact sampling node weight for sDFT:
 
-   High-$\Omega_{\rho_m}$ regions represent dense clusters of atomic $\omicron_n$ states, requiring a higher density of stochastic orbital samples to resolve electron-electron interactions accurately
+   High: $\Omega_{\rho_m}$ regions represent dense clusters of atomic $\omicron_n$ states, requiring a higher density of stochastic orbital samples to resolve electron-electron interactions accurately
 
    Low: $\Omega_{\rho_m}$ regions (vacuum) require fewer stochastic passes, allowing the compute system to dynamically scale sampling effort based on the local concentration of observational quanta.
 
-***Real-Space Grid Normalization Operator $\hat{\Phi}$ :***
+**Real-Space Grid Normalization Operator $\hat{\Phi}$ :**
 
 To address the physical limitation for matter-density to "transfer" across space, there must be spatio-temporal continuity.
 
@@ -265,7 +268,7 @@ $$\frac{\partial \rho(\mathbf{r}, t)}{\partial t} + \nabla \cdot \mathbf{j}(\mat
 
 A static scalar sum cannot execute or govern spatial transfer without an explicitly defined flux density vector $\mathbf{j}(\mathbf{r}, t)$. To resolve this, we incorporate the real-space grid normalization via the base phi identity matrix from the base transcendence framework, and apply appropriate dimensional transformations as follows:
 
-1. To project local spatial densities across adaptive grid boundaries without artificial box-truncation artifacts, coordinates $\mathbf{r} = (x, y, z)$ are normalized using the scale operator $\hat{\Phi}$:
+To project local spatial densities across adaptive grid boundaries without artificial box-truncation artifacts, coordinates $\mathbf{r} = (x, y, z)$ are normalized using the scale operator $\hat{\Phi}$:
 
 $$\hat{\Phi}[\mathbf{r}] = \mathbf{r} \cdot \phi^{-k}$$
 
@@ -323,34 +326,56 @@ Adjusts non-local exchange-correlation bounds in noisy Monte Carlo grid environm
 
 $$\Phi = \frac{1 + \sqrt{5}}{2} = \frac{\sqrt{2}(1 + \sqrt{5})}{2\sqrt{2}} = \frac{\sqrt{2} + \sqrt{10}}{2\sqrt{2}}$$
 
-When incorporated into the Monte Carlo Density Functional Theory (mcDFT) real-space grid solver, this transformation maps standard 1D radial/scalar scaling factors onto a 2D/3D rotated Cartesian mesh frame ($\Delta x, \Delta y$). By setting the scalar normalization weight directly to the voxel volume unit $\alpha = V_0 = \frac{2\sqrt{2}}{\pi^3}$, the Real-Space Grid Normalization Operator $\hat{\Phi}^n$ takes the explicit closed form:
+When incorporated into a Monte Carlo Density Functional Theory (mcDFT) real-space grid solver, this transformation maps standard 1D radial/scalar scaling factors onto a 2D/3D rotated Cartesian mesh frame ($\Delta x, \Delta y$). By setting the scalar normalization weight directly to the voxel volume unit $\alpha = V_0 = \frac{2\sqrt{2}}{\pi^3}$, the Real-Space Grid Normalization Operator $\hat{\Phi}^n$ takes the explicit closed form:
+
 $$\hat{\Phi}^n = \left( \frac{2\sqrt{2}}{\pi^3} \right) \cdot \Phi^n \mathbf{I} = \left( \frac{2\sqrt{2}}{\pi^3} \right) \cdot \left( \frac{\sqrt{2} + \sqrt{10}}{2\sqrt{2}} \right)^n \mathbf{I}$$
+
 Expressing $\Phi^n$ in terms of Fibonacci numbers ($F_{n-1}\Phi + F_{n-2}$) yields exact algebraic values for each level $n$:
+
 Base Case Anchor ($n = 0$):
 $$\hat{\Phi}^0 = \left( \frac{2\sqrt{2}}{\pi^3} \right) \cdot (1) \mathbf{I} = \frac{2\sqrt{2}}{\pi^3} \mathbf{I}$$
+
 Role: Exact unscaled voxel volume weight preserving density conservation ($\int \rho(\mathbf{r}) d^3r = N$) across the unrotated matrix frame.
+
 Sub-Grid Decimation ($n = -1$):
+
 $$\hat{\Phi}^{-1} = \left( \frac{2\sqrt{2}}{\pi^3} \right) (\Phi - 1) \mathbf{I} = \left( \frac{2\sqrt{2}}{\pi^3} \right) \left( \frac{\sqrt{10} - \sqrt{2}}{2\sqrt{2}} \right) \mathbf{I} = \frac{\sqrt{10} - \sqrt{2}}{\pi^3} \mathbf{I}$$
+
 Role: Coarse-grained decimation weight for projecting high-frequency wavefunctions onto sub-grids without losing volume normalization.
+
 Primary Scale / Voxel Diagonal Step ($n = 1$):
+
 $$\hat{\Phi}^1 = \left( \frac{2\sqrt{2}}{\pi^3} \right) \Phi \mathbf{I} = \left( \frac{2\sqrt{2}}{\pi^3} \right) \left( \frac{\sqrt{2} + \sqrt{10}}{2\sqrt{2}} \right) \mathbf{I} = \frac{\sqrt{2} + \sqrt{10}}{\pi^3} \mathbf{I}$$
+
 Role: Primary volume-displacement factor for 1D spatial step updates along the voxel diagonal mesh.
+
 Kinetic Operator / Laplacian Scaling ($n = 2$):
+
 $$\hat{\Phi}^2 = \left( \frac{2\sqrt{2}}{\pi^3} \right) (\Phi + 1) \mathbf{I} = \left( \frac{2\sqrt{2}}{\pi^3} \right) \left( \frac{3\sqrt{2} + \sqrt{10}}{2\sqrt{2}} \right) \mathbf{I} = \frac{3\sqrt{2} + \sqrt{10}}{\pi^3} \mathbf{I}$$
+
 Role: Normalization weight applied to kinetic energy stencils ($\nabla^2$) operating on the discrete real-space grid.
+
 Volumetric Ensemble Field ($n = 3$):
+
 $$\hat{\Phi}^3 = \left( \frac{2\sqrt{2}}{\pi^3} \right) (2\Phi + 1) \mathbf{I} = \left( \frac{2\sqrt{2}}{\pi^3} \right) \left( \frac{4\sqrt{2} + 2\sqrt{10}}{2\sqrt{2}} \right) \mathbf{I} = \frac{4\sqrt{2} + 2\sqrt{10}}{\pi^3} \mathbf{I}$$
+
 Role: 3D integration measure for full volumetric Monte Carlo density accumulation.
+
 Fourth-Order Interaction Boundary ($n = 4$):
+
 $$\hat{\Phi}^4 = \left( \frac{2\sqrt{2}}{\pi^3} \right) (3\Phi + 2) \mathbf{I} = \left( \frac{2\sqrt{2}}{\pi^3} \right) \left( \frac{7\sqrt{2} + 3\sqrt{10}}{2\sqrt{2}} \right) \mathbf{I} = \frac{7\sqrt{2} + 3\sqrt{10}}{\pi^3} \mathbf{I}$$
+
 Role: Non-local exchange-correlation boundary scaling factor for high-order grid bounds.
 
 **Volumetric Field Integration - Algebraic Transformation & Formulation of the Volumetric Operator $\hat{\Phi}^n$:**
 
-A continuous hyper-surface or boundary in 5D projects onto 3D real-space by leaving a geometric footprint—an "inscription"—that dictates how space can be partitioned without losing volumetric continuity.
+A continuous hyper-surface or boundary in 5D projects onto 3D real-space by leaving a geometric footprint—***an "inscription"***—that dictates how space can be partitioned without losing volumetric continuity.
+
 3D Lattice Projection: On a standard Euclidean grid, volume elements scale as $(\Delta x)^3$. On a $\pi$-inscribed lattice, the natural bounding unit is constrained by spherical/hemispherical topologies ($D = \frac{\sqrt{2}}{\pi}$), turning every voxel into a topologically closed bounding box. 
 
-The Role of $\pi^3$ in the Denominator: The appearance of $\pi^3$ in the bounding volume $V_0 = \frac{2\sqrt{2}}{\pi^3}$ represents the 3D spatial footprint of this 5D boundary. Each spatial dimension ($x, y, z$) absorbs a factor of $\frac{1}{\pi}$, effectively mapping Cartesian axes directly into units of phase/rotational geometry. If $\pi$ provides the metric inscription across the 3D lattice, the powers of the golden ratio $\Phi^n$ act as the scale-invariance operator ($\hat{\Phi}$) governing transitions between the 5D manifold and discrete 3D spatial grids:
+The Role of $\pi^3$ in the Denominator: 
+
+The appearance of $\pi^3$ in the bounding volume $V_0 = \frac{2\sqrt{2}}{\pi^3}$ represents the 3D spatial footprint of this 5D boundary. Each spatial dimension ($x, y, z$) absorbs a factor of $\frac{1}{\pi}$, effectively mapping Cartesian axes directly into units of phase/rotational geometry. If $\pi$ provides the metric inscription across the 3D lattice, the powers of the golden ratio $\Phi^n$ act as the scale-invariance operator ($\hat{\Phi}$) governing transitions between the 5D manifold and discrete 3D spatial grids:
 
 $$\hat{\Phi}^n = \underbrace{\left(\frac{2\sqrt{2}}{\pi^3}\right)}_{\text{3D Lattice Inscription}} \cdot \underbrace{\left(\frac{\sqrt{2} + \sqrt{10}}{2\sqrt{2}}\right)^n}_{\text{5D Scale Recursion}} \mathbf{I}$$
 
@@ -370,7 +395,7 @@ Stochastic Sampling Neutrality: In Monte Carlo sDFT, spatial move proposals alon
 
 The volumetric bounding unit $V_0 = \frac{2\sqrt{2}}{\pi^3}$ provides the exact, invariant voxel volume constant that anchors the real-space matrix frame. Operating on a cubic bounding voxel with side length $D = \frac{\sqrt{2}}{\pi}$ (matching the hemisphere diameter), this volume constant sets the exact scalar multiplier $\alpha$ for the grid operator $\hat{\Phi}^n$.
 
-Integrating $V_0$ alongside the scaling powers $\Phi^n$ (where $n \in \{-1, 0, 1, 2, 3, 4\}$ and base case $n = 0$) anchors the stochastic Monte Carlo DFT (sDFT / mcDFT) solver to a completely closed, exact algebraic foundation.
+Integrating $V_0$ alongside the scaling powers $\Phi^n$ (where $n \in \{-1, 0, 1, 2, 3, 4\}$ and base case $n = 0$) anchors a stochastic Monte Carlo DFT (sDFT / mcDFT) solver to a completely closed, exact algebraic foundation.
 
 ***Summary of Closed-Form Grid Weights:***
 
