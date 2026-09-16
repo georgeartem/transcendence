@@ -1,6 +1,6 @@
 ***ABSTRACT***
 
-The transcendence framework outlines a temporal transition for physics and computation: at sub-quantum scales, continuous decimal metrics become physically meaningless and computationally non-deterministic or "Halting random". Instead, space, time, and physical constants must be represented as unitless symbolic transformations ($\sqrt{2}, \sqrt{3}, \pi$) across a discrete 3D/5D cubic lattice.
+The transcendence framework outlines a temporal transition for physics and computation: at sub-quantum scales, continuous decimal metrics become physically meaningless and computationally non-deterministic. Instead, space, time, and physical constants must be represented as unitless symbolic transformations ($\sqrt{2}, \sqrt{3}, \pi$) across a discrete 3D/5D cubic lattice.
 
 This paper presents an exact, scale-invariant spatial framework for real-space Stochastic Density Functional Theory (sDFT) that eliminates empirical grid-tuning parameters and resolves the numerical variance instabilities inherent to stochastic electronic structure methods. We introduce the Real-Space Grid Normalization Operator $\hat{\Phi}^n$, an exact algebraic scale hierarchy governed by golden-ratio powers $\Phi^n$ ($n \in \{-1, 0, 1, 2, 3, 4\}$) anchored to a base-$\pi$ inscribed 3D cubic voxel bounding volume unit $V_0 = \frac{2\sqrt{2}}{\pi^3}$. By incorporating a Cartesian diagonal basis transformation, $\hat{\Phi}^n$ provides exact, closed-form multi-scale normalization factors across real-space grid decimation ($n = -1$), volume integration ($n = 0, 1, 3$), discrete kinetic Laplacian stencils ($n = 2$), and non-local exchange-correlation boundaries ($n = 4$).
 
@@ -10,11 +10,11 @@ To guarantee physical density conservation and prevent stochastic noise divergen
 
 The README.md root architecture constructs a temporal reality not from continuous spatial coordinates, but from discrete geometric relationships. Here we establish a bridge to a stochastic DFT (Density Functional Theory) model through three progressive stages:
 
-1. Breakdown of Continuous Decimals at the Quantum Scale: In standard Cartesian space, representing irrational numbers like $\pi$ or $\sqrt{2}$ requires infinitely fine measuring sticks. At the Planck scale, attempting to compute these values via continuous decimal increments leads to algorithmic limits where binary calculations cross into noise and halting randomness. The text asserts that $\pi$ and $\sqrt{2}$ must be encoded as symbolic logic gates rather than floating-point decimals, decoupling calculation from unit dependencies.
+1. Breakdown of Continuous Decimals at the Quantum Scale: In standard Cartesian space, representing irrational numbers like $\pi$ or $\sqrt{2}$ requires infinitely fine measuring sticks. At the Planck scale, attempting to compute these values via continuous decimal increments leads to algorithmic limits where binary calculations cross into noise and halting randomness. The framework asserts that $\pi$ and $\sqrt{2}$ must be encoded as symbolic logic gates rather than floating-point decimals, decoupling calculation from unit dependencies.
    
-2. Recursive Staging and the Transition to Randomness: To construct higher-dimensional spatial relationships, the system rotates unit vectors across intermediate angles ($45^\circ$ for $\sqrt{2}$, $90^\circ$ for $\sqrt{3}$, and subsequent prime roots like $\sqrt{5}, \sqrt{13}$). As the height scale $H \to 0$ and iterations $N \to \infty$, $\pi$ acts as a "temporal inscription of the cubic scaffolding."
+2. Recursive Staging and the Transition to Randomness: To construct higher-dimensional spatial relationships, the system rotates unit vectors across intermediate angles ($45^\circ$ for $\sqrt{2}$, $90^\circ$ for $\sqrt{3}$, and subsequent prime roots like $\sqrt{5}, \sqrt{13}$). As the height scale $H \to 0$ and iterations $N \to \infty$, $\pi$ acts as a temporal inscription upon the cubic scaffolding.
    
-3. Emergence of Stochastic DFT: In standard electronic structure calculations (Kohn-Sham DFT), deterministic diagonalization of grid points scales exponentially or cubically. When mapped to the transcendence cubic scaffolding, exact deterministic spatial tracking at every voxel becomes computationally intractable due to anthropic compute limits. To overcome this, the model moves to stochastic sampling by replacing exact orbital evaluations with random basis vectors (stochastic orbitals) sampled across the discrete voxel grid. Just as spatial values resolve into anthropic choice and probabilistic thresholds at $H \to 0$, stochastic DFT resolves global electronic densities and energy states by statistically sampling the underlying discrete lattice without requiring deterministic continuous paths.
+3. Emergence of Stochastic DFT: In standard electronic structure calculations (Kohn-Sham DFT), deterministic diagonalization of grid points scales exponentially or cubically. When mapped to the transcendence cubic scaffolding, exact deterministic spatial tracking at every voxel becomes computationally intractable due to anthropic compute limits. To overcome this, the model moves to stochastic sampling by replacing exact orbital evaluations with random basis vectors (stochastic orbitals) sampled across the surface of the discrete voxel grid. Just as spatial values resolve into anthropic choice and probabilistic thresholds at $H \to 0$, stochastic DFT resolves global electronic densities and energy states by statistically sampling the underlying discrete lattice without requiring deterministic continuous paths.
   
 We define several structural and dynamic properties that govern the underlying voxel grid:
 
@@ -153,7 +153,7 @@ The photo-electric work function is defined as the minimum work needed to move a
 
 $$\Phi = V(\infty) - E_F$$
 
-When $V(\infty)$ breaks down using the full Kohn-Sham effective potential $v_{\text{eff}}(\mathbf{r})$, you get:
+When $V(\infty)$ breaks down using the full Kohn-Sham effective potential $v_{\text{eff}}(\mathbf{r})$, we get:
 
 $$v_{\text{eff}}(\mathbf{r}) = v_{\text{electrostatic}}(\mathbf{r}) + v_{\text{xc}}(\mathbf{r})$$
 
@@ -173,7 +173,7 @@ Volumetric vs. Surface Terms: $E_F$ is an intensive property set by the 3D bulk 
 
 $$\Phi = V(\Omega) - E_F$$
 
-In a finite or bounded surface matrix model, $V(\Omega)$ represents the electrostatic potential evaluated at the boundary threshold $\Omega$ (the point along the surface normal where $v_{\text{eff}}$ plateaus or encounters your outer vacuum cut-off/boundary layer), while $E_F$ remains the bulk Fermi energy level. In set theory, taking $\Omega$ (or $\omega$) as the first infinite cardinal—formally $\aleph_0$, the cardinality of the natural numbers—gives $V(\Omega)$ a precise mathematical meaning. By defining the boundary as a countably infinite limit ($\omega$), you transition $V(\Omega)$ from a spatial cutoff distance to a discrete thermodynamic continuum limit.
+In a finite or bounded surface matrix model, $V(\Omega)$ represents the electrostatic potential evaluated at the boundary threshold $\Omega$ (the point along the surface normal where $v_{\text{eff}}$ plateaus or encounters the outer vacuum cut-off/boundary layer), while $E_F$ remains the bulk Fermi energy level. In set theory, taking $\Omega$ (or $\omega$) as the first infinite cardinal—formally $\aleph_0$, the cardinality of the natural numbers—gives $V(\Omega)$ a precise mathematical meaning. By defining the boundary as a countably infinite limit ($\omega$), we transition $V(\Omega)$ from a spatial cutoff distance to a discrete thermodynamic continuum limit.
 
 ***Mathematical Bridging & Implications:***
 
@@ -199,11 +199,11 @@ The work function ($\Phi = V(\omega) - E_F$) rigorously marks the spectral bound
 Preconditioning via Boundary Truncation:
 Filtering out density residuals whose effective energy exceeds $V(\omega)$ is mathematically equivalent to projecting the density matrix onto the occupied + low-lying unoccupied subspace ($\mathcal{P}_{\text{bound}}$), which avoids wasting FLOPs on unphysical high-frequency vacuum states during early SCF cycles.
 
-To bridge the gap between the discrete voxel-level stochastic fluctuations (the "lambda/gravitational fudge") and the macroscopic Einstein-Linear framework, we can use the Monte Carlo simulation to show how the ensemble average of discrete, probabilistic weights converge back to a linear relation. By simulating thousands of individual photon interactions across the voxelized Kohn-Sham surface area (SA), the local spatial variations and effective mass distortions average out. Therefore we let each individual photon interaction event \(j\) at a specific voxel \(k\) yield an emitted kinetic energy based on your local probability scaling function:
+To bridge the gap between the discrete voxel-level stochastic fluctuations (the "lambda/gravitational fudge") and the macroscopic Einstein-Linear framework, we can use the Monte Carlo simulation to show how the ensemble average of discrete, probabilistic weights converge back to a linear relation. By simulating thousands of individual photon interactions across the voxelized Kohn-Sham surface area (SA), the local spatial variations and effective mass distortions average out. Therefore we let each individual photon interaction event \(j\) at a specific voxel \(k\) yield an emitted kinetic energy based on the local probability scaling function:
 
 $$(\mathcal{G}(\rho_k)\): \(E_{k,j}=\left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
 
-When you run a Monte Carlo simulation over a large ensemble of photons N $\to$ $\infty$ striking the surface area, the expected macroscopic measured energy $(\langle E_{\text{kinetic}} \rangle)$ is the integral over all voxels weighted by their selection probability $(\P_{\text{emit}}(k))$:
+When we run a Monte Carlo simulation over a large ensemble of photons N $\to$ $\infty$ striking the surface area, the expected macroscopic measured energy $(\langle E_{\text{kinetic}} \rangle)$ is the integral over all voxels weighted by their selection probability $(\P_{\text{emit}}(k))$:
 
 $$(\langle E_{\text{kinetic}}\rangle =\frac{1}{N}\sum _{j=1}^{N}E_{k,j}\rightarrow \sum _{k\in \text{SA}}P_{\text{emit}}(k)\cdot \left(E_{\text{photon}}-\Phi _{k}\right)\cdot \mathcal{G}(\rho _{k})\)$$
 
@@ -244,7 +244,7 @@ If lambda \($\Lambda \$) represents a discrete spatial background energy density
    1. The voxel volume element \($\dV \$), which changes the local integration weight of \($\rho _{k}\$) or,
    2. The photon's effective mass, shifts the baseline \($E_{\text{photon}}\$) relative to the flat-space frequency.
 
-The total observerable field $\Omega_m$ across $m$ agents within the transcendence framework is defined as:
+The total observerable field $\Omega_m$ across $m$ agents within the transcendence framework for any given system is defined as:
 
 $$\Omega_m = \sum_{n=1}^{m} \omicron_n$$ for m number of "conscious agents"
 
@@ -256,7 +256,7 @@ As $\Omega_{\rho_m}$ increases in a localized region of the voxel grid, the info
 
 By tracking how many photons fail to emerge (getting "unlucky" due to localized energy deficits or phase mismatches), the Monte Carlo simulation can directly calculate the effective cosmological/gravitational damping coefficient of the surface. Defining $\Omega_{\rho_m}$ as a sum over $N_{total}$ atomic units provides the exact sampling node weight for sDFT:
 
-   High: $\Omega_{\rho_m}$ regions represent dense clusters of atomic $\omicron_n$ states, requiring a higher density of stochastic orbital samples to resolve electron-electron interactions accurately
+   High: $\Omega_{\rho_m}$ regions represent dense clusters of atomic $\omicron_n$ states, requiring a higher density of stochastic orbital samples to resolve electron-electron interactions accurately.
 
    Low: $\Omega_{\rho_m}$ regions (vacuum) require fewer stochastic passes, allowing the compute system to dynamically scale sampling effort based on the local concentration of observational quanta.
 
