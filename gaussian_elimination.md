@@ -1,6 +1,4 @@
-# Gaussian Elimination and Its Deeper Connections
-
-## Gaussian Elimination Overview
+# Gaussian Elimination Overview
 
 Gaussian elimination is a systematic method for solving systems of linear equations by transforming the coefficient matrix **A** into an **LU** factorization (or its variants), where:
 
@@ -352,7 +350,6 @@ $$B = \mu_0 n I$$
 
 Rebase Note: approximating $\oint B \, dl \approx B \times \pi \sqrt{2}$ with enclosed current might yield $B \approx \mu_0 n I \times \frac{2}{\sqrt{2}} = \mu_0 n I \sqrt{2}$ (amplified by √2)
 
-
 #### Bridging Informational Density to Classical Resistance: The Ω-Transcendence Kernel
 
 Having delineated the ordinal topology of Ω(ω) as an emergent field over the binary substrate ℬ = {0,1}^∞ wherein Chaitin’s constant Ω_ℵ encodes the halting probability as a measure of algorithmic incompressibility we now excise the transcendence paper’s core motif, by rebasing “big Ω,” as a scalar invariant in classical electrodynamics. This pivot is not a rupture but a dimensional extrusion in the 4D Newtonian arena ℝ³ × ℤ_t (with time t quantized in unitless increments Δt = 1, evoking discrete Newtonian ticks scalable to empirical quanta).
@@ -399,7 +396,15 @@ Set α to collapse (1/R^2) (irrational if R=1/√2) into integers via continued 
 
 For n=1: $(\alpha = \sqrt{1/2} \approx 0.7071 = 1/\sqrt{2})$
 
+#### Voxelized Elimination Framework
+Visit voxelized_elimination_framework.md document for further discussion of topics originally unearthed here.
 
 **Reference**  
 Strong, G. – *Linear Algebra and Its Applications* (MIT OCW / standard textbook)
 Artem, G. - *The Transcendence Constant* (xAI) 2025
+
+Parts of the code in this markdown were generated or refined with the assistance of Gemini (Google) and Grok (xAI).
+
+Usage: Framework validation, sanity checking, primary use-case modeling and visualizations.
+Model: Gemini (Google) 2026, Grok (xAI) 2025
+Human in the Loop: Artem, G. - *The Transcendence Framework* (Independent/xAI) 2026
