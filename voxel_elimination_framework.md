@@ -454,11 +454,8 @@ $$L = \begin{bmatrix}  1 & 0 & 0 & 0 & 0 \\  0 & 1 & 0 & 0 & 0 \\  0 & 0 & 1 & 0
 
 This keeps the pivots bound strictly to the transcendental intervals of the coordinate grid, preventing numerical drift during the iterative solver steps.
 
-//////////
-//////////
-##################################
-##################################
-##################################
+-----------------------
+-----------------------
 
 MIT License. If you use this code in your research, please cite both this repository and the core theoretical constants framework at https://github.com/georgeartem/transcendence.
 
