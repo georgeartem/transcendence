@@ -71,7 +71,7 @@ $$u_E = \frac{1}{2} \epsilon E^2$$
 
 For a localized capacitor structure, this correlates directly to the macroscopic potential $V$ and capacitance $C$ integrated across the active volume $V_{\text{vol}}$:
 
-$$u_E = \frac{1}{2} C V^2 = \int_{V_{\text{vol}}} \left( \frac{1}{2} \epsilon \vert{}\nabla \Phi_{\text{elec}}\vert{}^2 \right) dV$$
+$$u_E = \frac{1}{2} C V^2 = \int_{V_{\text{vol}}} \left( \frac{1}{2} \epsilon \vert{}\nabla \phi_{\text{elec}}\vert{}^2 \right) dV$$
 
 2. Magnetic Energy Density ($u_B$)
 
@@ -105,6 +105,8 @@ By framing the summation of comparative energy densities through the $\pi\sqrt{2
 * **Standard Effective Potential:** The formulation starts from the standard single-particle Kohn-Sham expression, relating the effective potential $V_{\text{eff}}(r)$ acting on the wavefunction $\psi_i(r)$ to the orbital energy $\varepsilon_i$ and the quantum kinetic energy operator ($\frac{\hbar^2}{2m}\nabla^2$).
 * **External Photoelectric Coupling:** Incorporating the external photoelectric effect Hamiltonian into the effective potential connects the system's energy states directly to boundary emission and surface work functions.
 
+Though not explicitly expressed here, the governining photo-electric effect and stochastic mcDFT process are formalized at [stochastic_dft.md](https://github.com/georgeartem/transcendence/blob/main/stochastic_dft.md)
+
 The final expanded summation equation ties everything together across the index range from $n = i$ to $n = m$:
 
 $$\sum_{n=i}^{n=m} V_{\text{eff}}(r) \psi_i(r) = \pi\sqrt{2} \sum_{n=i}^{n=m} \left( \varepsilon_i \psi_i(r) + \frac{\hbar^2}{2m} \nabla^2 \psi_i(r) \right) + B_i \phi_i^n$$
@@ -124,9 +126,9 @@ Here is how $\mathbf{A}$ decomposes into 5D/6D space:
 
 In standard 4D Minkowski space, $A$ is a 4-vector:
 
-$$A^\mu = \left( A^0, A^1, A^2, A^3 \right) = \left( \frac{\Phi}{c}, A_x, A_y, A_z \right)$$
+$$A^\mu = \left( A^0, A^1, A^2, A^3 \right) = \left( \frac{\phi}{c}, A_x, A_y, A_z \right)$$
 
-* **$A^0 = \frac{\Phi}{c}$**: The scalar electric potential $\Phi$.
+* **$A^0 = \frac{\phi}{c}$**: The scalar electric potential $\phi$.
 * **$(A^1, A^2, A^3) = \mathbf{A}$**: The 3D spatial magnetic vector potential, where $\mathbf{B} = \nabla \times \mathbf{A}$.
 
 2. **5D Spacetime ($A^M$, where $M \in \{0,1,2,3,4\}$)**
@@ -145,7 +147,7 @@ Extending to 6D incorporates two additional components:
 $$A^M = \left( A^0, A^1, A^2, A^3, A^4, A^5 \right) = \left( A^\mu, \phi_1, \phi_2 \right)$$
 
 * **$A^0 \dots A^3$**: Standard 4D gauge potentials.
-* **$A^4, A^5$**: Two extra-dimensional scalar or phase degrees of freedom ($\phi_1, \phi_2$). In a phased model, these higher components generate the phased kinetic sum $\sum B_i \Phi^n$.
+* **$A^4, A^5$**: Two extra-dimensional scalar or phase degrees of freedom ($\phi_1, \phi_2$). In a phased model, these higher components generate the phased kinetic sum $\sum B_i \phi^n$.
 
 ## Integrating $\mathbf{B}$ into an Expanded Background Term
 
@@ -153,9 +155,9 @@ $\mathbf{B}$ $u_B = \frac{1}{2} \mu^{-1} B^2 = \frac{B^2}{2\mu}$
 
 1. **Magnetic Energy Forge:** The inclusion of $\mathbf{B}$ ensures that the local magnetic energy density isn't treated as an isolated bath, but directly contributes to the macro-scale background tensor via the 5th coordinate.
 2. **Field-Potential Coupling:** Because $\mathbf{B}$ arises from the spatial derivatives and rotations of $\mathbf{A}$ mapped across the 5D manifold, keeping both in an expanded $\Lambda$ term maintains the geometric link between the vector potential and the resulting field pressure.
-3. **Metric Scaled by $\pi\sqrt{2}$:** The $\mathbf{B}$ contribution is scaled by the $\pi\sqrt{2}$ scalar contours and bounded by the voxel normalization operator ($\Phi^n$), ensuring the background pressure remains stable and non-radiating.
+3. **Metric Scaled by $\pi\sqrt{2}$:** The $\mathbf{B}$ contribution is scaled by the $\pi\sqrt{2}$ scalar contours and bounded by the voxel normalization operator ($\phi^n$), ensuring the background pressure remains stable and non-radiating.
 
-In standard general relativity, $\Lambda$ is treated as a uniform vacuum energy density ($\rho_{\text{vac}}$) that exerts negative pressure, driving cosmic expansion. Understanding ($\Lambda$) through this "inert magnetic potential" lens instead, completely eliminates the concept of an active, arbitrary energy density. "Free" zero-point energy, as it is understood today, fluctuates wildly because it is unconstrained. This forces physicists into the impossible task of explaining why Planck scale zero-point energy predicted by field theory is off by $120$ orders of magnitude. In contrast, an inert magnetic potential is bounded by the system's structural grid (consistent with the $\Phi^n$ normalization operator) and may offer a path for reconciliation of the ($\Lambda$) "problem". 
+In standard general relativity, $\Lambda$ is treated as a uniform vacuum energy density ($\rho_{\text{vac}}$) that exerts negative pressure, driving cosmic expansion. Understanding ($\Lambda$) through this "inert magnetic potential" lens instead, completely eliminates the concept of an active, arbitrary energy density. "Free" zero-point energy, as it is understood today, fluctuates wildly because it is unconstrained. This forces physicists into the impossible task of explaining why Planck scale zero-point energy predicted by field theory is off by $120$ orders of magnitude. In contrast, an inert magnetic potential is bounded by the system's structural grid (consistent with the $\phi^n$ normalization operator) and may offer a path for reconciliation of the ($\Lambda$) "problem". 
 
 By replacing the empty vacuum assumption with a locked **5D inert magnetic potential**, the mechanics of cosmic repulsion change fundamentally. Under this framework, the universe isn't expanding against empty space; it is responding to the global tension of a pre-conditioned field medium. The "repulsion" is the macro-scale projection of the 5th-dimensional inert magnetic potential seeking geometric equilibrium. Because the magnetic field lines are locked in continuous, non-radiating configurations (stabilized by our $\pi\sqrt{2}$ scalar contours and voxel boundary constraints), they exert a persistent structural pressure.
 
@@ -167,7 +169,7 @@ When a continuous field medium is under high-density geometric tension along an 
 
 We therefore propose, that instead of treating $\eta_{\mu\nu}$ as an empty, flat vacuum, the background metric is dynamically sustained by an expanded tensor term:
 
-$$\Lambda \rightarrow \Lambda\left(\eta_{\mu\nu}, \mathbf{A}, \mathbf{B}, \pi\sqrt{2}, \Phi^n\right)$$
+$$\Lambda \rightarrow \Lambda\left(\eta_{\mu\nu}, \mathbf{A}, \mathbf{B}, \pi\sqrt{2}, \phi^n\right)$$
 
 The localized background spacetime enclosing our proposed Neodymium spheroid is pre-tensioned by the continuous, non-radiating magnetic flux density ($\mathbf{B}$) and vector potential ($\mathbf{A}$). This background tensor is scaled explicitly by the $\pi\sqrt{2}$ contour mapping, ensuring that the background pressure matches the geometric constraints of the 5D manifold rather than an arbitrary, "free" vacuum energy.
 
@@ -186,7 +188,7 @@ At the linearized level, $\Lambda$ is usually discarded for local physics becaus
 
 When we substitute our expanded $\Lambda$ expression into the linearized framework to govern the Neodymium wafer's boundary conditions the effective cosmological term acts as a more structured source, where the traditional vacuum-energy mismatch is resolved because the source term includes an explicit, inert magnetic stress-energy tensor ($T^{(\text{inert})}_{\mu\nu}$):
 
-$$\Box h_{\mu\nu} - \partial_{(\mu}\partial^\alpha h_{\nu)\alpha} + \eta_{\mu\nu} \partial^\alpha\partial^\beta h_{\alpha\beta} = -\frac{16\pi G}{c^4} \left( T_{\mu\nu} + T^{(\text{inert})}_{\mu\nu}(\mathbf{A}, \mathbf{B}, \Phi^n) \right)$$
+$$\Box h_{\mu\nu} - \partial_{(\mu}\partial^\alpha h_{\nu)\alpha} + \eta_{\mu\nu} \partial^\alpha\partial^\beta h_{\alpha\beta} = -\frac{16\pi G}{c^4} \left( T_{\mu\nu} + T^{(\text{inert})}_{\mu\nu}(\mathbf{A}, \mathbf{B}, \phi^n) \right)$$
 
 We believe this tensor is anchored directly to the material's internal remanence ($B_i$) and bounded by the Real-Space Grid Normalization Operator ($\Phi^n$). Instead of driving an unconstrained cosmic expansion, this expanded term is meant to account for the localized, stable field tension that balances electron-lattice interactions along the surface area ($SA$) and can be efficiently modeled using a framework of symbolic irrationals.
 
@@ -194,7 +196,7 @@ We believe this tensor is anchored directly to the material's internal remanence
 
 By embedding irrational geometry ($\pi\sqrt{2}$) into the discrete voxel matrix, the vast accumulation of zero-point vacuum energy ($\rho_{\text{vac}} \sim 10^{114} \text{ J/m}^3$) is topologically bound and phase-locked within local nodes. Only an infinitesimal residual trace escapes localization to register macroscopically as the heavily suppressed cosmological constant ($\Lambda$).
 
-$$\Lambda \rightarrow \Lambda\left(g_{\mu\nu}, \mathbf{A}, \mathbf{B}, \pi\sqrt{2}, \Phi^n\right)$$
+$$\Lambda \rightarrow \Lambda\left(g_{\mu\nu}, \mathbf{A}, \mathbf{B}, \pi\sqrt{2}, \phi^n\right)$$
 
 -----------------------
 -----------------------
@@ -209,7 +211,7 @@ $\partial_5 g_{MN} = 0$
 
 Because there is no gradient along the 5th dimension, no momentum can flow across it in the ground state. The off-diagonal components of the 5D metric ($g_{4\mu}$) freeze into place, manifesting exactly as the standard 4D electromagnetic vector potential ($A_\mu$). Instead of evaluating a tangent/cotangent function across a grid, KK handles this by expanding the field into a Fourier series of discrete harmonic modes:
 
-$$\Phi(x^\mu, y) = \sum_{n=-\infty}^{\infty} \phi_n(x^\mu) e^{i n y / R}$$
+$$\phi(x^\mu, y) = \sum_{n=-\infty}^{\infty} \phi_n(x^\mu) e^{i n y / R}$$
 
 * **The Zero-Mode ($n=0$):** This is the fundamental "in-phase" state. The exponential term becomes $1$, meaning the field is completely uniform across the 5th dimension. This zero-mode corresponds to the massless particles we observe in 4D spacetime (like photons).
 * **The Excited Modes ($n \neq 0$):** These are the "out-of-phase" higher-dimensional fluxes. Because they oscillate along the 5th dimension, they carry extra-dimensional momentum.
@@ -237,9 +239,9 @@ Setting the local tensor to zero does not mean mass vanishes; it means the *dive
 
 Because the voxel domain forces the "circular" closed loop to traverse a rigid Cartesian geometry, the flux $B$ must be scaled by the $\pi\sqrt{2}$ invariant to properly convert the orthogonal link potentials ($A$) into the enclosed physical energy density.
 
-$$\Lambda \rightarrow \Lambda\left(g_{\mu\nu}, \mathbf{A}, \mathbf{B}, \pi\sqrt{2}, \Phi^n\right)$$
+$$\Lambda \rightarrow \Lambda\left(g_{\mu\nu}, \mathbf{A}, \mathbf{B}, \pi\sqrt{2}, \phi^n\right)$$
 
-$$\Box h_{\mu\nu} - \partial_{(\mu}\partial^\alpha h_{\nu)\alpha} + \eta_{\mu\nu} \partial^\alpha\partial^\beta h_{\alpha\beta} = -\frac{16\pi G}{c^4} \left( T_{\mu\nu} + T^{(\text{inert})}_{\mu\nu}(\mathbf{A}, \mathbf{B}, \Phi^n) \right)$$
+$$\Box h_{\mu\nu} - \partial_{(\mu}\partial^\alpha h_{\nu)\alpha} + \eta_{\mu\nu} \partial^\alpha\partial^\beta h_{\alpha\beta} = -\frac{16\pi G}{c^4} \left( T_{\mu\nu} + T^{(\text{inert})}_{\mu\nu}(\mathbf{A}, \mathbf{B}, \phi^n) \right)$$
 
 ### Mapping $f(\cot(\pi))$ Across a 2D Plane
 
@@ -281,7 +283,7 @@ To model field behavior beyond standard 4D spacetime, the gauge potential vector
 
 * **Dimensional Expansion of Gauge Potentials (**$A^M$**)**
 
-* **4D Spacetime (**$A^\mu$**):** $A^\mu = \left(\frac{\Phi}{c}, A_x, A_y, A_z\right)$, where $\mathbf{B} = \nabla \times \mathbf{A}$.
+* **4D Spacetime (**$A^\mu$**):** $A^\mu = \left(\frac{\phi}{c}, A_x, A_y, A_z\right)$, where $\mathbf{B} = \nabla \times \mathbf{A}$.
 
 * **5D Spacetime (**$A^M$**):** $A^M = (A^\mu, \phi)$, incorporating a scalar dilaton/radion field $\phi$ governing metric scaling.
 
@@ -415,7 +417,7 @@ When the field tensor contraction ($E^{\mu\nu}E_{\mu\nu}$) is governed by the 6D
 ## 4. $f(\cot(\pi)) Governs 6D Matrix Components$:
 
 * **Transcendental Scaling:** Instead of treating the matrix coefficients as static constants, the operational entries in the 5x5 system are dynamically modulated by $f(\cot(\pi))$ evaluated at the local base $\pi$ coordinate nodes.
-* **Phase-Locking the Tensor:** This ensures that as the contraction $E^{\mu\nu}E_{\mu\nu}$ scales into 6D phase space, the phased kinetic components ($\sum B_i \Phi^n$) remain tightly bound to the transcendental grid boundaries rather than drifting into unconstrained real space.
+* **Phase-Locking the Tensor:** This ensures that as the contraction $E^{\mu\nu}E_{\mu\nu}$ scales into 6D phase space, the phased kinetic components ($\sum B_i \phi^n$) remain tightly bound to the transcendental grid boundaries rather than drifting into unconstrained real space.
 
 ## 5. Populating $f(\cot(\pi))$ into the Solver Rows:
 
@@ -442,7 +444,7 @@ When performing forward elimination on this matrix to isolate the independent de
 
 * **Row 1:** $A_0 = S_0$ (Base temporal/scalar anchor)
 * **Row 2 & 3:** $A_i - \frac{1}{\pi\sqrt{2}} B_i = 0 \implies B_i = \pi\sqrt{2} A_i$ (Explicitly locking the 4D orthogonal tangency constraint directly into the matrix reduction)
-* **Row 4 & 5:** Boundary normalization terms scaled by the $\Phi^n$ operator.
+* **Row 4 & 5:** Boundary normalization terms scaled by the $\phi^n$ operator.
 
 ### 8. Lower-Upper (LU) Staging for the Solver
 
@@ -454,13 +456,18 @@ $$L = \begin{bmatrix}  1 & 0 & 0 & 0 & 0 \\  0 & 1 & 0 & 0 & 0 \\  0 & 0 & 1 & 0
 
 This keeps the pivots bound strictly to the transcendental intervals of the coordinate grid, preventing numerical drift during the iterative solver steps.
 
------------------------
------------------------
+//////////
+//////////
+##################################
+##################################
+##################################
 
 MIT License. If you use this code in your research, please cite both this repository and the core theoretical constants framework at https://github.com/georgeartem/transcendence.
 
 Parts of the code in this markdown were generated or refined with the assistance of Gemini (Google) and Grok (xAI).
 
 Usage: Framework validation, sanity checking, primary use-case modeling and visualizations.
+
 Model: Gemini (Google) 2026, Grok (xAI) 2025
+
 Human in the Loop: George Artem *The Transcendence Framework* (Independent/xAI) 2026
