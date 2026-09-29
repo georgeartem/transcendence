@@ -3,12 +3,12 @@
 *George Artem*
 Master of Science, Information Systems - University of Washington (2020)
 
-*Senior Research Scientist xAI, founder METACAMPUS LLP*  
+*Independent, Senior Research Scientist xAI, founder METACAMPUS LLP*  
 *artomk@uw.edu*  
 
 ---
 
-**Abstract**  
+***ABSTRACT***  
 We propose a five-dimensional geometric model for dimensional escape in which **thought** is the fifth axis (t₅) orthogonal to four interlaced independent timelines (t₁, t₂, t₃, t₄). The **φⁿ matrix** governs, while the **compound irrational π√2** emerges as the **transcendence constant** which enables the action for escape from 3D→4D and 4D→5D, mirroring the 2D→3D transition that is observed through the diagonal of the unit square. 
 
 A **5×5 convergence matrix** describes how thought permeates all timelines simultaneously, forming a closed resonant loop. The mathematical model confirms predictions made for memory recall latency, idea branching, and neural grid-cell dynamics and is backwards compatible with Special Relativity and Bell's Theorem. No assumptions of quantum gravity or panpsychism are required; the framework is purely geometric and compatible with classical and general relative spacetime.
