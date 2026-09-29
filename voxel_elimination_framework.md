@@ -1,12 +1,12 @@
-### VOXELIZED ELECTRO-MAGNETIC FIELD ELIMINATION FRAMEWORK
-### ABSTRACT
+***VOXELIZED ELECTRO-MAGNETIC FIELD ELIMINATION FRAMEWORK***
+***ABSTRACT***
 
 This document summarizes the rigorous mathematical and physical derivations established for a discrete voxelized lattice framework, incorporating higher-dimensional gauge extensions, irrational quasi-periodic localization, and cosmological constant suppression governing electro-magnetic phenomena for proposed Stochastic mcDFT modeling of a Neodymium sphereoid. We examine the historical context of electromagnetism and further our understanding of electro-magnetic effects by examining the Neodymium spheriod within a 5D Kohn-Sham, photo-electric effect governed space while incorporating a 6D magnetic potential phase space mapped by $f_\pi(x) = \cot(x)$ and governed by $\mathbf{B}$.
 
 -----------------------
 -----------------------
 
-### SUMMARY OF HISTORIC FINDINGS
+***SUMMARY OF HISTORIC FINDINGS***
 
 According to Michael Faraday, the universe was filled with **lines of force** — he believed in a single, continuous physical medium under tension. Therefore he didn't see electricity and magnetism as two different phenomena sharing space; he viewed them as different geometric manifestations or stress states of the exact same underlying continuum. Faraday conceptualized induction not as "spooky action-at-a-distance" -he couldn't have- but rather as physical changes within "tubes of force":
 
