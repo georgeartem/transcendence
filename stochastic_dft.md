@@ -8,7 +8,7 @@ To guarantee physical density conservation and prevent stochastic noise divergen
 
 ***SUMMARY***
 
-The README.md root architecture constructs a temporal reality not from continuous spatial coordinates, but from discrete geometric relationships. Here we establish a bridge to a stochastic DFT (Density Functional Theory) model through three progressive stages:
+The [README.md](https://github.com/georgeartem/transcendence/blob/main/README.md) root architecture constructs a temporal reality not from continuous spatial coordinates, but from discrete geometric relationships. Here we establish a bridge to a stochastic DFT (Density Functional Theory) model through three progressive stages:
 
 1. Breakdown of Continuous Decimals at the Quantum Scale: In standard Cartesian space, representing irrational numbers like $\pi$ or $\sqrt{2}$ requires infinitely fine measuring sticks. At the Planck scale, attempting to compute these values via continuous decimal increments leads to algorithmic limits where binary calculations cross into noise and halting randomness. The framework asserts that $\pi$ and $\sqrt{2}$ must be encoded as symbolic logic gates rather than floating-point decimals, decoupling calculation from unit dependencies.
    
